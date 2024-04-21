@@ -1,67 +1,78 @@
-.main{
-    .proyectos{
-        width: 100%;
-        .titulos{
-            .hr-titulos{
-                width: 28%;
-            }
+.main {
+    .proyectos {
+
+        @extend %titulosproyectos;
+
+        .sitioweb {
+            @include sitioweb (none);
         }
-        .sitioweb{
-            display: flex;
-            video{
-                width: 61%;
-            }
-            .proyecto{
-                width: 39%;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-around;
-            }
+
+        .videojuegos {
+            @include sitioweb;
         }
-        .hr-proyectos{
-            width: 30%;
-            transform: translateX(113%);
+
+        .historia {
+            @include sitioweb (none);
+        }
+
+        .javascript {
+            @include sitioweb;
+        }
+
+        .ecommerce {
+            @include sitioweb (none);
+        }
+
+        .foto {
+            @include sitioweb;
+
+        }
+
+        .portfolio {
+            @include sitioweb(none);
         }
     }
-    .experiencialaboral{
-        width: 100%;
-        .titulos{
-            .hr-titulos{
-                width: 28%;
-            }
-        }
+
+    .experiencialaboral {
+            @extend %titulosproyectos;
     }
-    .certificaciones{
-        width: 100%;
-        .titulos{
-            .hr-titulos{
-                width: 28%;
-            }
-        }
-        .slider{
+
+    .certificaciones {
+        @extend %titulosproyectos;
+
+        .slider {
             width: 100%;
-            img{
+
+            img {
                 width: 70vw;
                 height: 80vh;
             }
         }
     }
-    .contacto{
-        .titulos{
-            h2{
-                text-align: center;
-            }
-            .hr-titulos{
-                width: 40%;
-                transform: translateX(80%);
-            }
-        }
-        .parrafo-contacto{
+
+    .contacto {
+
+        @extend %titulosproyectos;
+
+        h2 {
             text-align: center;
         }
-        .links{
+
+        .hr-titulos {
+            transform: translateX(130%);
+        }
+
+
+        .parrafo-contacto {
+            text-align: center;
+        }
+
+        .links {
             display: flex;
             justify-content: center;
+            a{
+                color: white;
+            }
         }
     }
 }

@@ -1,0 +1,23 @@
+// mixin para el estilo de los contenedores de los proyectos
+@mixin sitioweb ($bg-color: $bg-color-b) {
+    display: flex;
+    background-color: $bg-color; 
+    video {
+        width: 61%;
+    }
+
+    .proyecto {
+        width: 39%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        .links{
+            text-align: center;
+            a{
+                text-decoration: none;
+                color: white;
+                
+            }
+        }
+    }
+}

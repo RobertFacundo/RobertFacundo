@@ -1,0 +1,14 @@
+// extends para los titulos 
+%titulosproyectos {
+    .titulos {
+        font-family: $font-titulo;
+
+        h2 {
+            font-weight: 200;
+        }
+
+        .hr-titulos {
+            width: 28%;
+        }
+    }
+}
