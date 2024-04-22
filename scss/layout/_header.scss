@@ -1,29 +1,52 @@
-.header{
-  font-family: $font-titulo;  
-    .titulo-header{
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        .left{
-          width: 35%;
-          .hr{
-            width: 80%;
-          }
-          h1{
-            font-weight: 200;
-          }
-        }
-        .right{
-            width: 65%;
-            .hr{
-                width: 80%;
-            }
-            h2{
-              font-weight: 300;
-            }
-            h3{
-              font-weight: 400;
-            }
-        }
+.header {
+  font-family: $font-titulo;
+
+  .titulo-header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    .left {
+      width: 35%;
+      margin-left: 13px;
+
+      h1 {
+        font-size: 30px;
+        margin-left: 5px;
+        font-weight: 200;
+        padding-bottom: 7px;
+        letter-spacing: 4px;
+      }
+
+      .hr {
+        width: 80%;
+      }
     }
+
+    .right {
+      width: 65%;
+      padding-bottom: 23px;
+      h2 {
+        font-size: 28px;
+        font-weight: 300;
+        margin-left: 5px;
+        margin-top: 22px;
+        padding-top: 19px;
+        padding-bottom: 4px;
+        letter-spacing: 3px;
+      }
+
+      .hr {
+        width: 80%;
+        margin-bottom: 13px;
+      }
+
+      .historia {
+        font-size: 18px;
+        font-weight: 400;
+        padding: 16px;
+        letter-spacing: 1px;
+      }
+    }
+  }
 }

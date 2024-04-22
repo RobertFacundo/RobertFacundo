@@ -8,11 +8,29 @@ body {
   color: rgba(255, 255, 255, 0.813); }
 
 .main .proyectos .titulos, .main .experiencialaboral .titulos, .main .certificaciones .titulos, .main .contacto .titulos {
-  font-family: "Sedan", serif; }
+  font-family: "Dosis", sans-serif; }
   .main .proyectos .titulos h2, .main .experiencialaboral .titulos h2, .main .certificaciones .titulos h2, .main .contacto .titulos h2 {
     font-weight: 200; }
   .main .proyectos .titulos .hr-titulos, .main .experiencialaboral .titulos .hr-titulos, .main .certificaciones .titulos .hr-titulos, .main .contacto .titulos .hr-titulos {
     width: 28%; }
+
+.nav .right li a {
+  display: inline-block;
+  position: relative;
+  color: rgba(255, 255, 255, 0.813);
+  text-decoration: none; }
+
+a:after {
+  content: "";
+  display: block;
+  margin: auto;
+  height: 2px;
+  width: 0px;
+  background: rgba(255, 255, 255, 0.813);
+  transition: all .4s; }
+
+a:hover:after {
+  width: 100%; }
 
 .nav {
   display: flex;
@@ -39,36 +57,58 @@ body {
       margin-top: 20px; }
       .nav .right li a {
         color: rgba(255, 255, 255, 0.813);
-        text-decoration: none;
         font-size: 23px;
         font-family: "Sedan", serif;
         cursor: pointer; }
+        .nav .right li a:hover {
+          color: white; }
   .nav i {
     cursor: pointer;
     transform: translateX(270px);
-    margin-top: 5px;
-    color: white; }
+    margin-top: 8px;
+    color: white;
+    font-size: 18px;
+    height: 20px;
+    transition: filter 0.1s ease-in-out; }
+    .nav i:hover {
+      filter: drop-shadow(2px 0px 8px #fefdfd); }
 
 .header {
-  font-family: "Sedan", serif; }
+  font-family: "Dosis", sans-serif; }
   .header .titulo-header {
     display: flex;
     flex-direction: row;
     width: 100%; }
     .header .titulo-header .left {
-      width: 35%; }
+      width: 35%;
+      margin-left: 13px; }
+      .header .titulo-header .left h1 {
+        font-size: 30px;
+        margin-left: 5px;
+        font-weight: 200;
+        padding-bottom: 7px;
+        letter-spacing: 4px; }
       .header .titulo-header .left .hr {
         width: 80%; }
-      .header .titulo-header .left h1 {
-        font-weight: 200; }
     .header .titulo-header .right {
-      width: 65%; }
-      .header .titulo-header .right .hr {
-        width: 80%; }
+      width: 65%;
+      padding-bottom: 23px; }
       .header .titulo-header .right h2 {
-        font-weight: 300; }
-      .header .titulo-header .right h3 {
-        font-weight: 400; }
+        font-size: 28px;
+        font-weight: 300;
+        margin-left: 5px;
+        margin-top: 22px;
+        padding-top: 19px;
+        padding-bottom: 4px;
+        letter-spacing: 3px; }
+      .header .titulo-header .right .hr {
+        width: 80%;
+        margin-bottom: 13px; }
+      .header .titulo-header .right .historia {
+        font-size: 18px;
+        font-weight: 400;
+        padding: 16px;
+        letter-spacing: 1px; }
 
 .main .proyectos .sitioweb {
   display: flex;
@@ -88,7 +128,7 @@ body {
 
 .main .proyectos .videojuegos {
   display: flex;
-  background-color: #0a0a09; }
+  background-color: #090909; }
   .main .proyectos .videojuegos video {
     width: 61%; }
   .main .proyectos .videojuegos .proyecto {
@@ -120,7 +160,7 @@ body {
 
 .main .proyectos .javascript {
   display: flex;
-  background-color: #0a0a09; }
+  background-color: #090909; }
   .main .proyectos .javascript video {
     width: 61%; }
   .main .proyectos .javascript .proyecto {
@@ -152,7 +192,7 @@ body {
 
 .main .proyectos .foto {
   display: flex;
-  background-color: #0a0a09; }
+  background-color: #090909; }
   .main .proyectos .foto video {
     width: 61%; }
   .main .proyectos .foto .proyecto {

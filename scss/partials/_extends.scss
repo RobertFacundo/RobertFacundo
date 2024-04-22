@@ -12,3 +12,28 @@
         }
     }
 }
+
+// animacion de borde en hover para los links del navegador
+%hover {
+
+    display: inline-block;
+    position: relative;
+    color: $color-text;
+    text-decoration: none;
+}
+
+
+a:after {
+    content: "";
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0px;
+    background: $color-text;
+    transition: all .4s;
+}
+
+
+a:hover:after {
+    width: 100%;
+}

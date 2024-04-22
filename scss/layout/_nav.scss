@@ -1,44 +1,60 @@
-.nav{
+.nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    .left{
+
+    .left {
         display: flex;
         list-style-type: none;
         align-items: flex-start;
-        li{
+
+        li {
             font-size: 15px;
-            font-family: $font-titulo;  
+            font-family: $font-nav;
             padding: 13px;
             cursor: pointer;
             margin-left: 13px;
             margin-top: 10px;
-            &:hover{
+
+            &:hover {
                 color: white;
-            }
-        } 
-    }
-    .right{
-        display: flex;
-        
-        li{
-            list-style-type: none;
-            padding: 31px;
-            margin-top: 20px;
-            a{
-                color: $color-text;
-                text-decoration: none;
-                font-size: 23px;
-                font-family: $font-titulo;  
-                cursor: pointer;
             }
         }
     }
-    i{
-        cursor: pointer;
-       transform: translateX(270px);
-       margin-top: 5px;
-       color: white;
+
+    .right {
+        display: flex;
+
+        li {
+            list-style-type: none;
+            padding: 31px;
+            margin-top: 20px;
+
+            a {
+                color: $color-text;
+                font-size: 23px;
+                font-family: $font-nav;
+                cursor: pointer;
+                @extend %hover;
+
+                &:hover {
+                    color: white;
+                }
+            }
+        }
     }
-   
+
+    i {
+        cursor: pointer;
+        transform: translateX(270px);
+        margin-top: 8px;
+        color: white;
+        font-size: 18px;
+        height: 20px;
+        transition: filter 0.1s ease-in-out;
+        &:hover{
+            filter: drop-shadow(2px 0px 8px rgb(254, 253, 253)); // Sombra suave
+        }
+    }
+
 }
