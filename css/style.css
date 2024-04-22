@@ -81,7 +81,10 @@ a:hover:after {
     width: 100%; }
     .header .titulo-header .left {
       width: 35%;
-      margin-left: 13px; }
+      margin-left: 13px;
+      position: relative; }
+      .header .titulo-header .left #name:hover + .matrix-container {
+        display: block; }
       .header .titulo-header .left h1 {
         font-size: 30px;
         margin-left: 5px;
@@ -89,7 +92,14 @@ a:hover:after {
         padding-bottom: 7px;
         letter-spacing: 4px; }
       .header .titulo-header .left .hr {
-        width: 80%; }
+        width: 93%; }
+      .header .titulo-header .left canvas {
+        padding-top: 5px;
+        margin-left: 3px;
+        width: 93%;
+        height: 92%;
+        /* Esto hace que el canvas ocupe todo el alto del contenedor */
+        display: block; }
     .header .titulo-header .right {
       width: 65%;
       padding-bottom: 23px; }

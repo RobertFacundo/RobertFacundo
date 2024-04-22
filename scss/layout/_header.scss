@@ -9,7 +9,12 @@
     .left {
       width: 35%;
       margin-left: 13px;
-
+      position: relative;
+    
+      #name:hover + .matrix-container {
+        display: block;
+      }
+    
       h1 {
         font-size: 30px;
         margin-left: 5px;
@@ -17,15 +22,24 @@
         padding-bottom: 7px;
         letter-spacing: 4px;
       }
-
+    
       .hr {
-        width: 80%;
+        width: 93%;
+      }
+    
+      canvas {
+        padding-top: 5px;
+        margin-left: 3px;
+        width: 93%;
+        height: 92%; /* Esto hace que el canvas ocupe todo el alto del contenedor */
+        display: block;
       }
     }
 
     .right {
       width: 65%;
       padding-bottom: 23px;
+
       h2 {
         font-size: 28px;
         font-weight: 300;
