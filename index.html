@@ -9,10 +9,6 @@
     <script src="https://kit.fontawesome.com/8adb0d4670.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/png" href="./resources/matrix2.png">
     <script src="./js/main.js" type="module"></script>
-    <!-- <script src="/js/matrixhover.js" defer></script>
-    <script src="/js/matrix.js" defer></script>
-    <script src="/js/idscroll.js" defer></script>
-    <script src="/js/footermatrix.js" defer></script> -->
     <title>Web Developer</title>
 </head>
 
@@ -98,7 +94,9 @@
                 <hr class="hr-titulos">
             </div>
             <section class="sitioweb">
-                <video src="">cuentos</video>
+                <div class="vid">
+                    <video autoplay loop src="./resources/videos/cuentos.mp4"></video>
+                </div class="vid">
                 <div class="proyecto">
                     <p class="descripcion-proyecto">Lorem ipsum goth sit amet consectetur adipisicing elit. Nobis
                         voluptas, asperiores quaerat vero
@@ -109,7 +107,7 @@
                             onclick="download()">Descargar</span></p>
                 </div>
             </section>
-
+            <hr class="hr-pr">
             <section class="videojuegos">
                 <div class="proyecto">
                     <p class="descripcion-proyecto">Lorem ipsum goth sit amet consectetur adipisicing elit. Nobis
@@ -120,11 +118,15 @@
                     <p class="links"> <span class="link" onclick="visit()">Visitar</span> | <span class="link"
                             onclick="download()">Descargar</span></p>
                 </div>
-                <video src="">videojuegos</video>
+                <div class="vid">
+                    <video autoplay loop src="./resources/videos/videojuego.mp4"></video>
+                </div class="vid">
             </section>
-
+            <hr class="hr-pr">
             <section class="historia">
-                <video src="">historia</video>
+                <div class="vid">
+                    <video autoplay loop src="./resources/videos/historia.mp4"></video>
+                </div class="vid">
                 <div class="proyecto">
                     <p class="descripcion-proyecto">Lorem ipsum goth sit amet consectetur adipisicing elit. Nobis
                         voluptas, asperiores quaerat vero
@@ -135,7 +137,7 @@
                             onclick="download()">Descargar</span></p>
                 </div>
             </section>
-
+            <hr class="hr-pr">
             <section class="javascript">
                 <div class="proyecto">
                     <p class="descripcion-proyecto">Lorem ipsum goth sit amet consectetur adipisicing elit. Nobis
@@ -148,9 +150,11 @@
                 </div>
                 <video src="">JavaScript</video>
             </section>
-
+            <hr class="hr-pr">
             <section class="ecommerce">
-                <video src="">Ecommerce</video>
+                <div class="vid">
+                    <video autoplay loop src="./resources/videos/ecommerce.mp4"></video>
+                </div class="vid">
                 <div class="proyecto">
                     <p class="descripcion-proyecto">Lorem ipsum goth sit amet consectetur adipisicing elit. Nobis
                         voluptas, asperiores quaerat vero
@@ -161,7 +165,7 @@
                             onclick="download()">Descargar</span></p>
                 </div>
             </section>
-
+            <hr class="hr-pr">
             <section class="foto">
                 <div class="proyecto">
                     <p class="descripcion-proyecto">Lorem ipsum goth sit amet consectetur adipisicing elit. Nobis
@@ -172,9 +176,11 @@
                     <p class="links"> <span class="link" onclick="visit()">Visitar</span> | <span class="link"
                             onclick="download()">Descargar</span></p>
                 </div>
-                <video src="">portfolio fotografico</video>
+                <div class="vid">
+                    <video autoplay loop src="./resources/videos/fotografico.mp4"></video>
+                </div class="vid">
             </section>
-
+            <hr class="hr-pr">
             <section class="portfolio">
                 <video src="">portfolio personal</video>
                 <div class="proyecto">
@@ -203,12 +209,14 @@
                 <img src="./certificados/DesarrolladorWeb.png" alt="">
             </div>
         </section>
-        <section id="contacto" class="contacto">
+        <section class="contacto">
+            <canvas id="b"></canvas>
             <div class="titulos">
                 <h2>Contacto</h2>
                 <hr class="hr-titulos">
             </div>
-            <p class="parrafo-contacto">Lorem ipsum sit amet consectetur adipisicing elit. Modi mollitia dolor
+            <p id="contacto" class="parrafo-contacto">Lorem ipsum sit amet consectetur adipisicing elit. Modi mollitia
+                dolor
                 perspiciatis ipsum totam, suscipit repudiandae beatae officiis aperiam eius eveniet quo culpa
                 dignissimos! similique quod consectetur quae veritatis!</p>
             <div class="links">
@@ -222,15 +230,8 @@
         </section>
     </main>
     <footer class="footer">
-        <p class="p-footer">&copy; Todos los derechos reservados 2024 | Desarrollado por </p>
-        <label class="link" onclick="visit()">
-            <span>R</span>
-            <span>o</span>
-            <span>b</span>
-            <span>e</span>
-            <span>r</span>
-            <span>t</span>
-        </label>
+        <p class="p-footer">&copy; Todos los derechos reservados 2024 | Desarrollado por <span>Robert</span> </p>
+
     </footer>
 </body>
 

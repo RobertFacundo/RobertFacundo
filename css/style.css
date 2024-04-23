@@ -177,15 +177,26 @@ a:hover:after {
     display: flex;
     background-color: none;
     font-family: "Dosis", sans-serif;
-    letter-spacing: 1px; }
-    .main .proyectos .sitioweb video {
-      width: 61%; }
+    letter-spacing: 1px;
+    margin: 50px 0px; }
+    .main .proyectos .sitioweb .vid {
+      width: 61%;
+      padding: 13px;
+      display: flex;
+      justify-content: center; }
+      .main .proyectos .sitioweb .vid video {
+        width: 80%;
+        border-radius: 1%;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer; }
+        .main .proyectos .sitioweb .vid video:hover {
+          transform: scale(1.01); }
     .main .proyectos .sitioweb .proyecto {
       width: 39%;
       display: flex;
       flex-direction: column;
       justify-content: space-around;
-      margin: 0px 13px; }
+      padding: 0px 30px; }
       .main .proyectos .sitioweb .proyecto .links {
         text-align: center; }
         .main .proyectos .sitioweb .proyecto .links .link {
@@ -199,15 +210,26 @@ a:hover:after {
     display: flex;
     background-color: #090909;
     font-family: "Dosis", sans-serif;
-    letter-spacing: 1px; }
-    .main .proyectos .videojuegos video {
-      width: 61%; }
+    letter-spacing: 1px;
+    margin: 50px 0px; }
+    .main .proyectos .videojuegos .vid {
+      width: 61%;
+      padding: 13px;
+      display: flex;
+      justify-content: center; }
+      .main .proyectos .videojuegos .vid video {
+        width: 80%;
+        border-radius: 1%;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer; }
+        .main .proyectos .videojuegos .vid video:hover {
+          transform: scale(1.01); }
     .main .proyectos .videojuegos .proyecto {
       width: 39%;
       display: flex;
       flex-direction: column;
       justify-content: space-around;
-      margin: 0px 13px; }
+      padding: 0px 30px; }
       .main .proyectos .videojuegos .proyecto .links {
         text-align: center; }
         .main .proyectos .videojuegos .proyecto .links .link {
@@ -221,15 +243,26 @@ a:hover:after {
     display: flex;
     background-color: none;
     font-family: "Dosis", sans-serif;
-    letter-spacing: 1px; }
-    .main .proyectos .historia video {
-      width: 61%; }
+    letter-spacing: 1px;
+    margin: 50px 0px; }
+    .main .proyectos .historia .vid {
+      width: 61%;
+      padding: 13px;
+      display: flex;
+      justify-content: center; }
+      .main .proyectos .historia .vid video {
+        width: 80%;
+        border-radius: 1%;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer; }
+        .main .proyectos .historia .vid video:hover {
+          transform: scale(1.01); }
     .main .proyectos .historia .proyecto {
       width: 39%;
       display: flex;
       flex-direction: column;
       justify-content: space-around;
-      margin: 0px 13px; }
+      padding: 0px 30px; }
       .main .proyectos .historia .proyecto .links {
         text-align: center; }
         .main .proyectos .historia .proyecto .links .link {
@@ -243,15 +276,26 @@ a:hover:after {
     display: flex;
     background-color: #090909;
     font-family: "Dosis", sans-serif;
-    letter-spacing: 1px; }
-    .main .proyectos .javascript video {
-      width: 61%; }
+    letter-spacing: 1px;
+    margin: 50px 0px; }
+    .main .proyectos .javascript .vid {
+      width: 61%;
+      padding: 13px;
+      display: flex;
+      justify-content: center; }
+      .main .proyectos .javascript .vid video {
+        width: 80%;
+        border-radius: 1%;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer; }
+        .main .proyectos .javascript .vid video:hover {
+          transform: scale(1.01); }
     .main .proyectos .javascript .proyecto {
       width: 39%;
       display: flex;
       flex-direction: column;
       justify-content: space-around;
-      margin: 0px 13px; }
+      padding: 0px 30px; }
       .main .proyectos .javascript .proyecto .links {
         text-align: center; }
         .main .proyectos .javascript .proyecto .links .link {
@@ -265,15 +309,26 @@ a:hover:after {
     display: flex;
     background-color: none;
     font-family: "Dosis", sans-serif;
-    letter-spacing: 1px; }
-    .main .proyectos .ecommerce video {
-      width: 61%; }
+    letter-spacing: 1px;
+    margin: 50px 0px; }
+    .main .proyectos .ecommerce .vid {
+      width: 61%;
+      padding: 13px;
+      display: flex;
+      justify-content: center; }
+      .main .proyectos .ecommerce .vid video {
+        width: 80%;
+        border-radius: 1%;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer; }
+        .main .proyectos .ecommerce .vid video:hover {
+          transform: scale(1.01); }
     .main .proyectos .ecommerce .proyecto {
       width: 39%;
       display: flex;
       flex-direction: column;
       justify-content: space-around;
-      margin: 0px 13px; }
+      padding: 0px 30px; }
       .main .proyectos .ecommerce .proyecto .links {
         text-align: center; }
         .main .proyectos .ecommerce .proyecto .links .link {
@@ -287,15 +342,26 @@ a:hover:after {
     display: flex;
     background-color: #090909;
     font-family: "Dosis", sans-serif;
-    letter-spacing: 1px; }
-    .main .proyectos .foto video {
-      width: 61%; }
+    letter-spacing: 1px;
+    margin: 50px 0px; }
+    .main .proyectos .foto .vid {
+      width: 61%;
+      padding: 13px;
+      display: flex;
+      justify-content: center; }
+      .main .proyectos .foto .vid video {
+        width: 80%;
+        border-radius: 1%;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer; }
+        .main .proyectos .foto .vid video:hover {
+          transform: scale(1.01); }
     .main .proyectos .foto .proyecto {
       width: 39%;
       display: flex;
       flex-direction: column;
       justify-content: space-around;
-      margin: 0px 13px; }
+      padding: 0px 30px; }
       .main .proyectos .foto .proyecto .links {
         text-align: center; }
         .main .proyectos .foto .proyecto .links .link {
@@ -309,15 +375,26 @@ a:hover:after {
     display: flex;
     background-color: none;
     font-family: "Dosis", sans-serif;
-    letter-spacing: 1px; }
-    .main .proyectos .portfolio video {
-      width: 61%; }
+    letter-spacing: 1px;
+    margin: 50px 0px; }
+    .main .proyectos .portfolio .vid {
+      width: 61%;
+      padding: 13px;
+      display: flex;
+      justify-content: center; }
+      .main .proyectos .portfolio .vid video {
+        width: 80%;
+        border-radius: 1%;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer; }
+        .main .proyectos .portfolio .vid video:hover {
+          transform: scale(1.01); }
     .main .proyectos .portfolio .proyecto {
       width: 39%;
       display: flex;
       flex-direction: column;
       justify-content: space-around;
-      margin: 0px 13px; }
+      padding: 0px 30px; }
       .main .proyectos .portfolio .proyecto .links {
         text-align: center; }
         .main .proyectos .portfolio .proyecto .links .link {
@@ -327,6 +404,10 @@ a:hover:after {
           padding: 0px 13px; }
           .main .proyectos .portfolio .proyecto .links .link:hover {
             color: white; }
+  .main .proyectos .hr-pr {
+    width: 27%;
+    transform: translateX(130%);
+    border-color: rgba(255, 255, 255, 0.39); }
 
 .main .certificaciones {
   margin-top: 13px; }
@@ -345,7 +426,13 @@ a:hover:after {
   margin-top: 20px;
   height: 97vh;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  position: relative; }
+  .main .contacto canvas {
+    z-index: -1;
+    position: absolute;
+    margin-top: 43px;
+    opacity: 0.7; }
   .main .contacto h2 {
     text-align: center; }
   .main .contacto .hr-titulos {
@@ -371,13 +458,14 @@ a:hover:after {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-bottom: 7px; }
+  margin-bottom: 7px; }
   .footer .p-footer {
     text-align: center; }
-  .footer .link {
-    margin-left: 13px;
-    color: #0def05;
-    font-size: 13px;
-    text-decoration: none;
-    width: 100px;
-    cursor: pointer; }
+    .footer .p-footer span {
+      font-size: 18px;
+      color: white;
+      opacity: 0;
+      transition: opacity 2.13s ease-in-out;
+      cursor: pointer; }
+      .footer .p-footer span:hover {
+        opacity: 1; }
