@@ -32,6 +32,40 @@ a:after {
 a:hover:after {
   width: 100%; }
 
+.nav .right .switch-container {
+  position: relative;
+  display: inline-block;
+  width: 3.5em;
+  height: 2em; }
+  .nav .right .switch-container input {
+    opacity: 0;
+    width: 0;
+    height: 0; }
+  .nav .right .switch-container .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 30px;
+    border: solid 1px black; }
+    .nav .right .switch-container .slider:before {
+      position: absolute;
+      content: "";
+      height: 1.4em;
+      width: 1.4em;
+      border-radius: 50%;
+      left: 10%;
+      bottom: 15%;
+      box-shadow: inset 8px -4px 0px 0px #f8f8f4;
+      transition: transform 0.5s, box-shadow 0.5s; }
+  .nav .right .switch-container input:checked + .slider {
+    background-color: none; }
+    .nav .right .switch-container input:checked + .slider:before {
+      transform: translateX(100%);
+      box-shadow: inset 15px -4px 0px 15px #f8ea27; }
+
 .nav {
   display: flex;
   flex-direction: row;
@@ -39,15 +73,24 @@ a:hover:after {
   .nav .left {
     display: flex;
     list-style-type: none;
-    align-items: flex-start; }
-    .nav .left li {
-      font-size: 15px;
+    align-items: flex-start;
+    max-width: 300px; }
+    .nav .left:hover {
+      color: white; }
+    .nav .left .mh {
+      font-size: 13px;
       font-family: "Sedan", serif;
       padding: 13px;
       cursor: pointer;
       margin-left: 13px;
-      margin-top: 10px; }
-      .nav .left li:hover {
+      margin-top: 10px;
+      position: relative;
+      overflow: hidden; }
+      .nav .left .mh span {
+        display: inline-block;
+        color: rgba(255, 255, 255, 0.842);
+        transition: opacity 0.3s ease; }
+      .nav .left .mh:hover span {
         color: white; }
   .nav .right {
     display: flex; }
@@ -62,16 +105,6 @@ a:hover:after {
         cursor: pointer; }
         .nav .right li a:hover {
           color: white; }
-  .nav i {
-    cursor: pointer;
-    transform: translateX(270px);
-    margin-top: 8px;
-    color: white;
-    font-size: 18px;
-    height: 20px;
-    transition: filter 0.1s ease-in-out; }
-    .nav i:hover {
-      filter: drop-shadow(2px 0px 8px #fefdfd); }
 
 .header {
   font-family: "Dosis", sans-serif; }

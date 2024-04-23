@@ -14,11 +14,11 @@ document.addEventListener("DOMContentLoaded", function() {
     // Define los conjuntos de caracteres a utilizar
     let characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
     let japanese = "あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん";
-    let numbers = "01";
+    let numbers = "0123456789";
     // Concatena todos los conjuntos de caracteres en uno solo
     let allCharacters = characters + japanese + numbers;
 
-    // Convierte el string de caracteres en un array donde cada carácter es un elemento
+    // Convierte el string de caracter es en un array donde cada carácter es un elemento
     allCharacters = allCharacters.split("");
 
     // Tamaño de las letras
@@ -65,3 +65,6 @@ document.addEventListener("DOMContentLoaded", function() {
     // Establece un intervalo para llamar a la función draw cada 69 milisegundos
     setInterval(draw, 69); // Intervalo de tiempo ajustado a 69 milisegundos para controlar la velocidad de la caída
 });
+
+//-------------------------------------------------
+

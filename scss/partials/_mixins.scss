@@ -21,3 +21,17 @@
         }
     }
 }
+
+// mixin matrix hover
+// @mixin changeLettersAnimation {
+//     @keyframes changeLetters {
+//         0% {
+//             content: attr(data-original-text);
+//         }
+//         100% {
+//             content: attr(data-random-char);
+//         }
+//     }
+
+//     animation: changeLetters 0.5s infinite;
+// }
