@@ -1,18 +1,36 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Dosis:wght@200..800&family=Fauna+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sedan:ital@0;1&display=swap");
 * {
   margin: 0;
   padding: 0; }
+  * ::-webkit-scrollbar {
+    width: 6px;
+    /* Ancho de la barra de desplazamiento */ }
+  * ::-webkit-scrollbar-track {
+    background-color: #000000a1;
+    /* Color de fondo de la pista de desplazamiento */ }
+  * ::-webkit-scrollbar-thumb {
+    background-color: #fdfdfd;
+    /* Color del botón de desplazamiento */
+    border-radius: 5px;
+    /* Radio de borde del botón de desplazamiento */ }
 
 body {
   background-color: black;
-  color: rgba(255, 255, 255, 0.813); }
+  color: rgba(255, 255, 255, 0.813);
+  overflow-x: hidden; }
 
-.main .proyectos .titulos, .main .experiencialaboral .titulos, .main .certificaciones .titulos, .main .contacto .titulos {
+.main .proyectos, .main .experiencialaboral, .main .certificaciones, .main .contacto {
   font-family: "Dosis", sans-serif; }
-  .main .proyectos .titulos h2, .main .experiencialaboral .titulos h2, .main .certificaciones .titulos h2, .main .contacto .titulos h2 {
-    font-weight: 200; }
-  .main .proyectos .titulos .hr-titulos, .main .experiencialaboral .titulos .hr-titulos, .main .certificaciones .titulos .hr-titulos, .main .contacto .titulos .hr-titulos {
-    width: 28%; }
+  .main .proyectos .titulos, .main .experiencialaboral .titulos, .main .certificaciones .titulos, .main .contacto .titulos {
+    font-size: 20px;
+    margin-left: 13px; }
+    .main .proyectos .titulos h2, .main .experiencialaboral .titulos h2, .main .certificaciones .titulos h2, .main .contacto .titulos h2 {
+      font-weight: 200;
+      padding-bottom: 7px;
+      letter-spacing: 2px; }
+    .main .proyectos .titulos .hr-titulos, .main .experiencialaboral .titulos .hr-titulos, .main .certificaciones .titulos .hr-titulos, .main .contacto .titulos .hr-titulos {
+      width: 28%; }
 
 .nav .right li a {
   display: inline-block;
@@ -153,141 +171,212 @@ a:hover:after {
         padding: 16px;
         letter-spacing: 1px; }
 
-.main .proyectos .sitioweb {
-  display: flex;
-  background-color: none; }
-  .main .proyectos .sitioweb video {
-    width: 61%; }
-  .main .proyectos .sitioweb .proyecto {
-    width: 39%;
+.main .proyectos {
+  margin-top: 13px; }
+  .main .proyectos .sitioweb {
     display: flex;
-    flex-direction: column;
-    justify-content: space-around; }
-    .main .proyectos .sitioweb .proyecto .links {
-      text-align: center; }
-      .main .proyectos .sitioweb .proyecto .links a {
-        text-decoration: none;
+    background-color: none;
+    font-family: "Dosis", sans-serif;
+    letter-spacing: 1px; }
+    .main .proyectos .sitioweb video {
+      width: 61%; }
+    .main .proyectos .sitioweb .proyecto {
+      width: 39%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      margin: 0px 13px; }
+      .main .proyectos .sitioweb .proyecto .links {
+        text-align: center; }
+        .main .proyectos .sitioweb .proyecto .links .link {
+          text-decoration: none;
+          color: rgba(255, 255, 255, 0.864);
+          cursor: pointer;
+          padding: 0px 13px; }
+          .main .proyectos .sitioweb .proyecto .links .link:hover {
+            color: white; }
+  .main .proyectos .videojuegos {
+    display: flex;
+    background-color: #090909;
+    font-family: "Dosis", sans-serif;
+    letter-spacing: 1px; }
+    .main .proyectos .videojuegos video {
+      width: 61%; }
+    .main .proyectos .videojuegos .proyecto {
+      width: 39%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      margin: 0px 13px; }
+      .main .proyectos .videojuegos .proyecto .links {
+        text-align: center; }
+        .main .proyectos .videojuegos .proyecto .links .link {
+          text-decoration: none;
+          color: rgba(255, 255, 255, 0.864);
+          cursor: pointer;
+          padding: 0px 13px; }
+          .main .proyectos .videojuegos .proyecto .links .link:hover {
+            color: white; }
+  .main .proyectos .historia {
+    display: flex;
+    background-color: none;
+    font-family: "Dosis", sans-serif;
+    letter-spacing: 1px; }
+    .main .proyectos .historia video {
+      width: 61%; }
+    .main .proyectos .historia .proyecto {
+      width: 39%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      margin: 0px 13px; }
+      .main .proyectos .historia .proyecto .links {
+        text-align: center; }
+        .main .proyectos .historia .proyecto .links .link {
+          text-decoration: none;
+          color: rgba(255, 255, 255, 0.864);
+          cursor: pointer;
+          padding: 0px 13px; }
+          .main .proyectos .historia .proyecto .links .link:hover {
+            color: white; }
+  .main .proyectos .javascript {
+    display: flex;
+    background-color: #090909;
+    font-family: "Dosis", sans-serif;
+    letter-spacing: 1px; }
+    .main .proyectos .javascript video {
+      width: 61%; }
+    .main .proyectos .javascript .proyecto {
+      width: 39%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      margin: 0px 13px; }
+      .main .proyectos .javascript .proyecto .links {
+        text-align: center; }
+        .main .proyectos .javascript .proyecto .links .link {
+          text-decoration: none;
+          color: rgba(255, 255, 255, 0.864);
+          cursor: pointer;
+          padding: 0px 13px; }
+          .main .proyectos .javascript .proyecto .links .link:hover {
+            color: white; }
+  .main .proyectos .ecommerce {
+    display: flex;
+    background-color: none;
+    font-family: "Dosis", sans-serif;
+    letter-spacing: 1px; }
+    .main .proyectos .ecommerce video {
+      width: 61%; }
+    .main .proyectos .ecommerce .proyecto {
+      width: 39%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      margin: 0px 13px; }
+      .main .proyectos .ecommerce .proyecto .links {
+        text-align: center; }
+        .main .proyectos .ecommerce .proyecto .links .link {
+          text-decoration: none;
+          color: rgba(255, 255, 255, 0.864);
+          cursor: pointer;
+          padding: 0px 13px; }
+          .main .proyectos .ecommerce .proyecto .links .link:hover {
+            color: white; }
+  .main .proyectos .foto {
+    display: flex;
+    background-color: #090909;
+    font-family: "Dosis", sans-serif;
+    letter-spacing: 1px; }
+    .main .proyectos .foto video {
+      width: 61%; }
+    .main .proyectos .foto .proyecto {
+      width: 39%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      margin: 0px 13px; }
+      .main .proyectos .foto .proyecto .links {
+        text-align: center; }
+        .main .proyectos .foto .proyecto .links .link {
+          text-decoration: none;
+          color: rgba(255, 255, 255, 0.864);
+          cursor: pointer;
+          padding: 0px 13px; }
+          .main .proyectos .foto .proyecto .links .link:hover {
+            color: white; }
+  .main .proyectos .portfolio {
+    display: flex;
+    background-color: none;
+    font-family: "Dosis", sans-serif;
+    letter-spacing: 1px; }
+    .main .proyectos .portfolio video {
+      width: 61%; }
+    .main .proyectos .portfolio .proyecto {
+      width: 39%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      margin: 0px 13px; }
+      .main .proyectos .portfolio .proyecto .links {
+        text-align: center; }
+        .main .proyectos .portfolio .proyecto .links .link {
+          text-decoration: none;
+          color: rgba(255, 255, 255, 0.864);
+          cursor: pointer;
+          padding: 0px 13px; }
+          .main .proyectos .portfolio .proyecto .links .link:hover {
+            color: white; }
+
+.main .certificaciones {
+  margin-top: 13px; }
+  .main .certificaciones .slider {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px;
+    margin-bottom: 60px; }
+    .main .certificaciones .slider img {
+      width: 70vw;
+      height: 80vh; }
+
+.main .contacto {
+  margin-top: 20px;
+  height: 97vh;
+  display: flex;
+  flex-direction: column; }
+  .main .contacto h2 {
+    text-align: center; }
+  .main .contacto .hr-titulos {
+    transform: translateX(130%); }
+  .main .contacto .parrafo-contacto {
+    margin-top: 10%;
+    text-align: center; }
+  .main .contacto .links {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%; }
+    .main .contacto .links a {
+      color: rgba(255, 255, 255, 0.736);
+      font-size: 39px;
+      padding: 23px; }
+      .main .contacto .links a:hover {
         color: white; }
 
-.main .proyectos .videojuegos {
+.footer {
+  font-family: "Dosis", sans-serif;
+  position: absolute;
+  width: 100%;
   display: flex;
-  background-color: #090909; }
-  .main .proyectos .videojuegos video {
-    width: 61%; }
-  .main .proyectos .videojuegos .proyecto {
-    width: 39%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around; }
-    .main .proyectos .videojuegos .proyecto .links {
-      text-align: center; }
-      .main .proyectos .videojuegos .proyecto .links a {
-        text-decoration: none;
-        color: white; }
-
-.main .proyectos .historia {
-  display: flex;
-  background-color: none; }
-  .main .proyectos .historia video {
-    width: 61%; }
-  .main .proyectos .historia .proyecto {
-    width: 39%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around; }
-    .main .proyectos .historia .proyecto .links {
-      text-align: center; }
-      .main .proyectos .historia .proyecto .links a {
-        text-decoration: none;
-        color: white; }
-
-.main .proyectos .javascript {
-  display: flex;
-  background-color: #090909; }
-  .main .proyectos .javascript video {
-    width: 61%; }
-  .main .proyectos .javascript .proyecto {
-    width: 39%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around; }
-    .main .proyectos .javascript .proyecto .links {
-      text-align: center; }
-      .main .proyectos .javascript .proyecto .links a {
-        text-decoration: none;
-        color: white; }
-
-.main .proyectos .ecommerce {
-  display: flex;
-  background-color: none; }
-  .main .proyectos .ecommerce video {
-    width: 61%; }
-  .main .proyectos .ecommerce .proyecto {
-    width: 39%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around; }
-    .main .proyectos .ecommerce .proyecto .links {
-      text-align: center; }
-      .main .proyectos .ecommerce .proyecto .links a {
-        text-decoration: none;
-        color: white; }
-
-.main .proyectos .foto {
-  display: flex;
-  background-color: #090909; }
-  .main .proyectos .foto video {
-    width: 61%; }
-  .main .proyectos .foto .proyecto {
-    width: 39%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around; }
-    .main .proyectos .foto .proyecto .links {
-      text-align: center; }
-      .main .proyectos .foto .proyecto .links a {
-        text-decoration: none;
-        color: white; }
-
-.main .proyectos .portfolio {
-  display: flex;
-  background-color: none; }
-  .main .proyectos .portfolio video {
-    width: 61%; }
-  .main .proyectos .portfolio .proyecto {
-    width: 39%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around; }
-    .main .proyectos .portfolio .proyecto .links {
-      text-align: center; }
-      .main .proyectos .portfolio .proyecto .links a {
-        text-decoration: none;
-        color: white; }
-
-.main .certificaciones .slider {
-  width: 100%; }
-  .main .certificaciones .slider img {
-    width: 70vw;
-    height: 80vh; }
-
-.main .contacto h2 {
-  text-align: center; }
-
-.main .contacto .hr-titulos {
-  transform: translateX(130%); }
-
-.main .contacto .parrafo-contacto {
-  text-align: center; }
-
-.main .contacto .links {
-  display: flex;
-  justify-content: center; }
-  .main .contacto .links a {
-    color: white; }
-
-.footer .p-footer {
-  text-align: center; }
-  .footer .p-footer a {
-    color: white;
-    text-decoration: none; }
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 7px; }
+  .footer .p-footer {
+    text-align: center; }
+  .footer .link {
+    margin-left: 13px;
+    color: #0def05;
+    font-size: 13px;
+    text-decoration: none;
+    width: 100px; }

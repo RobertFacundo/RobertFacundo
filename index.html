@@ -10,6 +10,8 @@
     <link rel="icon" type="image/png" href="/resources/matrix2.png">
     <script src="/js/matrixhover.js"></script>
     <script src="/js/matrix.js"></script>
+    <script src="/js/idscroll.js"></script>
+    <script src="/js/footermatrix.js"></script>
     <title>Web Developer</title>
 </head>
 
@@ -102,7 +104,8 @@
                         repellendus magni repellat accusantium tenetur numquam eos qui inventore rem ducimus sapiente,
                         eaque
                         deserunt, autem excepturi labore?</p>
-                    <p class="links"> <a href="">Visitar</a>|<a href="">Descargar</a></p>
+                    <p class="links"> <span class="link" onclick="visit()">Visitar</span> | <span class="link"
+                            onclick="download()">Descargar</span></p>
                 </div>
             </section>
 
@@ -113,7 +116,8 @@
                         repellendus magni repellat accusantium tenetur numquam eos qui inventore rem ducimus sapiente,
                         eaque
                         deserunt, autem excepturi labore?</p>
-                    <p class="links"> <a href="">Visitar</a>|<a href="">Descargar</a></p>
+                    <p class="links"> <span class="link" onclick="visit()">Visitar</span> | <span class="link"
+                            onclick="download()">Descargar</span></p>
                 </div>
                 <video src="">videojuegos</video>
             </section>
@@ -126,7 +130,8 @@
                         repellendus magni repellat accusantium tenetur numquam eos qui inventore rem ducimus sapiente,
                         eaque
                         deserunt, autem excepturi labore?</p>
-                    <p class="links"> <a href="">Visitar</a>|<a href="">Descargar</a></p>
+                    <p class="links"> <span class="link" onclick="visit()">Visitar</span> | <span class="link"
+                            onclick="download()">Descargar</span></p>
                 </div>
             </section>
 
@@ -137,7 +142,8 @@
                         repellendus magni repellat accusantium tenetur numquam eos qui inventore rem ducimus sapiente,
                         eaque
                         deserunt, autem excepturi labore?</p>
-                    <p class="links"> <a href="">Visitar</a>|<a href="">Descargar</a></p>
+                    <p class="links"> <span class="link" onclick="visit()">Visitar</span> | <span class="link"
+                            onclick="download()">Descargar</span></p>
                 </div>
                 <video src="">JavaScript</video>
             </section>
@@ -150,7 +156,8 @@
                         repellendus magni repellat accusantium tenetur numquam eos qui inventore rem ducimus sapiente,
                         eaque
                         deserunt, autem excepturi labore?</p>
-                    <p class="links"> <a href="">Visitar</a>|<a href="">Descargar</a></p>
+                    <p class="links"> <span class="link" onclick="visit()">Visitar</span> | <span class="link"
+                            onclick="download()">Descargar</span></p>
                 </div>
             </section>
 
@@ -161,7 +168,8 @@
                         repellendus magni repellat accusantium tenetur numquam eos qui inventore rem ducimus sapiente,
                         eaque
                         deserunt, autem excepturi labore?</p>
-                    <p class="links"> <a href="">Visitar</a>|<a href="">Descargar</a></p>
+                    <p class="links"> <span class="link" onclick="visit()">Visitar</span> | <span class="link"
+                            onclick="download()">Descargar</span></p>
                 </div>
                 <video src="">portfolio fotografico</video>
             </section>
@@ -173,29 +181,30 @@
                         repellendus magni repellat accusantium tenetur numquam eos qui inventore rem ducimus sapiente,
                         eaque
                         deserunt, autem excepturi labore?</p>
-                    <p class="links"> <a href="">Visitar</a>|<a href="">Descargar</a></p>
+                    <p class="links"><span class="link" onclick="visit()">Visitar</span> | <span class="link"
+                            onclick="download()">Descargar</span></p>
                 </div>
                 <video src="">portfolio personal</video>
             </section>
         </section>
-        <section class="experiencialaboral">
+        <section id="experiencialaboral" class="experiencialaboral">
             <div class="titulos">
-                <h2 id="experiencialaboral">Experiencia Laboral</h2>
+                <h2>Experiencia Laboral</h2>
                 <hr class="hr-titulos">
             </div>
         </section>
-        <section class="certificaciones">
+        <section id="certificaciones" class="certificaciones">
             <div class="titulos">
-                <h2 id="certificaciones">Certificaciones</h2>
+                <h2>Certificaciones</h2>
                 <hr class="hr-titulos">
             </div>
             <div class="slider">
                 <img src="./certificados/DesarrolladorWeb.png" alt="">
             </div>
         </section>
-        <section class="contacto">
+        <section id="contacto" class="contacto">
             <div class="titulos">
-                <h2 id="contactáme">Contacto</h2>
+                <h2>Contacto</h2>
                 <hr class="hr-titulos">
             </div>
             <p class="parrafo-contacto">Lorem ipsum sit amet consectetur adipisicing elit. Modi mollitia dolor
@@ -212,9 +221,15 @@
         </section>
     </main>
     <footer class="footer">
-        <p class="p-footer">&copy; Todos los derechos reservados 2024 | Desarrollado por <a
-                href="https://www.linkedin.com/in/robertfacundofrontend/" target="_blank">Robert</a>
-        </p>
+        <p class="p-footer">&copy; Todos los derechos reservados 2024 | Desarrollado por </p>
+        <label class="link" onclick="visit()">
+            <span>R</span>
+            <span>o</span>
+            <span>b</span>
+            <span>e</span>
+            <span>R</span>
+            <span>t</span>
+        </label>
     </footer>
 </body>
 

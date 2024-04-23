@@ -2,6 +2,9 @@
 @mixin sitioweb ($bg-color: $bg-color-b) {
     display: flex;
     background-color: $bg-color; 
+    font-family: $font-titulo;
+    letter-spacing: 1px;
+    
     video {
         width: 61%;
     }
@@ -11,27 +14,19 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        margin: 0px 13px;
         .links{
             text-align: center;
-            a{
+            .link{
                 text-decoration: none;
-                color: white;
-                
+                color: rgba(255, 255, 255, 0.864);
+                cursor: pointer;
+                padding: 0px 13px;
+                &:hover{
+                    color: white;
+                }
             }
         }
     }
 }
 
-// mixin matrix hover
-// @mixin changeLettersAnimation {
-//     @keyframes changeLetters {
-//         0% {
-//             content: attr(data-original-text);
-//         }
-//         100% {
-//             content: attr(data-random-char);
-//         }
-//     }
-
-//     animation: changeLetters 0.5s infinite;
-// }

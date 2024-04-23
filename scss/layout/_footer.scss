@@ -1,9 +1,20 @@
-.footer{
-    .p-footer{
+.footer {
+    font-family: $font-titulo;
+    position: absolute; // Sacar el footer del flujo normal
+    width: 100%; // Ancho completo del footer
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+padding-bottom: 7px;
+    .p-footer {
         text-align: center;
-        a{
-            color: white;
-            text-decoration: none;
-        }
+    }
+
+    .link {
+        margin-left: 13px;
+        color: rgb(13, 239, 5);
+        font-size: 13px;
+        text-decoration: none;
+        width: 100px; // Establece un ancho fijo para cada enlace
     }
 }

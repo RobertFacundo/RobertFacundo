@@ -1,5 +1,6 @@
 .main {
     .proyectos {
+        margin-top: 13px;
 
         @extend %titulosproyectos;
 
@@ -34,15 +35,20 @@
     }
 
     .experiencialaboral {
-            @extend %titulosproyectos;
+        @extend %titulosproyectos;
     }
 
     .certificaciones {
+        margin-top: 13px;
         @extend %titulosproyectos;
 
         .slider {
             width: 100%;
-
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 13px;
+            margin-bottom: 60px;
             img {
                 width: 70vw;
                 height: 80vh;
@@ -51,9 +57,11 @@
     }
 
     .contacto {
-
+        margin-top: 20px;
         @extend %titulosproyectos;
-
+        height: 97vh;
+        display: flex;
+        flex-direction: column;
         h2 {
             text-align: center;
         }
@@ -64,14 +72,21 @@
 
 
         .parrafo-contacto {
+            margin-top: 10%;
             text-align: center;
         }
 
         .links {
             display: flex;
             justify-content: center;
-            a{
-                color: white;
+            margin-top: 10%;
+            a {
+                color: rgba(255, 255, 255, 0.736);
+                font-size: 39px;
+                padding: 23px;
+                &:hover{
+                    color: white;
+                }
             }
         }
     }
