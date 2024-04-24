@@ -10,6 +10,18 @@
 
         .videojuegos {
             @include sitioweb;
+
+            .vid {
+                position: relative;
+
+                canvas#v {
+                    z-index: 0;
+                    position: absolute;
+                    opacity: 0.5;
+                    height: 100%;
+                    transform: translateY(-50px)
+                }
+            }
         }
 
         .historia {
@@ -18,6 +30,17 @@
 
         .javascript {
             @include sitioweb;
+            .proyecto{
+                position: relative;
+                z-index: 1;
+                canvas#d {
+                    z-index: -1;
+                    position: absolute;
+                    opacity: 0.5;
+                    height: 100%;
+                    // transform: translateY(-50px);
+                }
+            }
         }
 
         .ecommerce {
@@ -27,12 +50,24 @@
         .foto {
             @include sitioweb;
 
+            .vid {
+                position: relative;
+
+                canvas#z {
+                    z-index: 0;
+                    position: absolute;
+                    opacity: 0.5;
+                    height: 100%;
+                    transform: translateY(-50px)
+                }
+            }
         }
 
         .portfolio {
             @include sitioweb(none);
         }
-        .hr-pr{
+
+        .hr-pr {
             width: 27%;
             transform: translateX(130%);
             border-color: rgba(255, 255, 255, 0.39);
@@ -47,18 +82,7 @@
         margin-top: 13px;
         @extend %titulosproyectos;
 
-        .slider {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 13px;
-            margin-bottom: 60px;
-            img {
-                width: 70vw;
-                height: 80vh;
-            }
-        }
+        @extend %carrousel;
     }
 
     .contacto {
@@ -67,13 +91,15 @@
         height: 97vh;
         display: flex;
         flex-direction: column;
-        position: relative; 
-        canvas{
+        position: relative;
+
+        canvas {
             z-index: -1;
             position: absolute;
             margin-top: 43px;
             opacity: 0.7;
         }
+
         h2 {
             text-align: center;
         }
@@ -92,15 +118,18 @@
             display: flex;
             justify-content: center;
             margin-top: 10%;
+
             a {
-                color: rgba(255, 255, 255, 0.736);
+                color: rgba(255, 255, 257, 0.413);
                 font-size: 39px;
                 padding: 23px;
-                &:hover{
+                @extend %hover;
+
+                &:hover {
                     color: white;
                 }
             }
         }
-        
+
     }
 }

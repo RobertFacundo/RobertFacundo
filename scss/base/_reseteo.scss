@@ -19,4 +19,30 @@ body{
     background-color: black;
     color: $color-text;
     overflow-x: hidden;
+
+    #backToTopBtn {
+        position: fixed;
+        bottom: 20px; /* Distancia desde el borde inferior */
+        left: 20px; /* Distancia desde el borde derecho */
+        z-index: 99;
+        display: none; /* Por defecto oculto */
+        font-size: 30px;
+      
+        background-color: transparent;
+        color:rgba(255, 255, 255, 0.484);
+        border: none;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        transition: opacity 0.3s ease-in-out; /* Aplicar transición a la opacidad */
+    
+        &:hover{
+            color: white;
+        }
+    
+        &.fade-in {
+            opacity: 1; /* Mostrar el botón con opacidad completa */
+        }
+    }
 }

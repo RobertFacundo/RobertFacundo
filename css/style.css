@@ -19,6 +19,30 @@ body {
   background-color: black;
   color: rgba(255, 255, 255, 0.813);
   overflow-x: hidden; }
+  body #backToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    /* Distancia desde el borde inferior */
+    left: 20px;
+    /* Distancia desde el borde derecho */
+    z-index: 99;
+    display: none;
+    /* Por defecto oculto */
+    font-size: 30px;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.484);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+    /* Aplicar transición a la opacidad */ }
+    body #backToTopBtn:hover {
+      color: white; }
+    body #backToTopBtn.fade-in {
+      opacity: 1;
+      /* Mostrar el botón con opacidad completa */ }
 
 .main .proyectos, .main .experiencialaboral, .main .certificaciones, .main .contacto {
   font-family: "Dosis", sans-serif; }
@@ -32,23 +56,21 @@ body {
     .main .proyectos .titulos .hr-titulos, .main .experiencialaboral .titulos .hr-titulos, .main .certificaciones .titulos .hr-titulos, .main .contacto .titulos .hr-titulos {
       width: 28%; }
 
-.nav .right li a {
+.nav .right li a, .main .contacto .links a {
   display: inline-block;
   position: relative;
   color: rgba(255, 255, 255, 0.813);
   text-decoration: none; }
-
-a:after {
-  content: "";
-  display: block;
-  margin: auto;
-  height: 2px;
-  width: 0px;
-  background: rgba(255, 255, 255, 0.813);
-  transition: all .4s; }
-
-a:hover:after {
-  width: 100%; }
+  .nav .right li a:after, .main .contacto .links a:after {
+    content: "";
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0px;
+    background: rgba(255, 255, 255, 0.813);
+    transition: all .4s; }
+  .nav .right li a:hover:after, .main .contacto .links a:hover:after {
+    width: 100%; }
 
 .nav .right .switch-container {
   position: relative;
@@ -83,6 +105,67 @@ a:hover:after {
     .nav .right .switch-container input:checked + .slider:before {
       transform: translateX(100%);
       box-shadow: inset 15px -4px 0px 15px #f8ea27; }
+
+.main .certificaciones .slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: 13px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .main .certificaciones .slideshow-container .mySlides {
+    display: none; }
+    .main .certificaciones .slideshow-container .mySlides img {
+      width: 1000px;
+      margin: 0 auto; }
+  .main .certificaciones .slideshow-container .fade {
+    animation-name: fade;
+    animation-duration: 3.9s; }
+
+@keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
+  .main .certificaciones .slideshow-container .prev {
+    left: 0;
+    font-size: 39px;
+    transform: translateX(-30px);
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.536);
+    transition: all 0.2s ease-in-out; }
+    .main .certificaciones .slideshow-container .prev:hover {
+      color: white; }
+  .main .certificaciones .slideshow-container .next {
+    right: 0;
+    font-size: 39px;
+    transform: translateX(30px);
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.536);
+    transition: all 0.2s ease-in-out; }
+    .main .certificaciones .slideshow-container .next:hover {
+      color: white; }
+  .main .certificaciones .slideshow-container .dots {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente los puntos */
+    position: absolute;
+    bottom: 30px;
+    /* Ajusta la posición vertical según sea necesario */
+    width: 100%;
+    /* Ajusta el ancho para centrar horizontalmente */ }
+    .main .certificaciones .slideshow-container .dots .dot {
+      cursor: pointer;
+      height: 3px;
+      width: 30px;
+      margin: 0 5px;
+      /* Espacio entre los puntos */
+      background-color: #ffffff82;
+      transition: background-color 0.6s ease;
+      transition: background-color 0.6s ease; }
+      .main .certificaciones .slideshow-container .dots .dot.active, .main .certificaciones .slideshow-container .dots .dot:hover {
+        background-color: #ffffff; }
 
 .nav {
   display: flex;
@@ -177,14 +260,15 @@ a:hover:after {
     display: flex;
     background-color: none;
     font-family: "Dosis", sans-serif;
-    letter-spacing: 1px;
-    margin: 50px 0px; }
+    letter-spacing: 1px; }
     .main .proyectos .sitioweb .vid {
       width: 61%;
-      padding: 13px;
+      padding: 50px 13px;
       display: flex;
-      justify-content: center; }
+      justify-content: center;
+      z-index: 1; }
       .main .proyectos .sitioweb .vid video {
+        z-index: 1;
         width: 80%;
         border-radius: 1%;
         transition: all 0.3s ease-in-out;
@@ -196,7 +280,9 @@ a:hover:after {
       display: flex;
       flex-direction: column;
       justify-content: space-around;
-      padding: 0px 30px; }
+      z-index: 1; }
+      .main .proyectos .sitioweb .proyecto .descripcion-proyecto {
+        padding: 0px 30px; }
       .main .proyectos .sitioweb .proyecto .links {
         text-align: center; }
         .main .proyectos .sitioweb .proyecto .links .link {
@@ -210,14 +296,15 @@ a:hover:after {
     display: flex;
     background-color: #090909;
     font-family: "Dosis", sans-serif;
-    letter-spacing: 1px;
-    margin: 50px 0px; }
+    letter-spacing: 1px; }
     .main .proyectos .videojuegos .vid {
       width: 61%;
-      padding: 13px;
+      padding: 50px 13px;
       display: flex;
-      justify-content: center; }
+      justify-content: center;
+      z-index: 1; }
       .main .proyectos .videojuegos .vid video {
+        z-index: 1;
         width: 80%;
         border-radius: 1%;
         transition: all 0.3s ease-in-out;
@@ -229,7 +316,9 @@ a:hover:after {
       display: flex;
       flex-direction: column;
       justify-content: space-around;
-      padding: 0px 30px; }
+      z-index: 1; }
+      .main .proyectos .videojuegos .proyecto .descripcion-proyecto {
+        padding: 0px 30px; }
       .main .proyectos .videojuegos .proyecto .links {
         text-align: center; }
         .main .proyectos .videojuegos .proyecto .links .link {
@@ -239,18 +328,27 @@ a:hover:after {
           padding: 0px 13px; }
           .main .proyectos .videojuegos .proyecto .links .link:hover {
             color: white; }
+    .main .proyectos .videojuegos .vid {
+      position: relative; }
+      .main .proyectos .videojuegos .vid canvas#v {
+        z-index: 0;
+        position: absolute;
+        opacity: 0.5;
+        height: 100%;
+        transform: translateY(-50px); }
   .main .proyectos .historia {
     display: flex;
     background-color: none;
     font-family: "Dosis", sans-serif;
-    letter-spacing: 1px;
-    margin: 50px 0px; }
+    letter-spacing: 1px; }
     .main .proyectos .historia .vid {
       width: 61%;
-      padding: 13px;
+      padding: 50px 13px;
       display: flex;
-      justify-content: center; }
+      justify-content: center;
+      z-index: 1; }
       .main .proyectos .historia .vid video {
+        z-index: 1;
         width: 80%;
         border-radius: 1%;
         transition: all 0.3s ease-in-out;
@@ -262,7 +360,9 @@ a:hover:after {
       display: flex;
       flex-direction: column;
       justify-content: space-around;
-      padding: 0px 30px; }
+      z-index: 1; }
+      .main .proyectos .historia .proyecto .descripcion-proyecto {
+        padding: 0px 30px; }
       .main .proyectos .historia .proyecto .links {
         text-align: center; }
         .main .proyectos .historia .proyecto .links .link {
@@ -276,14 +376,15 @@ a:hover:after {
     display: flex;
     background-color: #090909;
     font-family: "Dosis", sans-serif;
-    letter-spacing: 1px;
-    margin: 50px 0px; }
+    letter-spacing: 1px; }
     .main .proyectos .javascript .vid {
       width: 61%;
-      padding: 13px;
+      padding: 50px 13px;
       display: flex;
-      justify-content: center; }
+      justify-content: center;
+      z-index: 1; }
       .main .proyectos .javascript .vid video {
+        z-index: 1;
         width: 80%;
         border-radius: 1%;
         transition: all 0.3s ease-in-out;
@@ -295,7 +396,9 @@ a:hover:after {
       display: flex;
       flex-direction: column;
       justify-content: space-around;
-      padding: 0px 30px; }
+      z-index: 1; }
+      .main .proyectos .javascript .proyecto .descripcion-proyecto {
+        padding: 0px 30px; }
       .main .proyectos .javascript .proyecto .links {
         text-align: center; }
         .main .proyectos .javascript .proyecto .links .link {
@@ -305,18 +408,27 @@ a:hover:after {
           padding: 0px 13px; }
           .main .proyectos .javascript .proyecto .links .link:hover {
             color: white; }
+    .main .proyectos .javascript .proyecto {
+      position: relative;
+      z-index: 1; }
+      .main .proyectos .javascript .proyecto canvas#d {
+        z-index: -1;
+        position: absolute;
+        opacity: 0.5;
+        height: 100%; }
   .main .proyectos .ecommerce {
     display: flex;
     background-color: none;
     font-family: "Dosis", sans-serif;
-    letter-spacing: 1px;
-    margin: 50px 0px; }
+    letter-spacing: 1px; }
     .main .proyectos .ecommerce .vid {
       width: 61%;
-      padding: 13px;
+      padding: 50px 13px;
       display: flex;
-      justify-content: center; }
+      justify-content: center;
+      z-index: 1; }
       .main .proyectos .ecommerce .vid video {
+        z-index: 1;
         width: 80%;
         border-radius: 1%;
         transition: all 0.3s ease-in-out;
@@ -328,7 +440,9 @@ a:hover:after {
       display: flex;
       flex-direction: column;
       justify-content: space-around;
-      padding: 0px 30px; }
+      z-index: 1; }
+      .main .proyectos .ecommerce .proyecto .descripcion-proyecto {
+        padding: 0px 30px; }
       .main .proyectos .ecommerce .proyecto .links {
         text-align: center; }
         .main .proyectos .ecommerce .proyecto .links .link {
@@ -342,14 +456,15 @@ a:hover:after {
     display: flex;
     background-color: #090909;
     font-family: "Dosis", sans-serif;
-    letter-spacing: 1px;
-    margin: 50px 0px; }
+    letter-spacing: 1px; }
     .main .proyectos .foto .vid {
       width: 61%;
-      padding: 13px;
+      padding: 50px 13px;
       display: flex;
-      justify-content: center; }
+      justify-content: center;
+      z-index: 1; }
       .main .proyectos .foto .vid video {
+        z-index: 1;
         width: 80%;
         border-radius: 1%;
         transition: all 0.3s ease-in-out;
@@ -361,7 +476,9 @@ a:hover:after {
       display: flex;
       flex-direction: column;
       justify-content: space-around;
-      padding: 0px 30px; }
+      z-index: 1; }
+      .main .proyectos .foto .proyecto .descripcion-proyecto {
+        padding: 0px 30px; }
       .main .proyectos .foto .proyecto .links {
         text-align: center; }
         .main .proyectos .foto .proyecto .links .link {
@@ -371,18 +488,27 @@ a:hover:after {
           padding: 0px 13px; }
           .main .proyectos .foto .proyecto .links .link:hover {
             color: white; }
+    .main .proyectos .foto .vid {
+      position: relative; }
+      .main .proyectos .foto .vid canvas#z {
+        z-index: 0;
+        position: absolute;
+        opacity: 0.5;
+        height: 100%;
+        transform: translateY(-50px); }
   .main .proyectos .portfolio {
     display: flex;
     background-color: none;
     font-family: "Dosis", sans-serif;
-    letter-spacing: 1px;
-    margin: 50px 0px; }
+    letter-spacing: 1px; }
     .main .proyectos .portfolio .vid {
       width: 61%;
-      padding: 13px;
+      padding: 50px 13px;
       display: flex;
-      justify-content: center; }
+      justify-content: center;
+      z-index: 1; }
       .main .proyectos .portfolio .vid video {
+        z-index: 1;
         width: 80%;
         border-radius: 1%;
         transition: all 0.3s ease-in-out;
@@ -394,7 +520,9 @@ a:hover:after {
       display: flex;
       flex-direction: column;
       justify-content: space-around;
-      padding: 0px 30px; }
+      z-index: 1; }
+      .main .proyectos .portfolio .proyecto .descripcion-proyecto {
+        padding: 0px 30px; }
       .main .proyectos .portfolio .proyecto .links {
         text-align: center; }
         .main .proyectos .portfolio .proyecto .links .link {
@@ -411,16 +539,6 @@ a:hover:after {
 
 .main .certificaciones {
   margin-top: 13px; }
-  .main .certificaciones .slider {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 13px;
-    margin-bottom: 60px; }
-    .main .certificaciones .slider img {
-      width: 70vw;
-      height: 80vh; }
 
 .main .contacto {
   margin-top: 20px;
@@ -445,7 +563,7 @@ a:hover:after {
     justify-content: center;
     margin-top: 10%; }
     .main .contacto .links a {
-      color: rgba(255, 255, 255, 0.736);
+      color: rgba(255, 255, 255, 0.413);
       font-size: 39px;
       padding: 23px; }
       .main .contacto .links a:hover {

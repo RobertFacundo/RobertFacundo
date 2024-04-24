@@ -1,10 +1,11 @@
 // extends para los titulos 
 %titulosproyectos {
     font-family: $font-titulo;
+
     .titulos {
         font-size: 20px;
-       
-        margin-left: 13px; 
+
+        margin-left: 13px;
 
         h2 {
             font-weight: 200;
@@ -25,22 +26,23 @@
     position: relative;
     color: $color-text;
     text-decoration: none;
-}
 
 
-a:after {
-    content: "";
-    display: block;
-    margin: auto;
-    height: 2px;
-    width: 0px;
-    background: $color-text;
-    transition: all .4s;
-}
+
+    &:after {
+        content: "";
+        display: block;
+        margin: auto;
+        height: 2px;
+        width: 0px;
+        background: $color-text;
+        transition: all .4s;
+    }
 
 
-a:hover:after {
-    width: 100%;
+    &:hover:after {
+        width: 100%;
+    }
 }
 
 
@@ -95,5 +97,98 @@ a:hover:after {
             transform: translateX(100%);
             box-shadow: inset 15px -4px 0px 15px #f8ea27;
         }
+    }
+}
+
+// extend carrousel
+
+%carrousel {
+    .slideshow-container {
+        width: 100%;
+        position: relative;
+        margin: 13px 0px;
+        display: flex;
+        justify-content: center; // Centra horizontalmente
+        align-items: center; // Centra verticalmente
+
+        .mySlides {
+            display: none;
+
+            img {
+                width: 1000px; // Para asegurarse de que la imagen no se extienda más allá del contenedor
+                margin: 0 auto; // Esto centra horizontalmente la imagen
+            }
+        }
+
+        .fade {
+            animation-name: fade;
+            animation-duration: 3.9s;
+
+            @keyframes fade {
+                from {
+                    opacity: .4;
+                }
+
+                to {
+                    opacity: 1;
+                }
+            }
+        }
+
+        // Next & previous buttons
+        .prev {
+            left: 0;
+            font-size: 39px;
+            transform: translateX(-30px);
+            cursor: pointer;
+            color: rgba(255, 255, 255, 0.536);
+            transition: all 0.2s ease-in-out;
+            &:hover{
+                color: white;
+            }
+        }
+
+        .next {
+            right: 0;
+            font-size: 39px;
+            transform: translateX(30px);
+            cursor: pointer;
+            color: rgba(255, 255, 255, 0.536);
+            transition: all 0.2s ease-in-out;
+            &:hover{
+                color: white;
+            }
+        }
+
+        // On hover, add a black background color with a little bit see-through
+
+
+
+
+        // The dots/bullets/indicators
+        .dots{
+            text-align:center;
+            display: flex;
+            justify-content: center; /* Centra horizontalmente los puntos */
+            position: absolute;
+            bottom: 30px; /* Ajusta la posición vertical según sea necesario */
+            width: 100%; /* Ajusta el ancho para centrar horizontalmente */
+            .dot {
+                cursor: pointer;
+                height: 3px;
+                width: 30px;
+                margin: 0 5px; /* Espacio entre los puntos */
+                background-color: #ffffff82;
+                transition: background-color 0.6s ease;
+                transition: background-color 0.6s ease;
+            
+                &.active,
+                &:hover {
+                    background-color: #ffffff;
+                }
+            }
+        }
+
+        // Fading animation
     }
 }

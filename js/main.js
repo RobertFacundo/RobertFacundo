@@ -1,4 +1,9 @@
 import './matrixhover.js';
 import './matrix.js';
+import './matrixv.js';
+import './matrixz.js';
+import './matrixd.js';
 import './idscroll.js';
+import './backtotop.js';
 import './matrixc.js';
+import './carrousel.js';

@@ -119,8 +119,9 @@
                             onclick="download()">Descargar</span></p>
                 </div>
                 <div class="vid">
+                    <canvas id="v"></canvas>
                     <video autoplay loop src="./resources/videos/videojuego.mp4"></video>
-                </div class="vid">
+                </div>
             </section>
             <hr class="hr-pr">
             <section class="historia">
@@ -140,6 +141,7 @@
             <hr class="hr-pr">
             <section class="javascript">
                 <div class="proyecto">
+                    <canvas id="d"></canvas>
                     <p class="descripcion-proyecto">Lorem ipsum goth sit amet consectetur adipisicing elit. Nobis
                         voluptas, asperiores quaerat vero
                         repellendus magni repellat accusantium tenetur numquam eos qui inventore rem ducimus sapiente,
@@ -148,7 +150,9 @@
                     <p class="links"> <span class="link" onclick="visit()">Visitar</span> | <span class="link"
                             onclick="download()">Descargar</span></p>
                 </div>
-                <video src="">JavaScript</video>
+                <div class="vid">
+                    <video autoplay loop src="./resources/videos/js.mp4"></video>
+                </div class="vid">
             </section>
             <hr class="hr-pr">
             <section class="ecommerce">
@@ -177,12 +181,15 @@
                             onclick="download()">Descargar</span></p>
                 </div>
                 <div class="vid">
+                    <canvas id="z"></canvas>
                     <video autoplay loop src="./resources/videos/fotografico.mp4"></video>
-                </div class="vid">
+                </div>
             </section>
             <hr class="hr-pr">
             <section class="portfolio">
-                <video src="">portfolio personal</video>
+                <div class="vid">
+                    <video autoplay loop src="./resources/videos/portfolio.mp4"></video>
+                </div>
                 <div class="proyecto">
                     <p class="descripcion-proyecto">Lorem ipsum goth sit amet consectetur adipisicing elit. Nobis
                         voluptas, asperiores quaerat vero
@@ -205,8 +212,24 @@
                 <h2>Certificaciones</h2>
                 <hr class="hr-titulos">
             </div>
-            <div class="slider">
-                <img src="./certificados/DesarrolladorWeb.png" alt="">
+            <div class="slideshow-container">
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <div class="mySlides fade">
+                    <img src="./certificados/DesarrolladorWeb.png">
+                </div>
+                <div class="mySlides fade">
+                    <img src="./certificados/DesarrolladorWeb.png">
+                </div>
+                <div class="mySlides fade">
+                    <img src="./certificados/DesarrolladorWeb.png">
+                </div>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+                <div class="dots">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
             </div>
         </section>
         <section class="contacto">
@@ -233,6 +256,7 @@
         <p class="p-footer">&copy; Todos los derechos reservados 2024 | Desarrollado por <span>Robert</span> </p>
 
     </footer>
+    <button onclick="scrollToTop()" id="backToTopBtn" title="Go to top">&#9650</button>
 </body>
 
 </html>
