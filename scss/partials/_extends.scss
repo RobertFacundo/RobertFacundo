@@ -45,6 +45,31 @@
     }
 }
 
+%hoverlight {
+    font-weight: 597;
+    display: inline-block;
+    position: relative;
+
+    text-decoration: none;
+
+
+
+    &:after {
+        content: "";
+        display: block;
+        margin: auto;
+        height: 2px;
+        width: 0px;
+        background: black;
+        transition: all .4s;
+    }
+
+
+    &:hover:after {
+        width: 100%;
+    }
+}
+
 
 //extend para el themeswitch
 
@@ -73,7 +98,6 @@
         // background: var(--background);
         // transition: background-color 0.5s;
         border-radius: 30px;
-        border: solid 1px black;
 
         &:before {
             position: absolute;
@@ -122,7 +146,7 @@
 
         .fade {
             animation-name: fade;
-            animation-duration: 3.9s;
+            animation-duration: 1.3s;
 
             @keyframes fade {
                 from {
@@ -143,7 +167,8 @@
             cursor: pointer;
             color: rgba(255, 255, 255, 0.536);
             transition: all 0.2s ease-in-out;
-            &:hover{
+
+            &:hover {
                 color: white;
             }
         }
@@ -155,7 +180,8 @@
             cursor: pointer;
             color: rgba(255, 255, 255, 0.536);
             transition: all 0.2s ease-in-out;
-            &:hover{
+
+            &:hover {
                 color: white;
             }
         }
@@ -166,22 +192,27 @@
 
 
         // The dots/bullets/indicators
-        .dots{
-            text-align:center;
+        .dots {
+            text-align: center;
             display: flex;
-            justify-content: center; /* Centra horizontalmente los puntos */
+            justify-content: center;
+            /* Centra horizontalmente los puntos */
             position: absolute;
-            bottom: 30px; /* Ajusta la posición vertical según sea necesario */
-            width: 100%; /* Ajusta el ancho para centrar horizontalmente */
+            bottom: 30px;
+            /* Ajusta la posición vertical según sea necesario */
+            width: 100%;
+
+            /* Ajusta el ancho para centrar horizontalmente */
             .dot {
                 cursor: pointer;
                 height: 3px;
                 width: 30px;
-                margin: 0 5px; /* Espacio entre los puntos */
+                margin: 0 5px;
+                /* Espacio entre los puntos */
                 background-color: #ffffff82;
                 transition: background-color 0.6s ease;
                 transition: background-color 0.6s ease;
-            
+
                 &.active,
                 &:hover {
                     background-color: #ffffff;

@@ -1,48 +1,299 @@
-*{
+* {
     margin: 0;
     padding: 0;
+
     ::-webkit-scrollbar {
-        width: 6px; /* Ancho de la barra de desplazamiento */
+        width: 6px;
+        /* Ancho de la barra de desplazamiento */
     }
-    
+
     ::-webkit-scrollbar-track {
-        background-color: #000000a1; /* Color de fondo de la pista de desplazamiento */
+        background-color: #000000a1;
+        /* Color de fondo de la pista de desplazamiento */
     }
-    
+
     ::-webkit-scrollbar-thumb {
-        background-color: #fdfdfd; /* Color del botón de desplazamiento */
-        border-radius: 5px; /* Radio de borde del botón de desplazamiento */
+        background-color: #fdfdfd;
+        /* Color del botón de desplazamiento */
+        border-radius: 5px;
+        /* Radio de borde del botón de desplazamiento */
     }
 }
 
-body{
+body {
     background-color: black;
     color: $color-text;
     overflow-x: hidden;
 
     #backToTopBtn {
         position: fixed;
-        bottom: 20px; /* Distancia desde el borde inferior */
-        left: 20px; /* Distancia desde el borde derecho */
+        bottom: 20px;
+        /* Distancia desde el borde inferior */
+        left: 20px;
+        /* Distancia desde el borde derecho */
         z-index: 99;
-        display: none; /* Por defecto oculto */
+        display: none;
+        /* Por defecto oculto */
         font-size: 30px;
-      
+
         background-color: transparent;
-        color:rgba(255, 255, 255, 0.484);
+        color: rgba(255, 255, 255, 0.67);
         border: none;
         border-radius: 50%;
         width: 40px;
         height: 40px;
         cursor: pointer;
-        transition: opacity 0.3s ease-in-out; /* Aplicar transición a la opacidad */
-    
-        &:hover{
+        transition: all 0.3s ease-in-out;
+        /* Aplicar transición a la opacidad */
+
+        &:hover {
             color: white;
         }
-    
+
         &.fade-in {
-            opacity: 1; /* Mostrar el botón con opacidad completa */
+            opacity: 1;
+            /* Mostrar el botón con opacidad completa */
         }
     }
+
+    #muteBtn {
+        position: fixed;
+        bottom: 30px;
+        /* Distancia desde el borde inferior */
+        right: 20px;
+        /* Distancia desde el borde derecho */
+        z-index: 99;
+        display: block;
+        font-size: 50px;
+
+        background-color: transparent;
+        color: rgba(255, 255, 255, 0.56);
+        border: none;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        transition: color 0.3s ease-in-out;
+
+        // &:hover {
+        //     color: white !important;
+        // }
+    }
+}
+
+body.theme-active {
+    background-color: white;
+    color: black;
+    transition: all 0.8s ease-in-out;
+
+    #backToTopBtn {
+        /* Estilos adicionales para el botón de volver arriba */
+        color: $color-text-b;
+
+        &:hover {
+            color: black;
+        }
+    }
+
+
+    .nav {
+        .left {
+            .mh {
+                span {
+                    color: rgba(0, 0, 0, 0.704);
+                    font-weight: 597;
+                }
+            }
+        }
+
+        .right {
+            li {
+                a {
+                    color: rgba(0, 0, 0, 0.662);
+                    @extend %hoverlight;
+
+                    &:hover {
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+
+    .header {
+        .titulo-header {
+            .left {
+                canvas {
+                    display: none;
+                }
+
+                .hr {
+                    border-color: black;
+                }
+            }
+
+            .right {
+                .hr {
+                    border-color: black;
+                }
+            }
+        }
+    }
+
+    .main {
+        .proyectos {
+            .titulos {
+                .hr-titulos {
+                    border-color: black;
+                }
+            }
+
+            .sitioweb {
+                .proyecto {
+                    .links {
+                        .link {
+                            color: black;
+                        }
+                    }
+                }
+            }
+
+            .videojuegos {
+                background-color: rgb(244, 239, 239);
+
+                .vid {
+                    canvas#v {
+                        display: none;
+                    }
+                }
+
+                .proyecto {
+                    .links {
+                        .link {
+                            color: black;
+                        }
+                    }
+                }
+            }
+
+            .hr-pr {
+                border-color: black;
+            }
+
+            .historia {
+                .proyecto {
+                    .links {
+                        .link {
+                            color: black;
+                        }
+                    }
+                }
+            }
+
+            .javascript {
+                background-color: rgb(244, 239, 239);
+
+                .proyecto {
+                    canvas#d {
+                        display: none;
+                    }
+
+                    .links {
+                        .link {
+                            color: black;
+                        }
+                    }
+                }
+
+            }
+
+            .ecommerce {
+                .proyecto {
+                    .links {
+                        .link {
+                            color: black;
+                        }
+                    }
+                }
+            }
+
+            .foto {
+                background-color: rgb(244, 239, 239);
+
+                .vid {
+                    canvas#z {
+                        display: none;
+                    }
+                }
+
+                .proyecto {
+                    .links {
+                        .link {
+                            color: black;
+                        }
+                    }
+                }
+            }
+        }
+
+        .experiencialaboral {
+            .titulos {
+                .hr-titulos {
+                    border-color: black;
+                }
+            }
+        }
+
+        .certificaciones {
+            .titulos {
+                .hr-titulos {
+                    border-color: black;
+                }
+            }
+
+            .slideshow-container {
+
+                .prev,
+                .next {
+                    color: rgba(0, 0, 0, 0.714);
+
+                    &:hover {
+                        color: black;
+                    }
+                }
+            }
+        }
+
+        .contacto {
+            canvas {
+                display: none;
+            }
+
+            .hr-titulos {
+                border-color: black;
+            }
+
+            .links {
+                a {
+                    color: rgba(0, 0, 0, 0.662);
+                    @extend %hoverlight;
+
+                    &:hover {
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer {
+        .p-footer {
+            span {
+                color: black
+            }
+
+            ;
+        }
+    }
+
 }

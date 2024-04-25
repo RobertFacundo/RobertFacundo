@@ -30,19 +30,107 @@ body {
     /* Por defecto oculto */
     font-size: 30px;
     background-color: transparent;
-    color: rgba(255, 255, 255, 0.484);
+    color: rgba(255, 255, 255, 0.67);
     border: none;
     border-radius: 50%;
     width: 40px;
     height: 40px;
     cursor: pointer;
-    transition: opacity 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     /* Aplicar transición a la opacidad */ }
     body #backToTopBtn:hover {
       color: white; }
     body #backToTopBtn.fade-in {
       opacity: 1;
       /* Mostrar el botón con opacidad completa */ }
+  body #muteBtn {
+    position: fixed;
+    bottom: 30px;
+    /* Distancia desde el borde inferior */
+    right: 20px;
+    /* Distancia desde el borde derecho */
+    z-index: 99;
+    display: block;
+    font-size: 50px;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.56);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out; }
+
+body.theme-active {
+  background-color: white;
+  color: black;
+  transition: all 0.8s ease-in-out; }
+  body.theme-active #backToTopBtn {
+    /* Estilos adicionales para el botón de volver arriba */
+    color: rgba(0, 0, 0, 0.893); }
+    body.theme-active #backToTopBtn:hover {
+      color: black; }
+  body.theme-active .nav .left .mh span {
+    color: rgba(0, 0, 0, 0.704);
+    font-weight: 597; }
+  body.theme-active .nav .right li a {
+    color: rgba(0, 0, 0, 0.662); }
+    body.theme-active .nav .right li a:hover {
+      color: black; }
+  body.theme-active .header .titulo-header .left canvas {
+    display: none; }
+  body.theme-active .header .titulo-header .left .hr {
+    border-color: black; }
+  body.theme-active .header .titulo-header .right .hr {
+    border-color: black; }
+  body.theme-active .main .proyectos .titulos .hr-titulos {
+    border-color: black; }
+  body.theme-active .main .proyectos .sitioweb .proyecto .links .link {
+    color: black; }
+  body.theme-active .main .proyectos .videojuegos {
+    background-color: #f4efef; }
+    body.theme-active .main .proyectos .videojuegos .vid canvas#v {
+      display: none; }
+    body.theme-active .main .proyectos .videojuegos .proyecto .links .link {
+      color: black; }
+  body.theme-active .main .proyectos .hr-pr {
+    border-color: black; }
+  body.theme-active .main .proyectos .historia .proyecto .links .link {
+    color: black; }
+  body.theme-active .main .proyectos .javascript {
+    background-color: #f4efef; }
+    body.theme-active .main .proyectos .javascript .proyecto canvas#d {
+      display: none; }
+    body.theme-active .main .proyectos .javascript .proyecto .links .link {
+      color: black; }
+  body.theme-active .main .proyectos .ecommerce .proyecto .links .link {
+    color: black; }
+  body.theme-active .main .proyectos .foto {
+    background-color: #f4efef; }
+    body.theme-active .main .proyectos .foto .vid canvas#z {
+      display: none; }
+    body.theme-active .main .proyectos .foto .proyecto .links .link {
+      color: black; }
+  body.theme-active .main .experiencialaboral .titulos .hr-titulos {
+    border-color: black; }
+  body.theme-active .main .certificaciones .titulos .hr-titulos {
+    border-color: black; }
+  body.theme-active .main .certificaciones .slideshow-container .prev,
+  body.theme-active .main .certificaciones .slideshow-container .next {
+    color: rgba(0, 0, 0, 0.714); }
+    body.theme-active .main .certificaciones .slideshow-container .prev:hover,
+    body.theme-active .main .certificaciones .slideshow-container .next:hover {
+      color: black; }
+  body.theme-active .main .contacto canvas {
+    display: none; }
+  body.theme-active .main .contacto .hr-titulos {
+    border-color: black; }
+  body.theme-active .main .contacto .links a {
+    color: rgba(0, 0, 0, 0.662); }
+    body.theme-active .main .contacto .links a:hover {
+      color: black; }
+  body.theme-active .footer .p-footer span {
+    color: black; }
 
 .main .proyectos, .main .experiencialaboral, .main .certificaciones, .main .contacto {
   font-family: "Dosis", sans-serif; }
@@ -72,6 +160,22 @@ body {
   .nav .right li a:hover:after, .main .contacto .links a:hover:after {
     width: 100%; }
 
+body.theme-active .nav .right li a, body.theme-active .main .contacto .links a {
+  font-weight: 597;
+  display: inline-block;
+  position: relative;
+  text-decoration: none; }
+  body.theme-active .nav .right li a:after, body.theme-active .main .contacto .links a:after {
+    content: "";
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0px;
+    background: black;
+    transition: all .4s; }
+  body.theme-active .nav .right li a:hover:after, body.theme-active .main .contacto .links a:hover:after {
+    width: 100%; }
+
 .nav .right .switch-container {
   position: relative;
   display: inline-block;
@@ -88,8 +192,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    border-radius: 30px;
-    border: solid 1px black; }
+    border-radius: 30px; }
     .nav .right .switch-container .slider:before {
       position: absolute;
       content: "";
@@ -120,7 +223,7 @@ body {
       margin: 0 auto; }
   .main .certificaciones .slideshow-container .fade {
     animation-name: fade;
-    animation-duration: 3.9s; }
+    animation-duration: 1.3s; }
 
 @keyframes fade {
   from {
@@ -217,8 +320,6 @@ body {
       width: 35%;
       margin-left: 13px;
       position: relative; }
-      .header .titulo-header .left #name:hover + .matrix-container {
-        display: block; }
       .header .titulo-header .left h1 {
         font-size: 30px;
         margin-left: 5px;
@@ -535,7 +636,7 @@ body {
   .main .proyectos .hr-pr {
     width: 27%;
     transform: translateX(130%);
-    border-color: rgba(255, 255, 255, 0.39); }
+    border-color: white; }
 
 .main .certificaciones {
   margin-top: 13px; }
