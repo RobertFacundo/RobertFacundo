@@ -4,18 +4,41 @@
     width: 100%; // Ancho completo del footer
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     margin-bottom: 7px;
+    letter-spacing: 1.3px;
 
-    .p-footer {
-        text-align: center;
-        span{
+    .t-footer {
+        font-size: 16px;
+        transform: translateX(-130px);
+
+        a {
+            padding-left: 4px;
+            text-decoration: none;
             font-size: 18px;
             color: white;
             opacity: 0;
             transition: opacity 2.13s ease-in-out;
             cursor: pointer;
-            &:hover{
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+
+    .p-footer {
+        text-align: center;
+        transform: translateX(-250px);
+
+        span {
+            font-size: 18px;
+            color: white;
+            opacity: 0;
+            transition: opacity 2.13s ease-in-out;
+            cursor: pointer;
+
+            &:hover {
                 opacity: 1;
             }
         }

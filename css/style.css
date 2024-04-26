@@ -891,10 +891,25 @@ body.theme-active .modal {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  margin-bottom: 7px; }
+  justify-content: space-around;
+  margin-bottom: 7px;
+  letter-spacing: 1.3px; }
+  .footer .t-footer {
+    font-size: 16px;
+    transform: translateX(-130px); }
+    .footer .t-footer a {
+      padding-left: 4px;
+      text-decoration: none;
+      font-size: 18px;
+      color: white;
+      opacity: 0;
+      transition: opacity 2.13s ease-in-out;
+      cursor: pointer; }
+      .footer .t-footer a:hover {
+        opacity: 1; }
   .footer .p-footer {
-    text-align: center; }
+    text-align: center;
+    transform: translateX(-250px); }
     .footer .p-footer span {
       font-size: 18px;
       color: white;
