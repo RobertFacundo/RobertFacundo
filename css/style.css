@@ -913,6 +913,10 @@ body.theme-active {
       color: rgba(0, 0, 0, 0.659); }
       body.theme-active .main .contacto .links a:hover {
         color: black; }
+  body.theme-active .footer .t-footer {
+    font-weight: 500; }
+    body.theme-active .footer .t-footer a {
+      color: black; }
   body.theme-active .footer .p-footer {
     font-weight: 500; }
     body.theme-active .footer .p-footer span {

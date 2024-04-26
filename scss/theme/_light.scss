@@ -346,6 +346,12 @@ body.theme-active {
     }
 
     .footer {
+        .t-footer{
+            font-weight: 500;
+            a{
+                color: black;
+            }
+        }
         .p-footer {
             font-weight: 500;
 
@@ -353,8 +359,6 @@ body.theme-active {
                 color: black;
                 font-weight: 600;
             }
-
-            ;
         }
     }
 
