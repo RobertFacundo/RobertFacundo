@@ -13,4 +13,5 @@ import './audiobutton.js';
 import './matrixc.js';
 import './carrousel.js';
 import './themes.js';
+import './musica.js';
 

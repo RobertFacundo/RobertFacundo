@@ -70,7 +70,7 @@
                 <p class="historia">
                     Sin embargo, mi verdadero viaje hacia la realización personal comenzó cuando decidí adentrarme
                     en el mundo de la programación. Desde entonces he estado
-                    comprometido a dedicarle mi tiempo para mejorar mis habilidades. Actualmente estoy inscrito en
+                    comprometido a dedicarle todo mi tiempo para mejorar mis habilidades. Actualmente estoy inscrito en
                     el Curso de <b>Desarrollo Web Full Stack</b> en CoderHouse, destacándose en áreas como
                     <b>HTML, CSS y JavaScript</b> con resultados sobresalientes.
                 </p>
@@ -151,7 +151,7 @@
                             download>Descargar</a></p>
                 </div>
                 <div class="vid">
-                    <video autoplay loop src="./resources/videos/js.mp4"></video>
+                    <video autoplay loop src="./resources/videos/"></video>
                 </div class="vid">
             </section>
             <hr class="hr-pr">
@@ -188,12 +188,14 @@
             <hr class="hr-pr">
             <section class="portfolio">
                 <div class="vid">
-                    <video autoplay loop src="./resources/videos/portfolio.mp4"></video>
+                    <video autoplay loop src="./resources/videos/"></video>
                 </div>
                 <div class="proyecto">
-                    <p class="descripcion-proyecto">Este mismo sitio, que funciona como un curriculum digital, fue un desafío entretenido de idear. Abarca
+                    <p class="descripcion-proyecto">Este mismo sitio, que funciona como un curriculum digital, fue un
+                        desafío entretenido de idear. Abarca
                         todo lo aprendido hasta la fecha. Lo creé con la intención de que sea mantenible en el tiempo,
-                        para ello uso extends, mixins, variables y SASS e importación de archivos JS para una mejor organización. Además cuenta con música onclick, y dos themes, uno
+                        para ello uso extends, mixins, variables, SASS e importación de archivos JS para una mejor
+                        organización. Además cuenta con música onclick, y dos themes, uno
                         dark y otro light, cada uno con sus respectivas animaciones. </p>
                     <p class="links"> <a href="#" class="link">Visitar</a> | <a href="#" class="link"
                             onclick="downloadFile()" download>Descargar</a></p>
@@ -256,6 +258,13 @@
     </footer>
     <button onclick="scrollToTop()" id="backToTopBtn">&#9650</button>
     <button onclick="toggleMute()" id="muteBtn">&#x1d13d;</button>
+    <audio id="audioPlayer" src="./resources/Lofi Coding Girl #11 Track03 - Lofi Hip Hop [ Study - Coding Beats ].mp3" preload="auto"></audio>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <p>¡Atención! Estás a punto de iniciar la música. Por favor, asegúrate de poner auriculares.</p>
+            <button id="confirmBtn">Aceptar</button>
+        </div>
+    </div>
 </body>
 
 </html>
