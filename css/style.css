@@ -61,23 +61,6 @@ body {
     height: 40px;
     cursor: pointer;
     transition: color 0.3s ease-in-out; }
-  body .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.5); }
-    body .modal .modal-content {
-      background-color: #fefefe;
-      margin: 15% auto;
-      padding: 20px;
-      border: 1px solid #888;
-      width: 80%;
-      text-align: center; }
 
 body.theme-active {
   background-color: white;
@@ -369,6 +352,121 @@ body.theme-active .nav .right li a, body.theme-active .main .contacto .links a {
       transition: background-color 0.6s ease; }
       .main .certificaciones .slideshow-container .dots .dot.active, .main .certificaciones .slideshow-container .dots .dot:hover {
         background-color: #ffffff; }
+
+body .modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: "Dosis", sans-serif;
+  font-size: 27px;
+  letter-spacing: 2px; }
+  body .modal .modal-content {
+    background-color: rgba(19, 18, 18, 0.886);
+    margin: 15% auto;
+    border-radius: 2%;
+    padding: 20px;
+    width: 30%;
+    height: 31%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+  body .modal button {
+    font-size: 15px;
+    padding: 0.7em 2.7em;
+    position: relative;
+    text-align: center;
+    width: 160px;
+    font-family: "Dosis", sans-serif;
+    letter-spacing: 2px;
+    border-radius: 0.6em;
+    overflow: hidden;
+    transition: all 0.3s;
+    line-height: 1.4em;
+    border: 2px solid var(--green);
+    background: linear-gradient(to right, rgba(27, 253, 38, 0.1) 1%, transparent 40%, transparent 60%, rgba(27, 253, 46, 0.1) 100%);
+    color: white;
+    box-shadow: inset 0 0 10px 3px rgba(19, 207, 6, 0.214), 0 0 9px 3px rgba(60, 227, 4, 0.1);
+    transition: color 0.8s ease-in-out;
+    cursor: pointer; }
+    body .modal button:hover {
+      box-shadow: inset 0 0 10px rgba(2, 214, 9, 0.6), 0 0 9px 3px rgrgba(27, 234, 12, 0.2); }
+    body .modal button:before {
+      content: "";
+      position: absolute;
+      left: -4em;
+      width: 4em;
+      height: 100%;
+      top: 0;
+      transition: transform .4s ease-in-out;
+      background: linear-gradient(to right, transparent 1%, rgba(27, 253, 156, 0.1) 40%, rgba(27, 253, 156, 0.1) 60%, transparent 100%); }
+    body .modal button:hover:before {
+      transform: translateX(15em); }
+
+body.theme-active .modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: "Dosis", sans-serif;
+  font-size: 27px;
+  letter-spacing: 2px; }
+  body.theme-active .modal .modal-content {
+    background-color: rgba(221, 214, 214, 0.9);
+    margin: 15% auto;
+    border-radius: 2%;
+    padding: 20px;
+    color: #0d0d0d;
+    width: 30%;
+    height: 31%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+  body.theme-active .modal button {
+    font-size: 15px;
+    padding: 0.7em 2.7em;
+    position: relative;
+    text-align: center;
+    width: 160px;
+    font-family: "Dosis", sans-serif;
+    letter-spacing: 2px;
+    border-radius: 0.6em;
+    overflow: hidden;
+    transition: all 0.3s;
+    line-height: 1.4em;
+    border: 2px solid var(--green);
+    background: linear-gradient(to right, rgba(31, 32, 31, 0.1) 1%, transparent 40%, transparent 60%, rgba(25, 26, 25, 0.1) 100%);
+    color: #0b0b0b;
+    box-shadow: inset 0 0 10px 3px rgba(9, 9, 9, 0.214), 0 0 9px 3px rgba(0, 0, 0, 0.1);
+    transition: color 0.8s ease-in-out;
+    cursor: pointer; }
+    body.theme-active .modal button:hover {
+      box-shadow: inset 0 0 10px rgba(34, 35, 34, 0.6), 0 0 9px 3px rgba(50, 51, 50, 0.2); }
+    body.theme-active .modal button:before {
+      content: "";
+      position: absolute;
+      left: -4em;
+      width: 4em;
+      height: 100%;
+      top: 0;
+      transition: transform .4s ease-in-out;
+      background: linear-gradient(to right, transparent 1%, rgba(111, 112, 112, 0.253) 40%, rgba(86, 86, 86, 0.1) 60%, transparent 100%); }
+      body.theme-active .modal button:before:hover:before {
+        transform: translateX(15em); }
 
 .nav {
   display: flex;

@@ -75,28 +75,13 @@ body {
         height: 40px;
         cursor: pointer;
         transition: color 0.3s ease-in-out;
-
     }
+
+
+
     .modal {
-        display: none;
-        position: fixed;
-        z-index: 1;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        overflow: auto;
-        background-color: rgba(0, 0, 0, 0.5);
-      
-        .modal-content {
-          background-color: #fefefe;
-          margin: 15% auto;
-          padding: 20px;
-          border: 1px solid #888;
-          width: 80%;
-          text-align: center;
-        }
-      }
+       @extend %modal;
+    }
 }
 
 body.theme-active {
@@ -112,6 +97,9 @@ body.theme-active {
             color: black;
         }
     }
+    .modal {
+        @extend %modallight;
+     }
 
 
     .nav {
@@ -170,7 +158,7 @@ body.theme-active {
                     background-position: center;
                     /* Centra la imagen de fondo dentro del contenedor */
                     background-repeat: no-repeat;
-                    
+
 
                     .dot {
                         // Estilos para los elementos con la clase .dot dentro del contenedor #container
@@ -403,14 +391,17 @@ body.theme-active {
             background-repeat: no-repeat;
             margin-bottom: -25px;
             overflow: hidden;
+
             canvas {
                 display: none;
             }
+
             #container {
                 // Estilos para el contenedor de las hojas
                 display: block !important;
-              z-index: 1;
-              overflow: hidden;
+                z-index: 1;
+                overflow: hidden;
+
                 .dot {
                     // Estilos para los elementos con la clase .dot dentro del contenedor #container
                     width: 60px;
@@ -431,6 +422,7 @@ body.theme-active {
                 a {
                     color: rgba(0, 0, 0, 0.659);
                     @extend %hoverlight;
+
                     &:hover {
                         color: black;
                     }
@@ -442,6 +434,7 @@ body.theme-active {
     .footer {
         .p-footer {
             font-weight: 500;
+
             span {
                 color: black;
                 font-weight: 600;
