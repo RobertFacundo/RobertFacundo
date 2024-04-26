@@ -9,6 +9,7 @@
     <script src="https://kit.fontawesome.com/8adb0d4670.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/png" href="./resources/matrix2.png">
     <script src="./js/main.js" type="module"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
     <title>Web Developer</title>
 </head>
 
@@ -51,6 +52,9 @@
                 <h1 id="name">Facundo Robert</h1>
                 <hr class="hr">
                 <canvas id="c"></canvas>
+                <div id="container">
+                    <!-- Contenedor para las hojas -->
+                </div>
             </section>
             <section class="right">
                 <h2>Desarrollador Web</h2>
@@ -103,8 +107,8 @@
                         repellendus magni repellat accusantium tenetur numquam eos qui inventore rem ducimus sapiente,
                         eaque
                         deserunt, autem excepturi labore?</p>
-                    <p class="links"> <span class="link" onclick="visit()">Visitar</span> | <span class="link"
-                            onclick="download()">Descargar</span></p>
+                    <p class="links"> <a href="#" class="link">Visitar</a> | <a href="#" class="link"
+                            onclick="downloadFile()" download>Descargar</a></p>
                 </div>
             </section>
             <hr class="hr-pr">
@@ -115,12 +119,15 @@
                         repellendus magni repellat accusantium tenetur numquam eos qui inventore rem ducimus sapiente,
                         eaque
                         deserunt, autem excepturi labore?</p>
-                    <p class="links"> <span class="link" onclick="visit()">Visitar</span> | <span class="link"
-                            onclick="download()">Descargar</span></p>
+                    <p class="links"> <a href="#" class="link">Visitar</a> | <a href="#" class="link"
+                            onclick="downloadFile()" download>Descargar</a></p>
+                </div>
+                <div id="container">
+                    <!-- Contenedor para las hojas -->
                 </div>
                 <div class="vid">
-                    <canvas id="v"></canvas>
-                    <video autoplay loop src="./resources/videos/videojuego.mp4"></video>
+                        <canvas id="v"></canvas>
+                        <video autoplay loop src="./resources/videos/videojuego.mp4"></video>
                 </div>
             </section>
             <hr class="hr-pr">
@@ -134,8 +141,8 @@
                         repellendus magni repellat accusantium tenetur numquam eos qui inventore rem ducimus sapiente,
                         eaque
                         deserunt, autem excepturi labore?</p>
-                    <p class="links"> <span class="link" onclick="visit()">Visitar</span> | <span class="link"
-                            onclick="download()">Descargar</span></p>
+                    <p class="links"> <a href="#" class="link">Visitar</a> | <a href="#" class="link"
+                            onclick="downloadFile()" download>Descargar</a></p>
                 </div>
             </section>
             <hr class="hr-pr">
@@ -147,8 +154,8 @@
                         repellendus magni repellat accusantium tenetur numquam eos qui inventore rem ducimus sapiente,
                         eaque
                         deserunt, autem excepturi labore?</p>
-                    <p class="links"> <span class="link" onclick="visit()">Visitar</span> | <span class="link"
-                            onclick="download()">Descargar</span></p>
+                    <p class="links"> <a href="#" class="link">Visitar</a> | <a href="#" class="link"
+                            onclick="downloadFile()" download>Descargar</a></p>
                 </div>
                 <div class="vid">
                     <video autoplay loop src="./resources/videos/js.mp4"></video>
@@ -159,14 +166,17 @@
                 <div class="vid">
                     <video autoplay loop src="./resources/videos/ecommerce.mp4"></video>
                 </div class="vid">
+                <div id="container">
+                    <!-- Contenedor para las hojas -->
+                </div>
                 <div class="proyecto">
                     <p class="descripcion-proyecto">Lorem ipsum goth sit amet consectetur adipisicing elit. Nobis
                         voluptas, asperiores quaerat vero
                         repellendus magni repellat accusantium tenetur numquam eos qui inventore rem ducimus sapiente,
                         eaque
                         deserunt, autem excepturi labore?</p>
-                    <p class="links"> <span class="link" onclick="visit()">Visitar</span> | <span class="link"
-                            onclick="download()">Descargar</span></p>
+                    <p class="links"> <a href="#" class="link">Visitar</a> | <a href="#" class="link"
+                            onclick="downloadFile()" download>Descargar</a></p>
                 </div>
             </section>
             <hr class="hr-pr">
@@ -177,8 +187,8 @@
                         repellendus magni repellat accusantium tenetur numquam eos qui inventore rem ducimus sapiente,
                         eaque
                         deserunt, autem excepturi labore?</p>
-                    <p class="links"> <span class="link" onclick="visit()">Visitar</span> | <span class="link"
-                            onclick="download()">Descargar</span></p>
+                    <p class="links"> <a href="#" class="link">Visitar</a> | <a href="#" class="link"
+                            onclick="downloadFile()" download>Descargar</a></p>
                 </div>
                 <div class="vid">
                     <canvas id="z"></canvas>
@@ -196,8 +206,8 @@
                         repellendus magni repellat accusantium tenetur numquam eos qui inventore rem ducimus sapiente,
                         eaque
                         deserunt, autem excepturi labore?</p>
-                    <p class="links"><span class="link" onclick="visit()">Visitar</span> | <span class="link"
-                            onclick="download()">Descargar</span></p>
+                    <p class="links"> <a href="#" class="link">Visitar</a> | <a href="#" class="link"
+                            onclick="downloadFile()" download>Descargar</a></p>
                 </div>
             </section>
         </section>
@@ -238,11 +248,7 @@
                 <h2>Contacto</h2>
                 <hr class="hr-titulos">
             </div>
-            <p id="contacto" class="parrafo-contacto">Lorem ipsum sit amet consectetur adipisicing elit. Modi mollitia
-                dolor
-                perspiciatis ipsum totam, suscipit repudiandae beatae officiis aperiam eius eveniet quo culpa
-                dignissimos! similique quod consectetur quae veritatis!</p>
-            <div class="links">
+            <div id="contacto" class="links">
                 <a target="_blank" href="https://www.linkedin.com/in/robertfacundofrontend/"><i
                         class="fa-brands fa-linkedin"></i></a>
                 <a target="_blank" href="https://github.com/RobertFacundo?tab=repositories"><i

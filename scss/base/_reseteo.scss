@@ -24,6 +24,7 @@ body {
     background-color: black;
     color: $color-text;
     overflow-x: hidden;
+    transition: all 0.8s ease-in-out;
 
     #backToTopBtn {
         position: fixed;
@@ -98,10 +99,17 @@ body.theme-active {
 
     .nav {
         .left {
+
             .mh {
+                transition: color 0.7s ease-in-out;
+
                 span {
-                    color: rgba(0, 0, 0, 0.704);
+                    color: rgba(0, 0, 0, 0.847);
                     font-weight: 597;
+
+                    &:hover {
+                        color: black;
+                    }
                 }
             }
         }
@@ -111,6 +119,7 @@ body.theme-active {
                 a {
                     color: rgba(0, 0, 0, 0.662);
                     @extend %hoverlight;
+                    transition: color 0.7s ease-in-out;
 
                     &:hover {
                         color: black;
@@ -121,6 +130,7 @@ body.theme-active {
     }
 
     .header {
+
         .titulo-header {
             .left {
                 canvas {
@@ -129,6 +139,31 @@ body.theme-active {
 
                 .hr {
                     border-color: black;
+                }
+
+                #container {
+                    // Estilos para el contenedor de las hojas
+                    left: 0;
+                    position: relative; // Asegura que los elementos absolutos dentro de este contenedor se posicionen relativos a él
+                    width: 100%; // O el ancho deseado para el contenedor
+                    height: 95%; // O la altura deseada para el contenedor
+                    background-image: url(../../resources/tree-removebg-preview.png);
+                    background-size: cover;
+                    /* Hace que la imagen de fondo cubra todo el contenedor */
+                    background-position: center;
+                    /* Centra la imagen de fondo dentro del contenedor */
+                    background-repeat: no-repeat;
+                    overflow: hidden;
+
+                    .dot {
+                        // Estilos para los elementos con la clase .dot dentro del contenedor #container
+                        width: 60px;
+                        height: 60px;
+                        position: absolute;
+                        background-size: contain;
+                        left: 0;
+                        // Aquí puedes agregar otros estilos específicos para las hojas, como tamaño, posición, etc.
+                    }
                 }
             }
 
@@ -143,6 +178,10 @@ body.theme-active {
     .main {
         .proyectos {
             .titulos {
+                #proyectos {
+                    z-index: 1000;
+                }
+
                 .hr-titulos {
                     border-color: black;
                 }
@@ -152,7 +191,12 @@ body.theme-active {
                 .proyecto {
                     .links {
                         .link {
-                            color: black;
+                            color: rgba(0, 0, 0, 0.774);
+                            transition: color 0.3s ease-in-out;
+
+                            &:hover {
+                                color: black;
+                            }
                         }
                     }
                 }
@@ -161,7 +205,21 @@ body.theme-active {
             .videojuegos {
                 background-color: rgb(244, 239, 239);
 
+                #container {
+
+                    // Estilos para el contenedor de las hojas
+                    .dot {
+                        // Estilos para los elementos con la clase .dot dentro del contenedor #container
+                        width: 60px;
+                        height: 60px;
+                        position: absolute;
+                        background-size: contain;
+                        // Aquí puedes agregar otros estilos específicos para las hojas, como tamaño, posición, etc.
+                    }
+                }
+
                 .vid {
+
                     canvas#v {
                         display: none;
                     }
@@ -170,7 +228,12 @@ body.theme-active {
                 .proyecto {
                     .links {
                         .link {
-                            color: black;
+                            color: rgba(0, 0, 0, 0.774);
+                            transition: color 0.3s ease-in-out;
+
+                            &:hover {
+                                color: black;
+                            }
                         }
                     }
                 }
@@ -184,7 +247,12 @@ body.theme-active {
                 .proyecto {
                     .links {
                         .link {
-                            color: black;
+                            color: rgba(0, 0, 0, 0.774);
+                            transition: color 0.3s ease-in-out;
+
+                            &:hover {
+                                color: black;
+                            }
                         }
                     }
                 }
@@ -200,7 +268,12 @@ body.theme-active {
 
                     .links {
                         .link {
-                            color: black;
+                            color: rgba(0, 0, 0, 0.774);
+                            transition: color 0.3s ease-in-out;
+
+                            &:hover {
+                                color: black;
+                            }
                         }
                     }
                 }
@@ -211,8 +284,28 @@ body.theme-active {
                 .proyecto {
                     .links {
                         .link {
-                            color: black;
+                            color: rgba(0, 0, 0, 0.774);
+                            transition: color 0.3s ease-in-out;
+
+                            &:hover {
+                                color: black;
+                            }
                         }
+                    }
+                }
+
+                #container {
+                    // Estilos para el contenedor de las hojas
+                    left: 0;
+
+                    .dot {
+                        // Estilos para los elementos con la clase .dot dentro del contenedor #container
+                        width: 60px;
+                        height: 60px;
+                        position: absolute;
+                        left: 0;
+                        background-size: contain;
+                        // Aquí puedes agregar otros estilos específicos para las hojas, como tamaño, posición, etc.
                     }
                 }
             }
@@ -229,7 +322,27 @@ body.theme-active {
                 .proyecto {
                     .links {
                         .link {
-                            color: black;
+                            color: rgba(0, 0, 0, 0.774);
+                            transition: color 0.3s ease-in-out;
+
+                            &:hover {
+                                color: black;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .portfolio {
+                .proyecto {
+                    .links {
+                        .link {
+                            color: rgba(0, 0, 0, 0.774);
+                            transition: color 0.3s ease-in-out;
+
+                            &:hover {
+                                color: black;
+                            }
                         }
                     }
                 }
@@ -265,6 +378,13 @@ body.theme-active {
         }
 
         .contacto {
+            background-image: url(../../resources/contacto.jpg);
+            background-size: cover;
+            /* Hace que la imagen de fondo cubra todo el contenedor */
+            background-position: center top 45px;
+            /* Centra la imagen de fondo dentro del contenedor */
+            background-repeat: no-repeat;
+            margin-bottom: -25px;
             canvas {
                 display: none;
             }
@@ -274,10 +394,12 @@ body.theme-active {
             }
 
             .links {
-                a {
-                    color: rgba(0, 0, 0, 0.662);
-                    @extend %hoverlight;
+                font-weight: 800;
+                padding-top: 100px;
 
+                a {
+                    color: rgba(0, 0, 0, 0.659);
+                    @extend %hoverlight;
                     &:hover {
                         color: black;
                     }
@@ -288,8 +410,10 @@ body.theme-active {
 
     .footer {
         .p-footer {
+            font-weight: 500;
             span {
-                color: black
+                color: black;
+                font-weight: 600;
             }
 
             ;

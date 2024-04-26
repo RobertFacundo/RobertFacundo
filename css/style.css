@@ -18,7 +18,8 @@
 body {
   background-color: black;
   color: rgba(255, 255, 255, 0.813);
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  transition: all 0.8s ease-in-out; }
   body #backToTopBtn {
     position: fixed;
     bottom: 20px;
@@ -70,46 +71,107 @@ body.theme-active {
     color: rgba(0, 0, 0, 0.893); }
     body.theme-active #backToTopBtn:hover {
       color: black; }
-  body.theme-active .nav .left .mh span {
-    color: rgba(0, 0, 0, 0.704);
-    font-weight: 597; }
+  body.theme-active .nav .left .mh {
+    transition: color 0.7s ease-in-out; }
+    body.theme-active .nav .left .mh span {
+      color: rgba(0, 0, 0, 0.847);
+      font-weight: 597; }
+      body.theme-active .nav .left .mh span:hover {
+        color: black; }
   body.theme-active .nav .right li a {
-    color: rgba(0, 0, 0, 0.662); }
+    color: rgba(0, 0, 0, 0.662);
+    transition: color 0.7s ease-in-out; }
     body.theme-active .nav .right li a:hover {
       color: black; }
   body.theme-active .header .titulo-header .left canvas {
     display: none; }
   body.theme-active .header .titulo-header .left .hr {
     border-color: black; }
+  body.theme-active .header .titulo-header .left #container {
+    left: 0;
+    position: relative;
+    width: 100%;
+    height: 95%;
+    background-image: url(../../resources/tree-removebg-preview.png);
+    background-size: cover;
+    /* Hace que la imagen de fondo cubra todo el contenedor */
+    background-position: center;
+    /* Centra la imagen de fondo dentro del contenedor */
+    background-repeat: no-repeat;
+    overflow: hidden; }
+    body.theme-active .header .titulo-header .left #container .dot {
+      width: 60px;
+      height: 60px;
+      position: absolute;
+      background-size: contain;
+      left: 0; }
   body.theme-active .header .titulo-header .right .hr {
     border-color: black; }
+  body.theme-active .main .proyectos .titulos #proyectos {
+    z-index: 1000; }
   body.theme-active .main .proyectos .titulos .hr-titulos {
     border-color: black; }
   body.theme-active .main .proyectos .sitioweb .proyecto .links .link {
-    color: black; }
+    color: rgba(0, 0, 0, 0.774);
+    transition: color 0.3s ease-in-out; }
+    body.theme-active .main .proyectos .sitioweb .proyecto .links .link:hover {
+      color: black; }
   body.theme-active .main .proyectos .videojuegos {
     background-color: #f4efef; }
+    body.theme-active .main .proyectos .videojuegos #container .dot {
+      width: 60px;
+      height: 60px;
+      position: absolute;
+      background-size: contain; }
     body.theme-active .main .proyectos .videojuegos .vid canvas#v {
       display: none; }
     body.theme-active .main .proyectos .videojuegos .proyecto .links .link {
-      color: black; }
+      color: rgba(0, 0, 0, 0.774);
+      transition: color 0.3s ease-in-out; }
+      body.theme-active .main .proyectos .videojuegos .proyecto .links .link:hover {
+        color: black; }
   body.theme-active .main .proyectos .hr-pr {
     border-color: black; }
   body.theme-active .main .proyectos .historia .proyecto .links .link {
-    color: black; }
+    color: rgba(0, 0, 0, 0.774);
+    transition: color 0.3s ease-in-out; }
+    body.theme-active .main .proyectos .historia .proyecto .links .link:hover {
+      color: black; }
   body.theme-active .main .proyectos .javascript {
     background-color: #f4efef; }
     body.theme-active .main .proyectos .javascript .proyecto canvas#d {
       display: none; }
     body.theme-active .main .proyectos .javascript .proyecto .links .link {
-      color: black; }
+      color: rgba(0, 0, 0, 0.774);
+      transition: color 0.3s ease-in-out; }
+      body.theme-active .main .proyectos .javascript .proyecto .links .link:hover {
+        color: black; }
   body.theme-active .main .proyectos .ecommerce .proyecto .links .link {
-    color: black; }
+    color: rgba(0, 0, 0, 0.774);
+    transition: color 0.3s ease-in-out; }
+    body.theme-active .main .proyectos .ecommerce .proyecto .links .link:hover {
+      color: black; }
+  body.theme-active .main .proyectos .ecommerce #container {
+    left: 0; }
+    body.theme-active .main .proyectos .ecommerce #container .dot {
+      width: 60px;
+      height: 60px;
+      position: absolute;
+      left: 0;
+      background-size: contain; }
   body.theme-active .main .proyectos .foto {
     background-color: #f4efef; }
     body.theme-active .main .proyectos .foto .vid canvas#z {
       display: none; }
     body.theme-active .main .proyectos .foto .proyecto .links .link {
+      color: rgba(0, 0, 0, 0.774);
+      transition: color 0.3s ease-in-out; }
+      body.theme-active .main .proyectos .foto .proyecto .links .link:hover {
+        color: black; }
+  body.theme-active .main .proyectos .portfolio .proyecto .links .link {
+    color: rgba(0, 0, 0, 0.774);
+    transition: color 0.3s ease-in-out; }
+    body.theme-active .main .proyectos .portfolio .proyecto .links .link:hover {
       color: black; }
   body.theme-active .main .experiencialaboral .titulos .hr-titulos {
     border-color: black; }
@@ -121,16 +183,30 @@ body.theme-active {
     body.theme-active .main .certificaciones .slideshow-container .prev:hover,
     body.theme-active .main .certificaciones .slideshow-container .next:hover {
       color: black; }
-  body.theme-active .main .contacto canvas {
-    display: none; }
-  body.theme-active .main .contacto .hr-titulos {
-    border-color: black; }
-  body.theme-active .main .contacto .links a {
-    color: rgba(0, 0, 0, 0.662); }
-    body.theme-active .main .contacto .links a:hover {
-      color: black; }
-  body.theme-active .footer .p-footer span {
-    color: black; }
+  body.theme-active .main .contacto {
+    background-image: url(../../resources/contacto.jpg);
+    background-size: cover;
+    /* Hace que la imagen de fondo cubra todo el contenedor */
+    background-position: center top 45px;
+    /* Centra la imagen de fondo dentro del contenedor */
+    background-repeat: no-repeat;
+    margin-bottom: -25px; }
+    body.theme-active .main .contacto canvas {
+      display: none; }
+    body.theme-active .main .contacto .hr-titulos {
+      border-color: black; }
+    body.theme-active .main .contacto .links {
+      font-weight: 800;
+      padding-top: 100px; }
+      body.theme-active .main .contacto .links a {
+        color: rgba(0, 0, 0, 0.659); }
+        body.theme-active .main .contacto .links a:hover {
+          color: black; }
+  body.theme-active .footer .p-footer {
+    font-weight: 500; }
+    body.theme-active .footer .p-footer span {
+      color: black;
+      font-weight: 600; }
 
 .main .proyectos, .main .experiencialaboral, .main .certificaciones, .main .contacto {
   font-family: "Dosis", sans-serif; }
@@ -319,7 +395,8 @@ body.theme-active .nav .right li a, body.theme-active .main .contacto .links a {
     .header .titulo-header .left {
       width: 35%;
       margin-left: 13px;
-      position: relative; }
+      position: relative;
+      margin-left: 0; }
       .header .titulo-header .left h1 {
         font-size: 30px;
         margin-left: 5px;
@@ -350,7 +427,7 @@ body.theme-active .nav .right li a, body.theme-active .main .contacto .links a {
         width: 80%;
         margin-bottom: 13px; }
       .header .titulo-header .right .historia {
-        font-size: 18px;
+        font-size: 19px;
         font-weight: 400;
         padding: 16px;
         letter-spacing: 1px; }
@@ -383,9 +460,11 @@ body.theme-active .nav .right li a, body.theme-active .main .contacto .links a {
       justify-content: space-around;
       z-index: 1; }
       .main .proyectos .sitioweb .proyecto .descripcion-proyecto {
+        font-size: 20px;
         padding: 0px 30px; }
       .main .proyectos .sitioweb .proyecto .links {
-        text-align: center; }
+        text-align: center;
+        font-size: 18px; }
         .main .proyectos .sitioweb .proyecto .links .link {
           text-decoration: none;
           color: rgba(255, 255, 255, 0.864);
@@ -419,9 +498,11 @@ body.theme-active .nav .right li a, body.theme-active .main .contacto .links a {
       justify-content: space-around;
       z-index: 1; }
       .main .proyectos .videojuegos .proyecto .descripcion-proyecto {
+        font-size: 20px;
         padding: 0px 30px; }
       .main .proyectos .videojuegos .proyecto .links {
-        text-align: center; }
+        text-align: center;
+        font-size: 18px; }
         .main .proyectos .videojuegos .proyecto .links .link {
           text-decoration: none;
           color: rgba(255, 255, 255, 0.864);
@@ -463,9 +544,11 @@ body.theme-active .nav .right li a, body.theme-active .main .contacto .links a {
       justify-content: space-around;
       z-index: 1; }
       .main .proyectos .historia .proyecto .descripcion-proyecto {
+        font-size: 20px;
         padding: 0px 30px; }
       .main .proyectos .historia .proyecto .links {
-        text-align: center; }
+        text-align: center;
+        font-size: 18px; }
         .main .proyectos .historia .proyecto .links .link {
           text-decoration: none;
           color: rgba(255, 255, 255, 0.864);
@@ -499,9 +582,11 @@ body.theme-active .nav .right li a, body.theme-active .main .contacto .links a {
       justify-content: space-around;
       z-index: 1; }
       .main .proyectos .javascript .proyecto .descripcion-proyecto {
+        font-size: 20px;
         padding: 0px 30px; }
       .main .proyectos .javascript .proyecto .links {
-        text-align: center; }
+        text-align: center;
+        font-size: 18px; }
         .main .proyectos .javascript .proyecto .links .link {
           text-decoration: none;
           color: rgba(255, 255, 255, 0.864);
@@ -543,9 +628,11 @@ body.theme-active .nav .right li a, body.theme-active .main .contacto .links a {
       justify-content: space-around;
       z-index: 1; }
       .main .proyectos .ecommerce .proyecto .descripcion-proyecto {
+        font-size: 20px;
         padding: 0px 30px; }
       .main .proyectos .ecommerce .proyecto .links {
-        text-align: center; }
+        text-align: center;
+        font-size: 18px; }
         .main .proyectos .ecommerce .proyecto .links .link {
           text-decoration: none;
           color: rgba(255, 255, 255, 0.864);
@@ -579,9 +666,11 @@ body.theme-active .nav .right li a, body.theme-active .main .contacto .links a {
       justify-content: space-around;
       z-index: 1; }
       .main .proyectos .foto .proyecto .descripcion-proyecto {
+        font-size: 20px;
         padding: 0px 30px; }
       .main .proyectos .foto .proyecto .links {
-        text-align: center; }
+        text-align: center;
+        font-size: 18px; }
         .main .proyectos .foto .proyecto .links .link {
           text-decoration: none;
           color: rgba(255, 255, 255, 0.864);
@@ -623,9 +712,11 @@ body.theme-active .nav .right li a, body.theme-active .main .contacto .links a {
       justify-content: space-around;
       z-index: 1; }
       .main .proyectos .portfolio .proyecto .descripcion-proyecto {
+        font-size: 20px;
         padding: 0px 30px; }
       .main .proyectos .portfolio .proyecto .links {
-        text-align: center; }
+        text-align: center;
+        font-size: 18px; }
         .main .proyectos .portfolio .proyecto .links .link {
           text-decoration: none;
           color: rgba(255, 255, 255, 0.864);

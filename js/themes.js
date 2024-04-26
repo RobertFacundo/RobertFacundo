@@ -1,30 +1,4 @@
-// document.addEventListener("DOMContentLoaded", function() {
-//     let themeToggle = document.getElementById("themeToggle");
-//     let body = document.body;
 
-//     function toggleTheme() {
-//         if (themeToggle.checked) {
-//             console.log("Activando estilos adicionales");
-//             body.classList.add("theme-active");
-//             localStorage.setItem("theme", "light");
-//         } else {
-//             console.log("Desactivando estilos adicionales");
-//             body.classList.remove("theme-active");
-//             localStorage.setItem("theme", "dark");
-//         }
-//     }
-
-//     themeToggle.addEventListener("change", toggleTheme);
-
-//     let savedTheme = localStorage.getItem("theme");
-//     if (savedTheme === "light") {
-//         console.log("Cargando estilos adicionales");
-//         body.classList.add("theme-active");
-//         themeToggle.checked = true; // Establecer el estado del interruptor
-//     } else {
-//         console.log("Cargando estilos primordiales");
-//     }
-// });
 
 document.addEventListener("DOMContentLoaded", function() {
     let themeToggle = document.getElementById("themeToggle");
@@ -44,6 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
             updateMuteBtnColor("dark"); // Llamar a la función para cambiar el color del botón de silenciar
         }
     }
+
 
     function updateMuteBtnColor(theme) {
         if (theme === "light") {

@@ -10,6 +10,7 @@
       width: 35%;
       margin-left: 13px;
       position: relative;
+      margin-left: 0;
     
       // #name:hover + .matrix-container {
       //   display: block;
@@ -34,6 +35,7 @@
         height: 92%; /* Esto hace que el canvas ocupe todo el alto del contenedor */
         display: block;
       }
+      
     }
 
     .right {
@@ -56,7 +58,7 @@
       }
 
       .historia {
-        font-size: 18px;
+        font-size: 19px;
         font-weight: 400;
         padding: 16px;
         letter-spacing: 1px;
