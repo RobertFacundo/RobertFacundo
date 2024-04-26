@@ -6,6 +6,7 @@ import './matrixd.js';
 import './leaves.js';
 import './leavesv.js';
 import './leavese.js';
+import './leavesc.js';
 import './idscroll.js';
 import './backtotop.js';
 import './audiobutton.js';

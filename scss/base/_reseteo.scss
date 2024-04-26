@@ -35,7 +35,7 @@ body {
         z-index: 99;
         display: none;
         /* Por defecto oculto */
-        font-size: 30px;
+        font-size: 40px;
 
         background-color: transparent;
         color: rgba(255, 255, 255, 0.67);
@@ -59,13 +59,13 @@ body {
 
     #muteBtn {
         position: fixed;
-        bottom: 30px;
+        bottom: 40px;
         /* Distancia desde el borde inferior */
-        right: 20px;
+        right: 10px;
         /* Distancia desde el borde derecho */
         z-index: 99;
         display: block;
-        font-size: 50px;
+        font-size: 60px;
 
         background-color: transparent;
         color: rgba(255, 255, 255, 0.56);
@@ -153,7 +153,7 @@ body.theme-active {
                     background-position: center;
                     /* Centra la imagen de fondo dentro del contenedor */
                     background-repeat: no-repeat;
-                    overflow: hidden;
+                    
 
                     .dot {
                         // Estilos para los elementos con la clase .dot dentro del contenedor #container
@@ -385,8 +385,24 @@ body.theme-active {
             /* Centra la imagen de fondo dentro del contenedor */
             background-repeat: no-repeat;
             margin-bottom: -25px;
+            overflow: hidden;
             canvas {
                 display: none;
+            }
+            #container {
+                // Estilos para el contenedor de las hojas
+                display: block !important;
+              z-index: 1;
+              overflow: hidden;
+                .dot {
+                    // Estilos para los elementos con la clase .dot dentro del contenedor #container
+                    width: 60px;
+                    height: 60px;
+                    position: absolute;
+                    background-size: contain;
+                    overflow: hidden;
+                    // Aquí puedes agregar otros estilos específicos para las hojas, como tamaño, posición, etc.
+                }
             }
 
             .hr-titulos {
@@ -394,8 +410,6 @@ body.theme-active {
             }
 
             .links {
-                font-weight: 800;
-                padding-top: 100px;
 
                 a {
                     color: rgba(0, 0, 0, 0.659);

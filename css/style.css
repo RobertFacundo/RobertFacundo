@@ -29,7 +29,7 @@ body {
     z-index: 99;
     display: none;
     /* Por defecto oculto */
-    font-size: 30px;
+    font-size: 40px;
     background-color: transparent;
     color: rgba(255, 255, 255, 0.67);
     border: none;
@@ -46,13 +46,13 @@ body {
       /* Mostrar el botón con opacidad completa */ }
   body #muteBtn {
     position: fixed;
-    bottom: 30px;
+    bottom: 40px;
     /* Distancia desde el borde inferior */
-    right: 20px;
+    right: 10px;
     /* Distancia desde el borde derecho */
     z-index: 99;
     display: block;
-    font-size: 50px;
+    font-size: 60px;
     background-color: transparent;
     color: rgba(255, 255, 255, 0.56);
     border: none;
@@ -97,8 +97,7 @@ body.theme-active {
     /* Hace que la imagen de fondo cubra todo el contenedor */
     background-position: center;
     /* Centra la imagen de fondo dentro del contenedor */
-    background-repeat: no-repeat;
-    overflow: hidden; }
+    background-repeat: no-repeat; }
     body.theme-active .header .titulo-header .left #container .dot {
       width: 60px;
       height: 60px;
@@ -190,18 +189,26 @@ body.theme-active {
     background-position: center top 45px;
     /* Centra la imagen de fondo dentro del contenedor */
     background-repeat: no-repeat;
-    margin-bottom: -25px; }
+    margin-bottom: -25px;
+    overflow: hidden; }
     body.theme-active .main .contacto canvas {
       display: none; }
+    body.theme-active .main .contacto #container {
+      display: block !important;
+      z-index: 1;
+      overflow: hidden; }
+      body.theme-active .main .contacto #container .dot {
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        background-size: contain;
+        overflow: hidden; }
     body.theme-active .main .contacto .hr-titulos {
       border-color: black; }
-    body.theme-active .main .contacto .links {
-      font-weight: 800;
-      padding-top: 100px; }
-      body.theme-active .main .contacto .links a {
-        color: rgba(0, 0, 0, 0.659); }
-        body.theme-active .main .contacto .links a:hover {
-          color: black; }
+    body.theme-active .main .contacto .links a {
+      color: rgba(0, 0, 0, 0.659); }
+      body.theme-active .main .contacto .links a:hover {
+        color: black; }
   body.theme-active .footer .p-footer {
     font-weight: 500; }
     body.theme-active .footer .p-footer span {
@@ -460,7 +467,7 @@ body.theme-active .nav .right li a, body.theme-active .main .contacto .links a {
       justify-content: space-around;
       z-index: 1; }
       .main .proyectos .sitioweb .proyecto .descripcion-proyecto {
-        font-size: 20px;
+        font-size: 18px;
         padding: 0px 30px; }
       .main .proyectos .sitioweb .proyecto .links {
         text-align: center;
@@ -498,7 +505,7 @@ body.theme-active .nav .right li a, body.theme-active .main .contacto .links a {
       justify-content: space-around;
       z-index: 1; }
       .main .proyectos .videojuegos .proyecto .descripcion-proyecto {
-        font-size: 20px;
+        font-size: 18px;
         padding: 0px 30px; }
       .main .proyectos .videojuegos .proyecto .links {
         text-align: center;
@@ -544,7 +551,7 @@ body.theme-active .nav .right li a, body.theme-active .main .contacto .links a {
       justify-content: space-around;
       z-index: 1; }
       .main .proyectos .historia .proyecto .descripcion-proyecto {
-        font-size: 20px;
+        font-size: 18px;
         padding: 0px 30px; }
       .main .proyectos .historia .proyecto .links {
         text-align: center;
@@ -582,7 +589,7 @@ body.theme-active .nav .right li a, body.theme-active .main .contacto .links a {
       justify-content: space-around;
       z-index: 1; }
       .main .proyectos .javascript .proyecto .descripcion-proyecto {
-        font-size: 20px;
+        font-size: 18px;
         padding: 0px 30px; }
       .main .proyectos .javascript .proyecto .links {
         text-align: center;
@@ -628,7 +635,7 @@ body.theme-active .nav .right li a, body.theme-active .main .contacto .links a {
       justify-content: space-around;
       z-index: 1; }
       .main .proyectos .ecommerce .proyecto .descripcion-proyecto {
-        font-size: 20px;
+        font-size: 18px;
         padding: 0px 30px; }
       .main .proyectos .ecommerce .proyecto .links {
         text-align: center;
@@ -666,7 +673,7 @@ body.theme-active .nav .right li a, body.theme-active .main .contacto .links a {
       justify-content: space-around;
       z-index: 1; }
       .main .proyectos .foto .proyecto .descripcion-proyecto {
-        font-size: 20px;
+        font-size: 18px;
         padding: 0px 30px; }
       .main .proyectos .foto .proyecto .links {
         text-align: center;
@@ -712,7 +719,7 @@ body.theme-active .nav .right li a, body.theme-active .main .contacto .links a {
       justify-content: space-around;
       z-index: 1; }
       .main .proyectos .portfolio .proyecto .descripcion-proyecto {
-        font-size: 20px;
+        font-size: 18px;
         padding: 0px 30px; }
       .main .proyectos .portfolio .proyecto .links {
         text-align: center;
@@ -743,6 +750,8 @@ body.theme-active .nav .right li a, body.theme-active .main .contacto .links a {
     position: absolute;
     margin-top: 43px;
     opacity: 0.7; }
+  .main .contacto #container {
+    display: none !important; }
   .main .contacto h2 {
     text-align: center; }
   .main .contacto .hr-titulos {
@@ -753,7 +762,7 @@ body.theme-active .nav .right li a, body.theme-active .main .contacto .links a {
   .main .contacto .links {
     display: flex;
     justify-content: center;
-    margin-top: 10%; }
+    margin-top: 18%; }
     .main .contacto .links a {
       color: rgba(255, 255, 255, 0.413);
       font-size: 39px;
