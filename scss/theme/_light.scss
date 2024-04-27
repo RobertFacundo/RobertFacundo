@@ -64,12 +64,12 @@ body.theme-active {
                     // Estilos para el contenedor de las hojas
                     left: 0;
                     position: relative; // Asegura que los elementos absolutos dentro de este contenedor se posicionen relativos a él
-                    width: 100%; // O el ancho deseado para el contenedor
+                    width: 93%; // O el ancho deseado para el contenedor
                     height: 95%; // O la altura deseada para el contenedor
-                    background-image: url(../../resources/tree-removebg-preview.png);
+                    background-image: url(https://images.unsplash.com/photo-1571683784868-1f418096e355?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
                     background-size: cover;
                     /* Hace que la imagen de fondo cubra todo el contenedor */
-                    background-position: center;
+                    background-position: contain;
                     /* Centra la imagen de fondo dentro del contenedor */
                     background-repeat: no-repeat;
 
@@ -297,7 +297,7 @@ body.theme-active {
         }
 
         .contacto {
-            background-image: url(../../resources/contacto.jpg);
+            background-image: url(https://www.windowschimp.com/wp-content/uploads/2014/12/Windows10Wallpapers.jpg);
             background-size: cover;
             /* Hace que la imagen de fondo cubra todo el contenedor */
             background-position: center top 45px;
