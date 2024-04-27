@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     let isMuted = false;
     let modalShown = false;
-    let audioUrl = "../lcg.mp3"; 
+    let audioUrl = "../lcg!.mp3"; 
 
     let audioPlayer = new Audio(audioUrl);
     audioPlayer.load(); 
