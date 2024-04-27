@@ -37,23 +37,23 @@
 document.addEventListener("DOMContentLoaded", function() {
     let isMuted = false;
     let modalShown = false;
-    let audioUrl = "../resources/lcg.mp3"; // Reemplaza "URL_DEL_AUDIO" con la URL de tu archivo de audio
+    let audioUrl = "../lcg.mp3"; 
 
     let audioPlayer = new Audio(audioUrl);
-    audioPlayer.load(); // Cargar el audio al inicio
+    audioPlayer.load(); 
 
     function toggleMute() {
         let btn = document.getElementById("muteBtn");
         if (isMuted) {
-            btn.innerHTML = "&#x1D13D;"; // Cambiar a ícono de parlante con sonido
+            btn.innerHTML = "&#x1D13D;"; 
             btn.classList.remove("muted");
             btn.classList.add("unmuted");
-            audioPlayer.play(); // Reproducir el audio
+            audioPlayer.play();
         } else {
-            btn.innerHTML = "&#119136;"; // Cambiar a ícono de parlante muteado
+            btn.innerHTML = "&#119136;"; 
             btn.classList.remove("unmuted");
             btn.classList.add("muted"); 
-            audioPlayer.pause(); // Pausar el audio
+            audioPlayer.pause(); 
         }
         isMuted = !isMuted;
     }
