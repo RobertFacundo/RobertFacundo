@@ -902,8 +902,8 @@ body.theme-active {
       z-index: 1;
       overflow: hidden; }
       body.theme-active .main .contacto #container .dot {
-        width: 60px;
-        height: 60px;
+        width: 100px;
+        height: 100px;
         position: absolute;
         background-size: contain;
         overflow: hidden; }

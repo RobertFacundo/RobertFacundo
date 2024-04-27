@@ -8,8 +8,8 @@ let totalLeaves = 27;
 // Imágenes de las hojas
 let leafImages = [
 
-    "../resources/leaf3.png",
-    "../resources/leaf4.png",
+    "https://totalpng.com//public/uploads/preview/autumn-leaf-pngautumn-transparent-png-images-11664787685g1lk5stewj.png",
+    "https://www.seekpng.com/png/full/387-3878276_sycamore-tree-leaf-png.png",
     
 ];
 
