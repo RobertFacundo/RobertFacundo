@@ -2,11 +2,11 @@
 document.addEventListener("DOMContentLoaded", function() {
     let isMuted = false;
     let modalShown = false;
-    // let audioUrl = "../lcg!.mp3"; 
+    let audioUrl = "../lcg_.wav"; 
 
-    // let audioPlayer = new Audio(audioUrl);
-    // audioPlayer.load(); 
-    let audioPlayer = document.getElementById("audioPlayer");
+    let audioPlayer = new Audio(audioUrl);
+    audioPlayer.load(); 
+    // let audioPlayer = document.getElementById("audioPlayer");
 
     function toggleMute() {
         let btn = document.getElementById("muteBtn");
