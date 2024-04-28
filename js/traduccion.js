@@ -134,3 +134,6 @@ document.getElementById("englishButton").addEventListener("click", function() {
     console.log("Clic en botón de inglés");
     cambiarIdiomaInglés();
 });
+
+
+//----------
