@@ -1,4 +1,5 @@
 function cambiarIdiomaEspañol() {
+    console.log("Cambiar idioma a español");
     document.getElementById("proyectosLink").textContent = "Proyectos";
     document.getElementById("experienciaLink").textContent = "Experiencia";
     document.getElementById("certificacionesLink").textContent = "Certificaciones";
@@ -54,13 +55,14 @@ function cambiarIdiomaEspañol() {
 
     document.getElementById("el").textContent = "Experiencia Laboral";
 
-    document.getElementById("ce").textContent = "Certificaciones";
+    document.getElementById("cer").textContent = "Certificaciones";
 
-    document.getElementById("titulocontacto").textContent = "Contacto";
+    document.getElementById("tc").textContent = "Contacto";
 }
 
 // Función para cambiar el idioma a inglés
 function cambiarIdiomaInglés() {
+    console.log("Cambiar idioma a inglés");
     document.getElementById("proyectosLink").textContent = "Projects";
     document.getElementById("experienciaLink").textContent = "Experience";
     document.getElementById("certificacionesLink").textContent = "Certifications";
@@ -118,26 +120,17 @@ function cambiarIdiomaInglés() {
 
     document.getElementById("cer").textContent = "Certifications";
 
-    document.getElementById("titulocontacto").textContent = "Contact";
+    document.getElementById("tc").textContent = "Contact";
 }
 
 
 document.getElementById("spanishButton").addEventListener("click", function() {
+    console.log("Clic en botón de español");
     cambiarIdiomaEspañol();
-    agregarTransicion();
 });
 
+// Evento de click para cambiar a inglés
 document.getElementById("englishButton").addEventListener("click", function() {
+    console.log("Clic en botón de inglés");
     cambiarIdiomaInglés();
-    agregarTransicion();
 });
-
-function agregarTransicion() {
-    // Obtener todos los elementos que deseas animar
-    var elementos = document.querySelectorAll('.transition');
-
-    // Iterar sobre cada elemento y agregar la clase de transición
-    elementos.forEach(function(elemento) {
-        elemento.classList.add('.transition');
-    });
-}

@@ -14,10 +14,6 @@
     /* Color del botón de desplazamiento */
     border-radius: 5px;
     /* Radio de borde del botón de desplazamiento */ }
-  * .transition {
-    transition: opacity 1.3s ease-in-out;
-    opacity: 0;
-    /* Inicia con opacidad 0 para que el elemento esté oculto */ }
 
 body {
   background-color: black;
