@@ -14,6 +14,10 @@
     /* Color del botón de desplazamiento */
     border-radius: 5px;
     /* Radio de borde del botón de desplazamiento */ }
+  * .transition {
+    transition: opacity 1.3s ease-in-out;
+    opacity: 0;
+    /* Inicia con opacidad 0 para que el elemento esté oculto */ }
 
 body {
   background-color: black;
@@ -318,7 +322,8 @@ body.theme-active .modal {
 .nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-between; }
+  justify-content: space-between;
+  align-items: center; }
   .nav .left {
     display: flex;
     list-style-type: none;
@@ -342,7 +347,8 @@ body.theme-active .modal {
       .nav .left .mh:hover span {
         color: white; }
   .nav .right {
-    display: flex; }
+    display: flex;
+    min-width: 760px; }
     .nav .right li {
       list-style-type: none;
       padding: 31px;
@@ -354,6 +360,10 @@ body.theme-active .modal {
         cursor: pointer; }
         .nav .right li a:hover {
           color: white; }
+    .nav .right .switch-container {
+      position: relative;
+      /* Posición relativa para establecer una posición inicial */
+      margin-top: 10px; }
 
 .header {
   font-family: "Dosis", sans-serif; }
@@ -795,7 +805,7 @@ body.theme-active {
     left: 0;
     position: relative;
     width: 93%;
-    height: 95%;
+    min-height: 95%;
     background-image: url(https://images.unsplash.com/photo-1571683784868-1f418096e355?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-size: cover;
     /* Hace que la imagen de fondo cubra todo el contenedor */

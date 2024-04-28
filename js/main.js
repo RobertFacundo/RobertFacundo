@@ -3,7 +3,7 @@ import './themes.js';
 import './themelight.js';
 import './themedark.js';
 
-import './musica.js';
+import './traduccion.js';
 
 import './idscroll.js';
 import './backtotop.js';

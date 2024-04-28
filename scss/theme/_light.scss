@@ -65,7 +65,7 @@ body.theme-active {
                     left: 0;
                     position: relative; // Asegura que los elementos absolutos dentro de este contenedor se posicionen relativos a él
                     width: 93%; // O el ancho deseado para el contenedor
-                    height: 95%; // O la altura deseada para el contenedor
+                    min-height: 95%; // O la altura deseada para el contenedor
                     background-image: url(https://images.unsplash.com/photo-1571683784868-1f418096e355?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
                     background-size: cover;
                     /* Hace que la imagen de fondo cubra todo el contenedor */
