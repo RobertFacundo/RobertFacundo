@@ -11,6 +11,7 @@
     .t-footer {
         font-size: 16px;
         transform: translateX(-130px);
+        display: none;
 
         a {
             padding-left: 4px;
@@ -29,7 +30,7 @@
 
     .p-footer {
         text-align: center;
-        transform: translateX(-250px);
+        transform: translateX(-50px);
 
         span {
             font-size: 18px;

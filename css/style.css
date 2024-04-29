@@ -749,7 +749,8 @@ body.theme-active .modal {
   letter-spacing: 1.3px; }
   .footer .t-footer {
     font-size: 16px;
-    transform: translateX(-130px); }
+    transform: translateX(-130px);
+    display: none; }
     .footer .t-footer a {
       padding-left: 4px;
       text-decoration: none;
@@ -762,7 +763,7 @@ body.theme-active .modal {
         opacity: 1; }
   .footer .p-footer {
     text-align: center;
-    transform: translateX(-250px); }
+    transform: translateX(-50px); }
     .footer .p-footer span {
       font-size: 18px;
       color: white;
