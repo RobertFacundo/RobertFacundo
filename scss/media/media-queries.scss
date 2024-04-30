@@ -382,7 +382,16 @@
 
                     }
                 }
+                .prev{
+                    transform: translateX(-13px);
+                }
+                .next{
+                    transform: translateX(13px);
+                }
             }
+        }
+        .contacto{
+            height: 50vh;
         }
     }
 
