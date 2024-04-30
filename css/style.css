@@ -1126,6 +1126,8 @@ body.theme-active {
       width: 300px !important; }
     .main .certificaciones .slideshow-container .prev {
       transform: translateX(-13px); }
+    .main .certificaciones .slideshow-container .next {
+      transform: translateX(13px); }
     .main .contacto {
       height: 50vh; }
   .footer {
