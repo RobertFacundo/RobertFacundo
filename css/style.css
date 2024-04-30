@@ -1093,7 +1093,7 @@ body.theme-active {
       overflow-x: hidden; }
       body .nav .right {
         flex-direction: column;
-        margin-left: 350px; }
+        padding-left: 100px; }
         body .nav .right .switch-container {
           transform: translateX(200px); }
         body .nav .right li #experienciaLink {
