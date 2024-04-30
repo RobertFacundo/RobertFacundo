@@ -1088,7 +1088,7 @@ body.theme-active {
 
 @media (max-width: 700px) {
   body {
-    margin-left: 100px; }
+    padding-left: 50px; }
     body .nav {
       overflow-x: hidden; }
       body .nav .right {
