@@ -313,12 +313,10 @@
     }
 
     .header {
-        overflow: hidden !important;
         .titulo-header {
             .left {
                 canvas {
                     width: 97%;
-                    overflow: hidden;
                 }
             }
 
@@ -392,9 +390,6 @@
                     }
                 }
             }
-        }
-        .contacto{
-            height: 50vh;
         }
     }
 

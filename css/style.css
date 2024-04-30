@@ -1098,15 +1098,12 @@ body.theme-active {
         transform: translateX(200px); }
       .nav .right li #contactoLink {
         transform: translateX(200px); }
-  .header {
-    overflow: hidden !important; }
-    .header .titulo-header .left canvas {
-      width: 97%;
-      overflow: hidden; }
-    .header .titulo-header .right .historia {
-      text-align: center;
-      width: 100%;
-      padding: 10px; }
+  .header .titulo-header .left canvas {
+    width: 97%; }
+  .header .titulo-header .right .historia {
+    text-align: center;
+    width: 100%;
+    padding: 10px; }
   .main {
     overflow-x: hidden;
     overflow-y: hidden; }
@@ -1129,8 +1126,6 @@ body.theme-active {
         padding-left: 31px; }
     .main .certificaciones .slideshow-container .mySlides img {
       width: 300px !important; }
-    .main .contacto {
-      height: 50vh; }
   .footer {
     overflow-x: hidden;
     margin-left: 43px; }
