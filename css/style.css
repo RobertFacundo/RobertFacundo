@@ -1087,62 +1087,54 @@ body.theme-active {
       width: 609px !important; } }
 
 @media (max-width: 700px) {
-  body {
-    padding-left: 50px; }
-    body .nav {
+  .nav {
+    overflow-x: hidden; }
+    .nav .right {
+      flex-direction: column;
+      margin-left: 350px; }
+      .nav .right .switch-container {
+        transform: translateX(200px); }
+      .nav .right li #experienciaLink {
+        transform: translateX(200px); }
+      .nav .right li #contactoLink {
+        transform: translateX(200px); }
+  .header {
+    overflow: hidden !important; }
+    .header .titulo-header .left canvas {
+      width: 97%;
+      overflow: hidden; }
+    .header .titulo-header .right .historia {
+      text-align: center;
+      width: 100%;
+      padding: 10px; }
+  .main {
+    overflow-x: hidden;
+    overflow-y: hidden; }
+    .main .proyectos {
+      overflow-y: hidden;
       overflow-x: hidden; }
-      body .nav .right {
-        flex-direction: column;
-        padding-left: 100px; }
-        body .nav .right .switch-container {
-          transform: translateX(200px); }
-        body .nav .right li #experienciaLink {
-          transform: translateX(200px); }
-        body .nav .right li #contactoLink {
-          transform: translateX(200px); }
-    body .header {
-      overflow: hidden !important; }
-      body .header .titulo-header .left canvas {
-        width: 97%;
-        overflow: hidden; }
-      body .header .titulo-header .right .historia {
-        text-align: center;
-        width: 100%;
-        padding: 10px; }
-    body .main {
-      overflow-x: hidden;
-      overflow-y: hidden; }
-      body .main .proyectos {
-        overflow-y: hidden;
-        overflow-x: hidden; }
-        body .main .proyectos .sitioweb .proyecto {
-          padding-left: 31px; }
-        body .main .proyectos .videojuegos .proyecto {
-          padding-left: 31px; }
-        body .main .proyectos .historia .proyecto {
-          padding-left: 31px; }
-        body .main .proyectos .javascript .proyecto {
-          padding-left: 31px; }
-        body .main .proyectos .ecommerce .proyecto {
-          padding-left: 31px; }
-        body .main .proyectos .foto .proyecto {
-          padding-left: 31px; }
-        body .main .proyectos .portfolio .proyecto {
-          padding-left: 31px; }
-      body .main .certificaciones .slideshow-container .mySlides img {
-        width: 300px !important; }
-      body .main .certificaciones .slideshow-container .prev {
-        left: 13px; }
-      body .main .certificaciones .slideshow-container .next {
-        right: 13px; }
-      body .main .contacto {
-        height: 53vh; }
-    body .footer {
-      overflow-x: hidden;
-      margin-left: 43px; }
-      body .footer .p-footer {
-        font-size: 13px; }
-        body .footer .p-footer span {
-          opacity: 1; }
-    body #backToTopBtn {
-      display: none !important; } }
+      .main .proyectos .sitioweb .proyecto {
+        padding-left: 31px; }
+      .main .proyectos .videojuegos .proyecto {
+        padding-left: 31px; }
+      .main .proyectos .historia .proyecto {
+        padding-left: 31px; }
+      .main .proyectos .javascript .proyecto {
+        padding-left: 31px; }
+      .main .proyectos .ecommerce .proyecto {
+        padding-left: 31px; }
+      .main .proyectos .foto .proyecto {
+        padding-left: 31px; }
+      .main .proyectos .portfolio .proyecto {
+        padding-left: 31px; }
+    .main .certificaciones .slideshow-container .mySlides img {
+      width: 300px !important; }
+    .main .contacto {
+      height: 50vh; }
+  .footer {
+    overflow-x: hidden;
+    margin-left: 43px; }
+    .footer .p-footer {
+      font-size: 13px; }
+  #backToTopBtn {
+    display: none; } }
