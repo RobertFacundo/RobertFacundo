@@ -1094,10 +1094,8 @@ body.theme-active {
       margin-left: 350px; }
       .nav .right .switch-container {
         transform: translateX(200px); }
-      .nav .right li #experienciaLink {
-        transform: translateX(200px); }
-      .nav .right li #contactoLink {
-        transform: translateX(200px); }
+      .nav .right li {
+        display: none; }
   .header .titulo-header .left canvas {
     width: 97%; }
   .header .titulo-header .right .historia {
