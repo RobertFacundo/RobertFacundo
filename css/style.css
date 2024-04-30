@@ -1099,9 +1099,11 @@ body.theme-active {
       .nav .right li #contactoLink {
         transform: translateX(200px); }
   .main {
-    overflow-x: hidden; }
+    overflow-x: hidden;
+    overflow-y: hidden; }
     .main .proyectos {
-      overflow: hidden; }
+      overflow-y: hidden;
+      overflow-x: hidden; }
       .main .proyectos .sitioweb .proyecto {
         padding-left: 31px; }
       .main .proyectos .videojuegos .proyecto {
