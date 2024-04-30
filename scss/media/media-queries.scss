@@ -1,0 +1,349 @@
+@media (max-width: 1400px) {
+    main {
+        .certificaciones {
+            .slideshow-container {
+                .mySlides{
+                    img{
+                        width: 739px !important;
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 979px) {
+    .nav {
+        flex-direction: column;
+
+        .right {
+            .switch-container {
+                transform: translateX(350px);
+            }
+        }
+    }
+
+    .header {
+        .titulo-header {
+
+            .right {
+                .historia {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+}
+
+
+@media (max-width: 875px) {
+    .header{
+        .titulo-header{
+            flex-direction: column;
+            align-items: center;
+            .left{
+                width: 100%;
+            }
+        }
+    }
+    .main {
+        .proyectos {
+            .sitioweb {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-bottom: 13px;
+
+                .vid {
+                    width: 100%;
+
+                    .video {
+                        width: 90%;
+                    }
+                }
+
+                .proyecto {
+                    width: 100%;
+                    padding-left: 130px;
+
+                    .descripcion-proyecto {
+                        width: 80%;
+                    }
+
+                    .links {
+                        padding-top: 10px;
+                    }
+                }
+            }
+
+            .videojuegos {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-bottom: 13px;
+                .vid {
+                    width: 100%;
+
+                    .video {
+                        width: 90%;
+                    }
+                }
+
+                .proyecto {
+                    width: 100%;
+                    padding-top: 10px;
+                    padding-left: 130px;
+
+                    .descripcion-proyecto {
+                        justify-content: center;
+                        text-align: center;
+                        width: 80%;
+                    }
+
+                    .links {
+                        padding: 10px;
+                    }
+                }
+            }
+
+            .historia {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-bottom: 13px;
+                .vid {
+                    width: 100%;
+
+                    .video {
+                        width: 90%;
+                    }
+                }
+
+                .proyecto {
+                    width: 100%;
+                    padding-left: 130px;
+
+                    .descripcion-proyecto {
+                        justify-content: center;
+                        width: 80%;
+                    }
+
+                    .links {
+                        padding-top: 10px;
+                    }
+                }
+            }
+
+            .javascript {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-bottom: 13px;
+                .vid {
+                    width: 100%;
+
+                    .video {
+                        width: 90%;
+                    }
+                }
+
+                .proyecto {
+                    width: 100%;
+                    padding-top: 10px;
+                    padding-left: 130px;
+
+                    .descripcion-proyecto {
+                        justify-content: center;
+                        text-align: center;
+                        width: 80%;
+                    }
+
+                    .links {
+                        padding: 10px;
+                    }
+
+                    canvas#d {
+                        display: none;
+                    }
+                }
+            }
+
+            .ecommerce {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-bottom: 13px;
+                .vid {
+                    width: 100%;
+
+                    .video {
+                        width: 90%;
+                    }
+                }
+
+                .proyecto {
+                    width: 100%;
+                    padding-left: 130px;
+
+                    .descripcion-proyecto {
+                        justify-content: center;
+                        width: 80%;
+                    }
+
+                    .links {
+                        padding-top: 10px;
+                    }
+                }
+            }
+
+            .foto {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-bottom: 13px;
+                .vid {
+                    width: 100%;
+
+                    .video {
+                        width: 90%;
+                    }
+                }
+
+                .proyecto {
+                    width: 100%;
+                    padding-top: 10px;
+                    padding-left: 130px;
+
+                    .descripcion-proyecto {
+                        justify-content: center;
+                        text-align: center;
+                        width: 80%;
+                    }
+
+                    .links {
+                        padding: 10px;
+                    }
+                }
+            }
+
+            .portfolio {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-bottom: 13px;
+                .vid {
+                    width: 100%;
+
+                    .video {
+                        width: 90%;
+                    }
+                }
+
+                .proyecto {
+                    width: 100%;
+                    padding-left: 130px;
+
+                    .descripcion-proyecto {
+                        justify-content: center;
+                        width: 80%;
+                    }
+
+                    .links {
+                        padding-top: 10px;
+                    }
+                }
+            }
+        }
+        .certificaciones {
+            .slideshow-container {
+                .mySlides{
+                    img{
+                        width: 609px !important;
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 700px){
+    .nav{
+        .right{
+            flex-direction: column;
+            margin-left: 250px;
+            .switch-container {
+                transform: translateX(239px);
+            }
+            li{
+                #experienciaLink{
+                  transform: translateX(300px);
+                }
+                #contactoLink{
+                    transform: translateX(300px);
+                    
+                }
+            }
+        }
+    }
+
+    .main {
+        .proyectos {
+            .sitioweb {
+                .proyecto {
+                    padding-left: 31px;
+                }
+            }
+            .videojuegos{
+                .proyecto {
+                    padding-left: 31px;
+                }
+            }
+            .historia{
+                .proyecto {
+                    padding-left: 31px;
+                }
+            }
+            .javascript{
+                .proyecto {
+                    padding-left: 31px;
+                }
+            }
+            .ecommerce{
+                .proyecto {
+                    padding-left: 31px;
+                }
+            }
+            .foto{
+                .proyecto {
+                    padding-left: 31px;
+                }
+            }
+            .portfolio{
+                .proyecto {
+                    padding-left: 31px;
+                }
+            }
+        }
+        .certificaciones {
+            .slideshow-container {
+                .mySlides{
+                    img{
+                        width: 399px !important;
+
+                    }
+                }
+            }
+        }
+    }
+    .footer{
+        margin-left: 43px;
+    }
+
+    #backToTopBtn{
+        bottom: 33px;
+    }
+
+}
