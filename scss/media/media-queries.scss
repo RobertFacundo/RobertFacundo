@@ -1,5 +1,6 @@
 @media (max-width: 1400px) {
     main {
+        overflow-x: hidden;
         .certificaciones {
             .slideshow-container {
                 .mySlides{
@@ -15,6 +16,7 @@
 
 @media (max-width: 979px) {
     .nav {
+        overflow-x: hidden;
         flex-direction: column;
 
         .right {
@@ -25,6 +27,7 @@
     }
 
     .header {
+        overflow-x: hidden;
         .titulo-header {
 
             .right {
@@ -40,6 +43,7 @@
 
 @media (max-width: 875px) {
     .header{
+        overflow-x: hidden;
         .titulo-header{
             flex-direction: column;
             align-items: center;
@@ -49,6 +53,7 @@
         }
     }
     .main {
+        overflow-x: hidden;
         .proyectos {
             .sitioweb {
                 display: flex;
@@ -271,18 +276,19 @@
 
 @media (max-width: 700px){
     .nav{
+        overflow-x: hidden;
         .right{
             flex-direction: column;
-            margin-left: 250px;
+            margin-left: 350px;
             .switch-container {
                 transform: translateX(239px);
             }
             li{
                 #experienciaLink{
-                  transform: translateX(300px);
+                  transform: translateX(200px);
                 }
                 #contactoLink{
-                    transform: translateX(300px);
+                    transform: translateX(200px);
                     
                 }
             }
@@ -290,6 +296,7 @@
     }
 
     .main {
+        overflow-x: hidden;
         .proyectos {
             .sitioweb {
                 .proyecto {
@@ -331,7 +338,7 @@
             .slideshow-container {
                 .mySlides{
                     img{
-                        width: 399px !important;
+                        width: 300px !important;
 
                     }
                 }
@@ -339,7 +346,9 @@
         }
     }
     .footer{
+        overflow-x: hidden;
         margin-left: 43px;
+        font-size: 13px;
     }
 
     #backToTopBtn{
