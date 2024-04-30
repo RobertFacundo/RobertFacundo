@@ -289,7 +289,7 @@
 
 @media (max-width: 700px) {
     body {
-   margin-left: 100px;
+        margin-left: 100px;
 
         .nav {
             overflow-x: hidden;
@@ -395,6 +395,14 @@
 
                         }
                     }
+
+                    .prev {
+                        left: 13px;
+                    }
+
+                    .next {
+                        right: 13px;
+                    }
                 }
             }
 
@@ -413,7 +421,7 @@
         }
 
         #backToTopBtn {
-            display: none;
+            display: none !important;
         }
 
     }
