@@ -1093,27 +1093,29 @@ body.theme-active {
       flex-direction: column;
       margin-left: 350px; }
       .nav .right .switch-container {
-        transform: translateX(239px); }
+        transform: translateX(213px); }
       .nav .right li #experienciaLink {
         transform: translateX(200px); }
       .nav .right li #contactoLink {
         transform: translateX(200px); }
   .main {
     overflow-x: hidden; }
-    .main .proyectos .sitioweb .proyecto {
-      padding-left: 31px; }
-    .main .proyectos .videojuegos .proyecto {
-      padding-left: 31px; }
-    .main .proyectos .historia .proyecto {
-      padding-left: 31px; }
-    .main .proyectos .javascript .proyecto {
-      padding-left: 31px; }
-    .main .proyectos .ecommerce .proyecto {
-      padding-left: 31px; }
-    .main .proyectos .foto .proyecto {
-      padding-left: 31px; }
-    .main .proyectos .portfolio .proyecto {
-      padding-left: 31px; }
+    .main .proyectos {
+      overflow: hidden; }
+      .main .proyectos .sitioweb .proyecto {
+        padding-left: 31px; }
+      .main .proyectos .videojuegos .proyecto {
+        padding-left: 31px; }
+      .main .proyectos .historia .proyecto {
+        padding-left: 31px; }
+      .main .proyectos .javascript .proyecto {
+        padding-left: 31px; }
+      .main .proyectos .ecommerce .proyecto {
+        padding-left: 31px; }
+      .main .proyectos .foto .proyecto {
+        padding-left: 31px; }
+      .main .proyectos .portfolio .proyecto {
+        padding-left: 31px; }
     .main .certificaciones .slideshow-container .mySlides img {
       width: 300px !important; }
   .footer {

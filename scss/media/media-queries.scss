@@ -281,7 +281,7 @@
             flex-direction: column;
             margin-left: 350px;
             .switch-container {
-                transform: translateX(239px);
+                transform: translateX(213px);
             }
             li{
                 #experienciaLink{
@@ -298,6 +298,7 @@
     .main {
         overflow-x: hidden;
         .proyectos {
+            overflow: hidden;
             .sitioweb {
                 .proyecto {
                     padding-left: 31px;
