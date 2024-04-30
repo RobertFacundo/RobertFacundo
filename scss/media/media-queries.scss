@@ -288,127 +288,133 @@
 }
 
 @media (max-width: 700px) {
-    .nav {
-        overflow-x: hidden;
+    body {
+   margin-left: 100px;
 
-        .right {
-            flex-direction: column;
-            margin-left: 350px;
-
-            .switch-container {
-                transform: translateX(200px);
-            }
-
-            li {
-                #experienciaLink {
-                    transform: translateX(200px);
-                }
-
-                #contactoLink {
-                    transform: translateX(200px);
-
-                }
-            }
-        }
-    }
-
-    .header {
-        overflow: hidden !important;
-        .titulo-header {
-            .left {
-                canvas {
-                    width: 97%;
-                    overflow: hidden;
-                }
-            }
-
-            .right {
-                .historia {
-                    text-align: center;
-                    width: 100%;
-                    padding: 10px;
-                }
-            }
-        }
-    }
-
-    .main {
-        overflow-x: hidden;
-        overflow-y: hidden;
-
-        .proyectos {
-            overflow-y: hidden;
+        .nav {
             overflow-x: hidden;
 
-            .sitioweb {
-                .proyecto {
-                    padding-left: 31px;
-                }
-            }
+            .right {
+                flex-direction: column;
+                margin-left: 350px;
 
-            .videojuegos {
-                .proyecto {
-                    padding-left: 31px;
+                .switch-container {
+                    transform: translateX(200px);
                 }
-            }
 
-            .historia {
-                .proyecto {
-                    padding-left: 31px;
-                }
-            }
+                li {
+                    #experienciaLink {
+                        transform: translateX(200px);
+                    }
 
-            .javascript {
-                .proyecto {
-                    padding-left: 31px;
-                }
-            }
-
-            .ecommerce {
-                .proyecto {
-                    padding-left: 31px;
-                }
-            }
-
-            .foto {
-                .proyecto {
-                    padding-left: 31px;
-                }
-            }
-
-            .portfolio {
-                .proyecto {
-                    padding-left: 31px;
-                }
-            }
-        }
-
-        .certificaciones {
-            .slideshow-container {
-                .mySlides {
-                    img {
-                        width: 300px !important;
+                    #contactoLink {
+                        transform: translateX(200px);
 
                     }
                 }
             }
         }
-        .contacto{
-            height: 53vh;
+
+        .header {
+            overflow: hidden !important;
+
+            .titulo-header {
+                .left {
+                    canvas {
+                        width: 97%;
+                        overflow: hidden;
+                    }
+                }
+
+                .right {
+                    .historia {
+                        text-align: center;
+                        width: 100%;
+                        padding: 10px;
+                    }
+                }
+            }
         }
-    }
 
-    .footer {
-        overflow-x: hidden;
-        margin-left: 43px;
+        .main {
+            overflow-x: hidden;
+            overflow-y: hidden;
 
-        .p-footer {
-            font-size: 13px;
+            .proyectos {
+                overflow-y: hidden;
+                overflow-x: hidden;
+
+                .sitioweb {
+                    .proyecto {
+                        padding-left: 31px;
+                    }
+                }
+
+                .videojuegos {
+                    .proyecto {
+                        padding-left: 31px;
+                    }
+                }
+
+                .historia {
+                    .proyecto {
+                        padding-left: 31px;
+                    }
+                }
+
+                .javascript {
+                    .proyecto {
+                        padding-left: 31px;
+                    }
+                }
+
+                .ecommerce {
+                    .proyecto {
+                        padding-left: 31px;
+                    }
+                }
+
+                .foto {
+                    .proyecto {
+                        padding-left: 31px;
+                    }
+                }
+
+                .portfolio {
+                    .proyecto {
+                        padding-left: 31px;
+                    }
+                }
+            }
+
+            .certificaciones {
+                .slideshow-container {
+                    .mySlides {
+                        img {
+                            width: 300px !important;
+
+                        }
+                    }
+                }
+            }
+
+            .contacto {
+                height: 53vh;
+            }
         }
-    }
 
-    #backToTopBtn {
-        display: none;
-    }
+        .footer {
+            overflow-x: hidden;
+            margin-left: 43px;
 
+            .p-footer {
+                font-size: 13px;
+            }
+        }
+
+        #backToTopBtn {
+            display: none;
+        }
+
+    }
 }
