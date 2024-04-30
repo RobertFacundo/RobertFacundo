@@ -1134,6 +1134,6 @@ body.theme-active {
     overflow-x: hidden;
     margin-left: 43px; }
     .footer .p-footer {
-      font-size: 13px; }
+      font-size: 9px; }
   #backToTopBtn {
-    display: none; } }
+    opacity: 0; } }

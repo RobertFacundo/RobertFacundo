@@ -400,12 +400,12 @@
         margin-left: 43px;
 
         .p-footer {
-            font-size: 13px;
+            font-size: 9px;
         }
     }
 
     #backToTopBtn {
-        display: none !important;
+       opacity: 0;
     }
 
 }
