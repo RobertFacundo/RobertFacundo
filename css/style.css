@@ -1142,5 +1142,7 @@ body.theme-active {
       margin-left: 43px; }
       body .footer .p-footer {
         font-size: 13px; }
+        body .footer .p-footer span {
+          opacity: 1; }
     body #backToTopBtn {
       display: none !important; } }
