@@ -1129,6 +1129,8 @@ body.theme-active {
         padding-left: 31px; }
     .main .certificaciones .slideshow-container .mySlides img {
       width: 300px !important; }
+    .main .contacto {
+      height: 53vh; }
   .footer {
     overflow-x: hidden;
     margin-left: 43px; }
