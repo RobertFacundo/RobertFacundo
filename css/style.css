@@ -1093,11 +1093,20 @@ body.theme-active {
       flex-direction: column;
       margin-left: 350px; }
       .nav .right .switch-container {
-        transform: translateX(213px); }
+        transform: translateX(200px); }
       .nav .right li #experienciaLink {
         transform: translateX(200px); }
       .nav .right li #contactoLink {
         transform: translateX(200px); }
+  .header {
+    overflow: hidden !important; }
+    .header .titulo-header .left canvas {
+      width: 97%;
+      overflow: hidden; }
+    .header .titulo-header .right .historia {
+      text-align: center;
+      width: 100%;
+      padding: 10px; }
   .main {
     overflow-x: hidden;
     overflow-y: hidden; }
@@ -1122,7 +1131,8 @@ body.theme-active {
       width: 300px !important; }
   .footer {
     overflow-x: hidden;
-    margin-left: 43px;
-    font-size: 13px; }
+    margin-left: 43px; }
+    .footer .p-footer {
+      font-size: 13px; }
   #backToTopBtn {
-    bottom: 33px; } }
+    display: none; } }

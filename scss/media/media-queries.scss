@@ -1,10 +1,11 @@
 @media (max-width: 1400px) {
     main {
         overflow-x: hidden;
+
         .certificaciones {
             .slideshow-container {
-                .mySlides{
-                    img{
+                .mySlides {
+                    img {
                         width: 739px !important;
 
                     }
@@ -28,6 +29,7 @@
 
     .header {
         overflow-x: hidden;
+
         .titulo-header {
 
             .right {
@@ -42,18 +44,22 @@
 
 
 @media (max-width: 875px) {
-    .header{
+    .header {
         overflow-x: hidden;
-        .titulo-header{
+
+        .titulo-header {
             flex-direction: column;
             align-items: center;
-            .left{
+
+            .left {
                 width: 100%;
             }
         }
     }
+
     .main {
         overflow-x: hidden;
+
         .proyectos {
             .sitioweb {
                 display: flex;
@@ -88,6 +94,7 @@
                 flex-direction: column;
                 align-items: center;
                 padding-bottom: 13px;
+
                 .vid {
                     width: 100%;
 
@@ -118,6 +125,7 @@
                 flex-direction: column;
                 align-items: center;
                 padding-bottom: 13px;
+
                 .vid {
                     width: 100%;
 
@@ -146,6 +154,7 @@
                 flex-direction: column;
                 align-items: center;
                 padding-bottom: 13px;
+
                 .vid {
                     width: 100%;
 
@@ -180,6 +189,7 @@
                 flex-direction: column;
                 align-items: center;
                 padding-bottom: 13px;
+
                 .vid {
                     width: 100%;
 
@@ -208,6 +218,7 @@
                 flex-direction: column;
                 align-items: center;
                 padding-bottom: 13px;
+
                 .vid {
                     width: 100%;
 
@@ -238,6 +249,7 @@
                 flex-direction: column;
                 align-items: center;
                 padding-bottom: 13px;
+
                 .vid {
                     width: 100%;
 
@@ -261,10 +273,11 @@
                 }
             }
         }
+
         .certificaciones {
             .slideshow-container {
-                .mySlides{
-                    img{
+                .mySlides {
+                    img {
                         width: 609px !important;
 
                     }
@@ -274,22 +287,46 @@
     }
 }
 
-@media (max-width: 700px){
-    .nav{
+@media (max-width: 700px) {
+    .nav {
         overflow-x: hidden;
-        .right{
+
+        .right {
             flex-direction: column;
             margin-left: 350px;
+
             .switch-container {
-                transform: translateX(213px);
+                transform: translateX(200px);
             }
-            li{
-                #experienciaLink{
-                  transform: translateX(200px);
-                }
-                #contactoLink{
+
+            li {
+                #experienciaLink {
                     transform: translateX(200px);
-                    
+                }
+
+                #contactoLink {
+                    transform: translateX(200px);
+
+                }
+            }
+        }
+    }
+
+    .header {
+        overflow: hidden !important;
+        .titulo-header {
+            .left {
+                canvas {
+                    width: 97%;
+                    overflow: hidden;
+                }
+            }
+
+            .right {
+                .historia {
+                    text-align: center;
+                    width: 100%;
+                    padding: 10px;
                 }
             }
         }
@@ -298,49 +335,58 @@
     .main {
         overflow-x: hidden;
         overflow-y: hidden;
+
         .proyectos {
             overflow-y: hidden;
             overflow-x: hidden;
+
             .sitioweb {
                 .proyecto {
                     padding-left: 31px;
                 }
             }
-            .videojuegos{
+
+            .videojuegos {
                 .proyecto {
                     padding-left: 31px;
                 }
             }
-            .historia{
+
+            .historia {
                 .proyecto {
                     padding-left: 31px;
                 }
             }
-            .javascript{
+
+            .javascript {
                 .proyecto {
                     padding-left: 31px;
                 }
             }
-            .ecommerce{
+
+            .ecommerce {
                 .proyecto {
                     padding-left: 31px;
                 }
             }
-            .foto{
+
+            .foto {
                 .proyecto {
                     padding-left: 31px;
                 }
             }
-            .portfolio{
+
+            .portfolio {
                 .proyecto {
                     padding-left: 31px;
                 }
             }
         }
+
         .certificaciones {
             .slideshow-container {
-                .mySlides{
-                    img{
+                .mySlides {
+                    img {
                         width: 300px !important;
 
                     }
@@ -348,14 +394,18 @@
             }
         }
     }
-    .footer{
+
+    .footer {
         overflow-x: hidden;
         margin-left: 43px;
-        font-size: 13px;
+
+        .p-footer {
+            font-size: 13px;
+        }
     }
 
-    #backToTopBtn{
-        bottom: 33px;
+    #backToTopBtn {
+        display: none;
     }
 
 }
