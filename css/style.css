@@ -390,14 +390,22 @@ body.theme-active .modal {
     .header .titulo-header .right {
       width: 65%;
       padding-bottom: 23px; }
-      .header .titulo-header .right h2 {
-        font-size: 28px;
-        font-weight: 300;
-        margin-left: 5px;
-        margin-top: 22px;
-        padding-top: 19px;
-        padding-bottom: 4px;
-        letter-spacing: 3px; }
+      .header .titulo-header .right .t {
+        display: flex;
+        flex-direction: row; }
+        .header .titulo-header .right .t h2 {
+          font-size: 28px;
+          font-weight: 300;
+          margin-left: 5px;
+          margin-top: 22px;
+          padding-top: 19px;
+          padding-bottom: 4px;
+          letter-spacing: 3px; }
+        .header .titulo-header .right .t .l {
+          font-size: 13px;
+          font-weight: 100;
+          padding-top: 57px;
+          padding-left: 39px; }
       .header .titulo-header .right .hr {
         width: 80%;
         margin-bottom: 13px; }
@@ -658,9 +666,8 @@ body.theme-active .modal {
       .main .proyectos .foto .vid canvas#z {
         z-index: 0;
         position: absolute;
-        opacity: 0.5;
-        height: 100%;
-        transform: translateY(-50px); }
+        opacity: 0.8;
+        height: 100%; }
   .main .proyectos .portfolio {
     display: flex;
     background-color: none;
@@ -699,6 +706,52 @@ body.theme-active .modal {
           padding: 0px 13px; }
           .main .proyectos .portfolio .proyecto .links .link:hover {
             color: white; }
+  .main .proyectos .music {
+    display: flex;
+    background-color: #090909;
+    font-family: "Dosis", sans-serif;
+    letter-spacing: 1px; }
+    .main .proyectos .music .vid {
+      width: 61%;
+      padding: 50px 13px;
+      display: flex;
+      justify-content: center;
+      z-index: 1; }
+      .main .proyectos .music .vid video {
+        z-index: 1;
+        width: 80%;
+        border-radius: 1%;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer; }
+        .main .proyectos .music .vid video:hover {
+          transform: scale(1.01); }
+    .main .proyectos .music .proyecto {
+      width: 39%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      z-index: 1; }
+      .main .proyectos .music .proyecto .descripcion-proyecto {
+        font-size: 18px;
+        padding: 0px 30px; }
+      .main .proyectos .music .proyecto .links {
+        text-align: center;
+        font-size: 18px; }
+        .main .proyectos .music .proyecto .links .link {
+          text-decoration: none;
+          color: rgba(255, 255, 255, 0.864);
+          cursor: pointer;
+          padding: 0px 13px; }
+          .main .proyectos .music .proyecto .links .link:hover {
+            color: white; }
+    .main .proyectos .music .vid {
+      position: relative; }
+      .main .proyectos .music .vid canvas#m {
+        z-index: 0;
+        position: absolute;
+        opacity: 0.5;
+        height: 100%;
+        transform: translateY(-50px); }
   .main .proyectos .hr-pr {
     width: 27%;
     transform: translateX(130%);
@@ -1135,5 +1188,7 @@ body.theme-active {
     margin-left: 43px; }
     .footer .p-footer {
       font-size: 9px; }
+      .footer .p-footer span {
+        opacity: 1; }
   #backToTopBtn {
     opacity: 0; } }

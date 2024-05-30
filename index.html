@@ -41,7 +41,7 @@
                 <span class="slider"></span>
             </label>
             <li><a href="#proyectos" id="proyectosLink">Proyectos</a></li>
-            <li><a href="#el" id="experienciaLink">Experiencia</a></li>
+            <!-- <li><a href="#el" id="experienciaLink">Experiencia</a></li> -->
             <li><a href="#cer" id="certificacionesLink">Certificaciones</a></li>
             <li><a href="#contacto" id="contactoLink">Contacto</a></li>
         </ul>
@@ -57,7 +57,9 @@
                 </div>
             </section>
             <section class="right">
-                <h2 id="titulo">Desarrollador Web</h2>
+                <div class="t">
+                    <h2 id="titulo">Desarrollador Web</h2> <span class="l" id="leng">HTML CSS JS // SCSS</span>
+                </div>
                 <hr class="hr">
                 <p id="parrafo1" class="historia">
                     Originalmente de <b>Argentina</b>, mi trayectoria comenzó en el mundo de la música, donde desarrollé
@@ -103,8 +105,7 @@
                         display: flex y conocer la maravilla del hover. Aprobado con nota sobresaliente,
                         de yapa aproveché el sitio para subir cuentos que había escrito en otro tiempo.</p>
                     <p class="links"> <a target="_blank" href="https://robertfacundo.github.io/PreEntrega3Robert/"
-                            class="link" id="l1">Visitar</a> | <a href="#" class="link" onclick="downloadFile()"
-                            download id="l2">Descargar</a></p>
+                            class="link" id="l1">Visitar</a>
                 </div>
             </section>
             <hr class="hr-pr">
@@ -114,8 +115,7 @@
                         videojuegos. Me entretuve ideando el carrousel infinito, grid, un input de busqueda... y mas
                         hover.</p>
                     <p class="links"> <a target="_blank" href="https://robertfacundo.github.io/Practica-WebVideojuegos/"
-                            class="link" id="l3">Visitar</a> | <a href="#" class="link" onclick="downloadFile()"
-                            download id="l4">Descargar</a></p>
+                            class="link" id="l3">Visitar</a>
                 </div>
                 <div id="container">
                     <!-- Contenedor para las hojas -->
@@ -136,20 +136,18 @@
                         desafío fue hacer un menú desplegable que salga desde detrás del slider de imágenes sin que se
                         rompa todo lo que habia hecho.</p>
                     <p class="links"> <a id="l5" target="_blank" href="https://robertfacundo.github.io/SitioWebHistoria-/"
-                            class="link">Visitar</a> | <a id="l6" href="#" class="link" onclick="downloadFile()"
-                            download>Descargar</a></p>
+                            class="link">Visitar</a>
                 </div>
             </section>
             <hr class="hr-pr">
             <section class="javascript">
                 <div class="proyecto">
                     <canvas id="d"></canvas>
-                    <p class="descripcion-proyecto" id="t4">Este sitio (aún en desarrollo) es el proyecto final del curso de
-                        Javascript. Se implementan ciclos iterativos, condicionales, y salidas y entradas por prompt,
+                    <p class="descripcion-proyecto" id="t4">Este sitio es el proyecto final del curso de
+                        Javascript. Se implementan ciclos iterativos, condicionales, modificaciones del DOM,
                         además de tener un carro de compras completamente funcional.</p>
                     <p class="links"> <a target="_blank" href="https://robertfacundo.github.io/ProyectoFinalJavaScript/"
-                            class="link" id="l7">Visitar</a> | <a id="l8" href="#" class="link" onclick="downloadFile()"
-                            download>Descargar</a></p>
+                            class="link" id="l7">Visitar</a>
                 </div>
                 <div class="vid">
                     <video autoplay loop src="./resources/videos/js.mp4"></video>
@@ -168,8 +166,7 @@
                         practicar la disposicion de las grillas, presentación de productos, y funcionalidades como
                         filtros y eventos onclick.</p>
                     <p class="links"> <a target="_blank" href="https://robertfacundo.github.io/PracticaEcommerceRopa/"
-                            class="link" id="l9">Visitar</a> | <a id="l10" href="#" class="link" onclick="downloadFile()"
-                            download>Descargar</a></p>
+                            class="link" id="l9">Visitar</a>
                 </div>
             </section>
             <hr class="hr-pr">
@@ -178,8 +175,7 @@
                     <p id="t6" class="descripcion-proyecto">Se me ocurrió hacer un portfolio fotográfico en el que podía seguir
                         practicando y perfeccionando las habilidades que venia aprendiendo en los diferentes cursos.</p>
                     <p class="links"> <a id="l11" target="_blank" href="https://robertfacundo.github.io/PortfolioFotografia/"
-                            class="link">Visitar</a> | <a id="l12"  href="#" class="link" onclick="downloadFile()"
-                            download>Descargar</a></p>
+                            class="link">Visitar</a>
                 </div>
                 <div class="vid">
                     <canvas id="z"></canvas>
@@ -198,17 +194,32 @@
                         para ello uso extends, mixins, variables, SASS e importación de archivos JS para una mejor
                         organización. Además cuenta con dos themes, uno
                         dark y otro light, cada uno con sus respectivas animaciones. </p>
-                    <p class="links"> <a id="l13" href="#" class="link">Visitar</a> | <a id="l14" href="#" class="link"
-                            onclick="downloadFile()" download>Descargar</a></p>
+                    <p class="links"> <a id="l13" href="#" class="link">Visitar</a>
+                </div>
+            </section>
+            <section class="music">
+                <div class="proyecto">
+                    <p id="t8" class="descripcion-proyecto">E-commerce de instrumentos musicales con carrito de compras. 
+                        Utilicé fetch para obtener los datos de los productos desde un archivo JSON y mostrarlos en el DOM mediante 
+                        una función asíncrona. Los productos se pueden visualizar al seleccionar la categoría correspondiente 
+                        en la barra de navegación. Cada producto tiene la opción de ser visto en pantalla completa 
+                        al hacer clic en su imagen, y se incluye un contador para el carrito de compras en un botón flotante. 
+                        Los estilos están definidos en SCSS para una presentación atractiva y responsiva de la tienda.</p>
+                    <p class="links"> <a id="l15" target="_blank" href="https://robertfacundo.github.io/musicShop/"
+                            class="link">Visitar</a>
+                </div>
+                <div class="vid">
+                    <canvas id="m"></canvas>
+                    <video autoplay loop src="./resources/videos/musicShop.mp4"></video>
                 </div>
             </section>
         </section>
-        <section class="experiencialaboral">
+        <!-- <section class="experiencialaboral">
             <div class="titulos">
                 <h2 id="el" >Experiencia Laboral</h2>
                 <hr class="hr-titulos">
             </div>
-        </section>
+        </section> -->
         <section class="certificaciones">
             <div class="titulos">
                 <h2 id="cer" >Certificaciones</h2>

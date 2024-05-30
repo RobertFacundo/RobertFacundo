@@ -11,11 +11,11 @@
       margin-left: 13px;
       position: relative;
       margin-left: 0;
-    
+
       // #name:hover + .matrix-container {
       //   display: block;
       // }
-    
+
       h1 {
         font-size: 30px;
         margin-left: 5px;
@@ -23,33 +23,46 @@
         padding-bottom: 7px;
         letter-spacing: 4px;
       }
-    
+
       .hr {
         width: 93%;
       }
-    
+
       canvas {
         padding-top: 5px;
         margin-left: 3px;
         width: 93%;
-        height: 92%; /* Esto hace que el canvas ocupe todo el alto del contenedor */
+        height: 92%;
+        /* Esto hace que el canvas ocupe todo el alto del contenedor */
         display: block;
       }
-      
+
     }
 
     .right {
       width: 65%;
       padding-bottom: 23px;
 
-      h2 {
-        font-size: 28px;
-        font-weight: 300;
-        margin-left: 5px;
-        margin-top: 22px;
-        padding-top: 19px;
-        padding-bottom: 4px;
-        letter-spacing: 3px;
+      .t {
+        display: flex;
+        flex-direction: row;
+        h2 {
+          font-size: 28px;
+          font-weight: 300;
+          margin-left: 5px;
+          margin-top: 22px;
+          padding-top: 19px;
+          padding-bottom: 4px;
+          letter-spacing: 3px;
+        }
+
+          .l {
+            font-size: 13px;
+            font-weight: 100;
+            padding-top: 57px;
+            padding-left: 39px;
+          }
+        
       }
 
       .hr {
