@@ -30,15 +30,30 @@
 
         .javascript {
             @include sitioweb;
-            .proyecto{
+
+            .proyecto {
                 position: relative;
                 z-index: 1;
+
                 canvas#d {
                     z-index: -1;
                     position: absolute;
                     opacity: 0.5;
                     height: 100%;
                     // transform: translateY(-50px);
+                }
+
+                .descripcion-proyecto {
+                    a {
+                        text-decoration: none !important;
+                        font-family: $font-titulo;
+                        letter-spacing: 1px;
+                        color: rgba(255, 255, 255, 0.864);
+                        transition: color 0.4s linear;
+                        &:hover {
+                            color: white;
+                        }
+                    }
                 }
             }
         }
@@ -47,7 +62,7 @@
             @include sitioweb (none);
         }
 
-        .foto{
+        .foto {
             @include sitioweb;
 
             .vid {
@@ -67,7 +82,7 @@
             @include sitioweb(none);
         }
 
-        .music{
+        .music {
             @include sitioweb;
 
             .vid {
@@ -115,6 +130,7 @@
             margin-top: 43px;
             opacity: 0.7;
         }
+
         #container {
             display: none !important;
         }

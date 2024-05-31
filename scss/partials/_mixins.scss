@@ -37,6 +37,11 @@
         .descripcion-proyecto{
             font-size: 18px;
             padding: 0px 30px;
+            a{
+                text-decoration: none;
+                font-family: $font-titulo;
+                letter-spacing: 1px;
+            }
         }
 
         .links {

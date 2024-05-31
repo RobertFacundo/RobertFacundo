@@ -445,6 +445,10 @@ body.theme-active .modal {
       .main .proyectos .sitioweb .proyecto .descripcion-proyecto {
         font-size: 18px;
         padding: 0px 30px; }
+        .main .proyectos .sitioweb .proyecto .descripcion-proyecto a {
+          text-decoration: none;
+          font-family: "Dosis", sans-serif;
+          letter-spacing: 1px; }
       .main .proyectos .sitioweb .proyecto .links {
         text-align: center;
         font-size: 18px; }
@@ -483,6 +487,10 @@ body.theme-active .modal {
       .main .proyectos .videojuegos .proyecto .descripcion-proyecto {
         font-size: 18px;
         padding: 0px 30px; }
+        .main .proyectos .videojuegos .proyecto .descripcion-proyecto a {
+          text-decoration: none;
+          font-family: "Dosis", sans-serif;
+          letter-spacing: 1px; }
       .main .proyectos .videojuegos .proyecto .links {
         text-align: center;
         font-size: 18px; }
@@ -529,6 +537,10 @@ body.theme-active .modal {
       .main .proyectos .historia .proyecto .descripcion-proyecto {
         font-size: 18px;
         padding: 0px 30px; }
+        .main .proyectos .historia .proyecto .descripcion-proyecto a {
+          text-decoration: none;
+          font-family: "Dosis", sans-serif;
+          letter-spacing: 1px; }
       .main .proyectos .historia .proyecto .links {
         text-align: center;
         font-size: 18px; }
@@ -567,6 +579,10 @@ body.theme-active .modal {
       .main .proyectos .javascript .proyecto .descripcion-proyecto {
         font-size: 18px;
         padding: 0px 30px; }
+        .main .proyectos .javascript .proyecto .descripcion-proyecto a {
+          text-decoration: none;
+          font-family: "Dosis", sans-serif;
+          letter-spacing: 1px; }
       .main .proyectos .javascript .proyecto .links {
         text-align: center;
         font-size: 18px; }
@@ -585,6 +601,14 @@ body.theme-active .modal {
         position: absolute;
         opacity: 0.5;
         height: 100%; }
+      .main .proyectos .javascript .proyecto .descripcion-proyecto a {
+        text-decoration: none !important;
+        font-family: "Dosis", sans-serif;
+        letter-spacing: 1px;
+        color: rgba(255, 255, 255, 0.864);
+        transition: color 0.4s linear; }
+        .main .proyectos .javascript .proyecto .descripcion-proyecto a:hover {
+          color: white; }
   .main .proyectos .ecommerce {
     display: flex;
     background-color: none;
@@ -613,6 +637,10 @@ body.theme-active .modal {
       .main .proyectos .ecommerce .proyecto .descripcion-proyecto {
         font-size: 18px;
         padding: 0px 30px; }
+        .main .proyectos .ecommerce .proyecto .descripcion-proyecto a {
+          text-decoration: none;
+          font-family: "Dosis", sans-serif;
+          letter-spacing: 1px; }
       .main .proyectos .ecommerce .proyecto .links {
         text-align: center;
         font-size: 18px; }
@@ -651,6 +679,10 @@ body.theme-active .modal {
       .main .proyectos .foto .proyecto .descripcion-proyecto {
         font-size: 18px;
         padding: 0px 30px; }
+        .main .proyectos .foto .proyecto .descripcion-proyecto a {
+          text-decoration: none;
+          font-family: "Dosis", sans-serif;
+          letter-spacing: 1px; }
       .main .proyectos .foto .proyecto .links {
         text-align: center;
         font-size: 18px; }
@@ -696,6 +728,10 @@ body.theme-active .modal {
       .main .proyectos .portfolio .proyecto .descripcion-proyecto {
         font-size: 18px;
         padding: 0px 30px; }
+        .main .proyectos .portfolio .proyecto .descripcion-proyecto a {
+          text-decoration: none;
+          font-family: "Dosis", sans-serif;
+          letter-spacing: 1px; }
       .main .proyectos .portfolio .proyecto .links {
         text-align: center;
         font-size: 18px; }
@@ -734,6 +770,10 @@ body.theme-active .modal {
       .main .proyectos .music .proyecto .descripcion-proyecto {
         font-size: 18px;
         padding: 0px 30px; }
+        .main .proyectos .music .proyecto .descripcion-proyecto a {
+          text-decoration: none;
+          font-family: "Dosis", sans-serif;
+          letter-spacing: 1px; }
       .main .proyectos .music .proyecto .links {
         text-align: center;
         font-size: 18px; }
