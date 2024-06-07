@@ -459,6 +459,14 @@ body.theme-active .modal {
           padding: 0px 13px; }
           .main .proyectos .sitioweb .proyecto .links .link:hover {
             color: white; }
+    .main .proyectos .sitioweb .proyecto .l {
+      text-decoration: none !important;
+      font-family: "Dosis", sans-serif;
+      letter-spacing: 1px;
+      color: rgba(255, 255, 255, 0.693);
+      transition: all 0.4s linear; }
+      .main .proyectos .sitioweb .proyecto .l:hover {
+        color: white; }
   .main .proyectos .videojuegos {
     display: flex;
     background-color: #090909;
@@ -699,7 +707,8 @@ body.theme-active .modal {
         z-index: 0;
         position: absolute;
         opacity: 0.8;
-        height: 100%; }
+        height: 100%;
+        transform: translateY(-50px); }
   .main .proyectos .portfolio {
     display: flex;
     background-color: none;
