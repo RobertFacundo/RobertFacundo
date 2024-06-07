@@ -1185,6 +1185,25 @@ body.theme-active {
           width: 80%; }
         .main .proyectos .portfolio .proyecto .links {
           padding-top: 10px; }
+    .main .proyectos .music {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-bottom: 13px; }
+      .main .proyectos .music .vid {
+        width: 100%; }
+        .main .proyectos .music .vid .video {
+          width: 90%; }
+      .main .proyectos .music .proyecto {
+        width: 100%;
+        padding-top: 10px;
+        padding-left: 130px; }
+        .main .proyectos .music .proyecto .descripcion-proyecto {
+          justify-content: center;
+          text-align: center;
+          width: 80%; }
+        .main .proyectos .music .proyecto .links {
+          padding: 10px; }
     .main .certificaciones .slideshow-container .mySlides img {
       width: 609px !important; } }
 
@@ -1223,6 +1242,8 @@ body.theme-active {
       .main .proyectos .foto .proyecto {
         padding-left: 31px; }
       .main .proyectos .portfolio .proyecto {
+        padding-left: 31px; }
+      .main .proyectos .music .proyecto {
         padding-left: 31px; }
     .main .certificaciones .slideshow-container .mySlides img {
       width: 300px !important; }
