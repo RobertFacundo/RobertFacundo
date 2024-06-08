@@ -14,7 +14,7 @@ let leafImages = [
 ];
 
 // Contenedor de las hojas en la sección de videojuegos
-let container = document.querySelector(".ecommerce #container");
+let container = document.querySelector(".music #container");
 
 // Crear hojas y agregarlas al contenedor
 for (let i = 0; i < totalLeaves; i++) {
@@ -34,7 +34,6 @@ function animateLeaf(leaf) {
     // Posición inicial aleatoria con margen en la parte superior
     let x = Math.random() * w;
     let y = Math.random() * h;
-    
 
     // Rotación inicial aleatoria en ambos ejes
     let initialRotationX = Math.random() * 360;

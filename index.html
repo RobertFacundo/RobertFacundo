@@ -74,7 +74,7 @@
                     Sin embargo, mi verdadero viaje hacia la realización personal comenzó cuando decidí adentrarme
                     en el mundo de la programación. Desde entonces he estado
                     comprometido a dedicarle todo mi tiempo para mejorar mis habilidades. Actualmente estoy inscrito en
-                    el Curso de <b>Desarrollo Web Full Stack</b> en CoderHouse, destacándose en áreas como
+                    el Curso de <b>Desarrollo Web Full Stack</b> en <a class="l" target="_blank" href="https://www.coderhouse.com/ar/"><i>CoderHouse</i></a>, destacándome en áreas como
                     <b>HTML, CSS y JavaScript</b> con resultados sobresalientes.
                 </p>
                 <p  id="parrafo3" class="historia">Mis proyectos, presentados a continuación,
@@ -103,7 +103,7 @@
                 <div class="proyecto">
                     <p id="t1" class="descripcion-proyecto">Mi primera zambullida al universo del HTML y CSS (curso brindado por <a class="l" target="_blank" href="https://www.linkedin.com/in/johanna-palo-bael-frontend/">Johanna Palo Bael</a>). Margin, padding,
                         display: flex y conocer la maravilla del hover. Aprobado con nota sobresaliente,
-                        de yapa aproveché el sitio para subir cuentos que había escrito en otro tiempo.</p>
+                        de yapa aproveché el sitio para subir cuentos que había escrito en otro tiempo. <span style="font-size:medium;"> Puedes ver la valoración haciendo click <a class="l" target="_blank" href="./certificados/valoración.png"><i>aquí</i></a>.</span></p>
                     <p class="links"> <a target="_blank" href="https://robertfacundo.github.io/PreEntrega3Robert/"
                             class="link" id="l1">Visitar</a>
                 </div>
@@ -145,7 +145,7 @@
                     <canvas id="d"></canvas>
                     <p class="descripcion-proyecto" id="t4">Este sitio es el proyecto final del curso de
                         Javascript (brindado por <a class="l" target="_blank" href="https://www.linkedin.com/in/lucasgabrielruiz/">Lucas Gabriel Ruiz)</a>. Se implementan ciclos iterativos, condicionales, modificaciones del DOM,
-                        además de tener un carro de compras completamente funcional.</p>
+                        además de tener un carro de compras completamente funcional.<span style="font-size:medium;"> Puedes ver la valoración haciendo click <a class="l" target="_blank" href="./certificados/valoraciónjs.png"><i>aquí</i></a>.</span></p>
                     <p class="links"> <a target="_blank" href="https://robertfacundo.github.io/ProyectoFinalJavaScript/"
                             class="link" id="l7">Visitar</a>
                 </div>
@@ -177,6 +177,9 @@
                     <p class="links"> <a id="l11" target="_blank" href="https://robertfacundo.github.io/PortfolioFotografia/"
                             class="link">Visitar</a>
                 </div>
+                <div id="container">
+                    <!-- Contenedor para las hojas -->
+                </div>
                 <div class="vid">
                     <canvas id="z"></canvas>
                     <video autoplay loop src="./resources/videos/fotografico.mp4"></video>
@@ -200,7 +203,7 @@
             <hr class="hr-pr">
             <section class="music">
                 <div class="proyecto">
-                    <p id="t8" class="descripcion-proyecto">E-commerce de instrumentos musicales con carrito de compras. 
+                    <p id="t8" class="descripcion-proyecto">E-commerce de instrumentos musicales con carrito de compras, que se visualiza con un modal. 
                         Utilicé fetch para obtener los datos de los productos desde un archivo JSON y mostrarlos en el DOM mediante 
                         una función asíncrona. Los productos se pueden visualizar al seleccionar la categoría correspondiente 
                         en la barra de navegación. Cada producto tiene la opción de ser visto en pantalla completa 
@@ -208,6 +211,9 @@
                         Los estilos están definidos en SCSS para una presentación atractiva y responsiva de la tienda.</p>
                     <p class="links"> <a id="l15" target="_blank" href="https://robertfacundo.github.io/musicShop/"
                             class="link">Visitar</a>
+                </div>
+                <div id="container">
+                    <!-- Contenedor para las hojas -->
                 </div>
                 <div class="vid">
                     <canvas id="m"></canvas>
@@ -226,24 +232,16 @@
                 <h2 id="cer" >Certificaciones</h2>
                 <hr class="hr-titulos">
             </div>
-            <div class="slideshow-container">
+            <div class="slideshow-container" >
                 <a class="prev" onclick="plusSlides(-1)">❮</a>
-                <div class="mySlides fade">
+                <div class="mySlides fade" id="slide1">
                     <img src="./certificados/DesarrolladorWeb.png">
                 </div>
-                <div class="mySlides fade">
-                    <img src="./certificados/DesarrolladorWeb.png">
-                </div>
-                <div class="mySlides fade">
-                    <img src="./certificados/DesarrolladorWeb.png">
+                <div class="mySlides fade" id="slide2">
+                    <img src="./certificados/CertificadoJS.png">
                 </div>
                 <a class="next" onclick="plusSlides(1)">❯</a>
 
-                <div class="dots">
-                    <span class="dot" onclick="currentSlide(1)"></span>
-                    <span class="dot" onclick="currentSlide(2)"></span>
-                    <span class="dot" onclick="currentSlide(3)"></span>
-                </div>
             </div>
         </section>
         <section class="contacto">

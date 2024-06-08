@@ -75,6 +75,17 @@
         font-weight: 400;
         padding: 16px;
         letter-spacing: 1px;
+        .l{
+          text-decoration: none !important;
+          font-family: $font-titulo;
+          letter-spacing: 1px;
+          color: rgba(255, 255, 255, 0.815);
+          transition: all 0.4s linear;
+
+          &:hover {
+              color: white;
+          }
+      }
       }
     }
   }

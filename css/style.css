@@ -189,6 +189,7 @@ body.theme-active .nav .right li a, body.theme-active .main .contacto .links a {
     width: 100%;
     /* Ajusta el ancho para centrar horizontalmente */ }
     .main .certificaciones .slideshow-container .dots .dot {
+      display: none;
       cursor: pointer;
       height: 3px;
       width: 30px;
@@ -414,6 +415,14 @@ body.theme-active .modal {
         font-weight: 400;
         padding: 16px;
         letter-spacing: 1px; }
+        .header .titulo-header .right .historia .l {
+          text-decoration: none !important;
+          font-family: "Dosis", sans-serif;
+          letter-spacing: 1px;
+          color: rgba(255, 255, 255, 0.815);
+          transition: all 0.4s linear; }
+          .header .titulo-header .right .historia .l:hover {
+            color: white; }
 
 .main .proyectos {
   margin-top: 13px; }
@@ -980,11 +989,33 @@ body.theme-active {
       transition: color 0.3s ease-in-out; }
       body.theme-active .main .proyectos .foto .proyecto .links .link:hover {
         color: black; }
+    body.theme-active .main .proyectos .foto #container {
+      left: 0; }
+      body.theme-active .main .proyectos .foto #container .dot {
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        left: 0;
+        background-size: contain; }
   body.theme-active .main .proyectos .portfolio .proyecto .links .link {
     color: rgba(0, 0, 0, 0.774);
     transition: color 0.3s ease-in-out; }
     body.theme-active .main .proyectos .portfolio .proyecto .links .link:hover {
       color: black; }
+  body.theme-active .main .proyectos .music {
+    background-color: #f4efef; }
+    body.theme-active .main .proyectos .music .vid canvas#m {
+      display: none; }
+    body.theme-active .main .proyectos .music .proyecto .links .link {
+      color: rgba(0, 0, 0, 0.774);
+      transition: color 0.3s ease-in-out; }
+      body.theme-active .main .proyectos .music .proyecto .links .link:hover {
+        color: black; }
+    body.theme-active .main .proyectos .music #container .dot {
+      width: 60px;
+      height: 60px;
+      position: absolute;
+      background-size: contain; }
   body.theme-active .main .experiencialaboral .titulos .hr-titulos {
     border-color: black; }
   body.theme-active .main .certificaciones .titulos .hr-titulos {

@@ -11,9 +11,10 @@ body.theme-active {
             color: black;
         }
     }
+
     .modal {
         @extend %modallight;
-     }
+    }
 
 
     .nav {
@@ -250,6 +251,21 @@ body.theme-active {
                         }
                     }
                 }
+
+                #container {
+                    // Estilos para el contenedor de las hojas
+                    left: 0;
+
+                    .dot {
+                        // Estilos para los elementos con la clase .dot dentro del contenedor #container
+                        width: 60px;
+                        height: 60px;
+                        position: absolute;
+                        left: 0;
+                        background-size: contain;
+                        // Aquí puedes agregar otros estilos específicos para las hojas, como tamaño, posición, etc.
+                    }
+                }
             }
 
             .portfolio {
@@ -265,6 +281,42 @@ body.theme-active {
                         }
                     }
                 }
+            }
+
+            .music {
+                background-color: rgb(244, 239, 239);
+
+                .vid {
+                    canvas#m {
+                        display: none;
+                    }
+                }
+
+                .proyecto {
+                    .links {
+                        .link {
+                            color: rgba(0, 0, 0, 0.774);
+                            transition: color 0.3s ease-in-out;
+
+                            &:hover {
+                                color: black;
+                            }
+                        }
+                    }
+                }
+                #container {
+
+                    // Estilos para el contenedor de las hojas
+                    .dot {
+                        // Estilos para los elementos con la clase .dot dentro del contenedor #container
+                        width: 60px;
+                        height: 60px;
+                        position: absolute;
+                        background-size: contain;
+                        // Aquí puedes agregar otros estilos específicos para las hojas, como tamaño, posición, etc.
+                    }
+                }
+                
             }
         }
 
@@ -346,12 +398,14 @@ body.theme-active {
     }
 
     .footer {
-        .t-footer{
+        .t-footer {
             font-weight: 500;
-            a{
+
+            a {
                 color: black;
             }
         }
+
         .p-footer {
             font-weight: 500;
 
@@ -361,5 +415,5 @@ body.theme-active {
             }
         }
     }
-
 }
+
