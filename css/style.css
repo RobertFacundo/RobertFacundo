@@ -408,11 +408,11 @@ body.theme-active .modal {
           padding-top: 57px;
           padding-left: 39px; }
       .header .titulo-header .right .hr {
-        width: 80%;
+        width: 97%;
         margin-bottom: 13px; }
       .header .titulo-header .right .historia {
         font-size: 19px;
-        font-weight: 400;
+        font-weight: 399;
         padding: 16px;
         letter-spacing: 1px; }
         .header .titulo-header .right .historia .l {
@@ -468,14 +468,16 @@ body.theme-active .modal {
           padding: 0px 13px; }
           .main .proyectos .sitioweb .proyecto .links .link:hover {
             color: white; }
-    .main .proyectos .sitioweb .proyecto .l {
-      text-decoration: none !important;
-      font-family: "Dosis", sans-serif;
-      letter-spacing: 1px;
-      color: rgba(255, 255, 255, 0.693);
-      transition: all 0.4s linear; }
-      .main .proyectos .sitioweb .proyecto .l:hover {
-        color: white; }
+    .main .proyectos .sitioweb .proyecto {
+      text-align: right; }
+      .main .proyectos .sitioweb .proyecto .l {
+        text-decoration: none !important;
+        font-family: "Dosis", sans-serif;
+        letter-spacing: 1px;
+        color: rgba(255, 255, 255, 0.693);
+        transition: all 0.4s linear; }
+        .main .proyectos .sitioweb .proyecto .l:hover {
+          color: white; }
   .main .proyectos .videojuegos {
     display: flex;
     background-color: #090909;
@@ -568,6 +570,8 @@ body.theme-active .modal {
           padding: 0px 13px; }
           .main .proyectos .historia .proyecto .links .link:hover {
             color: white; }
+    .main .proyectos .historia .proyecto {
+      text-align: right; }
   .main .proyectos .javascript {
     display: flex;
     background-color: #090909;
@@ -630,7 +634,8 @@ body.theme-active .modal {
     display: flex;
     background-color: none;
     font-family: "Dosis", sans-serif;
-    letter-spacing: 1px; }
+    letter-spacing: 1px;
+    text-align: right; }
     .main .proyectos .ecommerce .vid {
       width: 61%;
       padding: 50px 13px;
@@ -722,7 +727,8 @@ body.theme-active .modal {
     display: flex;
     background-color: none;
     font-family: "Dosis", sans-serif;
-    letter-spacing: 1px; }
+    letter-spacing: 1px;
+    text-align: right; }
     .main .proyectos .portfolio .vid {
       width: 61%;
       padding: 50px 13px;
@@ -804,12 +810,15 @@ body.theme-active .modal {
             color: white; }
     .main .proyectos .music .vid {
       position: relative; }
-      .main .proyectos .music .vid canvas#m {
-        z-index: 0;
+    .main .proyectos .music .proyecto {
+      position: relative;
+      z-index: 1;
+      color: white; }
+      .main .proyectos .music .proyecto canvas#m {
+        z-index: -1;
         position: absolute;
         opacity: 0.5;
-        height: 100%;
-        transform: translateY(-50px); }
+        height: 100%; }
   .main .proyectos .hr-pr {
     width: 27%;
     transform: translateX(130%);

@@ -8,7 +8,8 @@
             @include sitioweb (none);
 
             .proyecto {
-                .l{
+                text-align: right;
+                .l {
                     text-decoration: none !important;
                     font-family: $font-titulo;
                     letter-spacing: 1px;
@@ -16,7 +17,7 @@
                     transition: all 0.4s linear;
 
                     &:hover {
-                        color: white;
+                    color: white;
                     }
                 }
             }
@@ -40,6 +41,9 @@
 
         .historia {
             @include sitioweb (none);
+            .proyecto{
+                text-align: right;
+            }
         }
 
         .javascript {
@@ -75,6 +79,7 @@
 
         .ecommerce {
             @include sitioweb (none);
+            text-align: right;
         }
 
         .foto {
@@ -95,6 +100,7 @@
 
         .portfolio {
             @include sitioweb(none);
+            text-align: right;
         }
 
         .music {
@@ -102,13 +108,19 @@
 
             .vid {
                 position: relative;
+            }
+
+            .proyecto {
+                position: relative;
+                z-index: 1;
+                color: white;
 
                 canvas#m {
-                    z-index: 0;
+                    z-index: -1;
                     position: absolute;
                     opacity: 0.5;
                     height: 100%;
-                    transform: translateY(-50px)
+                    // transform: translateY(-50px)
                 }
             }
         }

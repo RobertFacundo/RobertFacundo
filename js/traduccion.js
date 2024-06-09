@@ -10,7 +10,7 @@ function cambiarIdiomaEspañol() {
 
     document.getElementById("parrafo1").innerHTML = `Originalmente de <b>Argentina</b>, mi trayectoria comenzó en el mundo de la música, donde desarrollé
     una profunda apreciación por la expresión artística y la colaboración creativa. Para la misma época y durante varias
-    temporadas, tuve el privilegio de trabajar en hoteles de renombre en los Estados Unidos, donde no solo adquirí una valiosa experiencia laboral, sino que también tuve la oportunidad de aprender y
+    temporadas, tuve el privilegio de trabajar en hoteles de renombre en los <b>Estados Unidos</b>, donde no solo adquirí una valiosa experiencia laboral, sino que también tuve la oportunidad de aprender y
     perfeccionar el idioma inglés.`;
     document.getElementById("parrafo2").innerHTML = `Sin embargo, mi verdadero viaje hacia la realización personal comenzó cuando decidí adentrarme
     en el mundo de la programación. Desde entonces he estado
@@ -90,7 +90,7 @@ function cambiarIdiomaInglés() {
 
     document.getElementById("parrafo1").innerHTML = `Originally from <b>Argentina</b>, my journey began in the world of music, where I developed
     a deep appreciation for artistic expression and creative collaboration. Around the same time and for several
-    seasons, I had the privilege of working in renowned hotels in the United States, where I not only gained valuable work experience, but also had the opportunity to learn and
+    seasons, I had the privilege of working in renowned hotels in the <b>United States</b>, where I not only gained valuable work experience, but also had the opportunity to learn and
     perfect the English language.`;
     document.getElementById("parrafo2").innerHTML = `However, my true journey to personal fulfillment began when I decided to delve into
     the world of programming. Since then, I have been

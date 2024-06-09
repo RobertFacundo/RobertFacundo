@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     
     // Establece el ancho del canvas como el ancho de su contenedor
-    c.width = c.parentElement.offsetWidth;
+    c.width = c.parentElement.offsetWidth + 39;
     // Establece la altura del canvas como la altura de su contenedor
     c.height = c.parentElement.offsetHeight;
 
