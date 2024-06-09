@@ -812,10 +812,10 @@ body.theme-active .modal {
       position: relative; }
     .main .proyectos .music .proyecto {
       position: relative;
-      z-index: 1;
+      z-index: 3;
       color: white; }
       .main .proyectos .music .proyecto canvas#m {
-        z-index: -1;
+        z-index: -2;
         position: absolute;
         opacity: 0.5;
         height: 100%; }
