@@ -125,6 +125,11 @@
             }
         }
 
+        .react{
+            @include sitioweb(none);
+            text-align: right;
+        }
+
         .hr-pr {
             width: 27%;
             transform: translateX(130%);

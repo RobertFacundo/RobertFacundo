@@ -403,7 +403,7 @@ body.theme-active .modal {
           padding-bottom: 4px;
           letter-spacing: 3px; }
         .header .titulo-header .right .t .l {
-          font-size: 13px;
+          font-size: 15px;
           font-weight: 100;
           padding-top: 57px;
           padding-left: 39px; }
@@ -819,6 +819,49 @@ body.theme-active .modal {
         position: absolute;
         opacity: 0.5;
         height: 100%; }
+  .main .proyectos .react {
+    display: flex;
+    background-color: none;
+    font-family: "Dosis", sans-serif;
+    letter-spacing: 1px;
+    text-align: right; }
+    .main .proyectos .react .vid {
+      width: 61%;
+      padding: 50px 13px;
+      display: flex;
+      justify-content: center;
+      z-index: 1; }
+      .main .proyectos .react .vid video {
+        z-index: 1;
+        width: 80%;
+        border-radius: 1%;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer; }
+        .main .proyectos .react .vid video:hover {
+          transform: scale(1.01); }
+    .main .proyectos .react .proyecto {
+      width: 39%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      z-index: 1; }
+      .main .proyectos .react .proyecto .descripcion-proyecto {
+        font-size: 18px;
+        padding: 0px 30px; }
+        .main .proyectos .react .proyecto .descripcion-proyecto a {
+          text-decoration: none;
+          font-family: "Dosis", sans-serif;
+          letter-spacing: 1px; }
+      .main .proyectos .react .proyecto .links {
+        text-align: center;
+        font-size: 18px; }
+        .main .proyectos .react .proyecto .links .link {
+          text-decoration: none;
+          color: rgba(255, 255, 255, 0.864);
+          cursor: pointer;
+          padding: 0px 13px; }
+          .main .proyectos .react .proyecto .links .link:hover {
+            color: white; }
   .main .proyectos .hr-pr {
     width: 27%;
     transform: translateX(130%);

@@ -6,7 +6,7 @@ function cambiarIdiomaEspañol() {
     document.getElementById("contactoLink").textContent = "Contacto";
 
     document.getElementById("titulo").textContent = "Desarrollador Web";
-    document.getElementById("leng").textContent = "HTML CSS JavaScript // SCSS";
+    document.getElementById("leng").textContent = "HTML CSS JavaScript React// SCSS";
 
     document.getElementById("parrafo1").innerHTML = `Originalmente de <b>Argentina</b>, mi trayectoria comenzó en el mundo de la música, donde desarrollé
     una profunda apreciación por la expresión artística y la colaboración creativa. Para la misma época y durante varias
@@ -49,7 +49,7 @@ function cambiarIdiomaEspañol() {
     Se implementan ciclos iterativos, condicionales, modificaciones del DOM, además de tener un carro de compras completamente funcional.
     <span style="font-size:medium;"> 
     Puedes ver la valoración haciendo click <a class="l" target="_blank" href="./certificados/valoraciónJS.png"><i>aquí</i></a>.</span>`;
-  
+
     document.getElementById("l7").textContent = "Visitar";
 
 
@@ -64,15 +64,26 @@ function cambiarIdiomaEspañol() {
     document.getElementById("t7").textContent = "Este mismo sitio, que funciona como un curriculum digital, fue un desafío entretenido de idear. Abarca todo lo aprendido hasta la fecha. Lo creé con la intención de que sea mantenible en el tiempo, para ello uso extends, mixins, variables, SASS e importación de archivos JS para una mejor organización. Además cuenta con dos themes, uno dark y otro light, cada uno con sus respectivas animaciones.";
     document.getElementById("l13").textContent = "Visitar";
 
-    document.getElementById("t8").textContent = "E-commerce de instrumentos musicales con carrito de compras, que se visualiza con un modal. Utilicé fetch para obtener los datos de los productos desde un archivo JSON y mostrarlos en el DOM mediante una función asíncrona. Los productos se pueden visualizar al seleccionar la categoría correspondiente en la barra de navegación. Cada producto tiene la opción de ser visto en pantalla completa al hacer clic en su imagen, y se incluye un contador para el carrito de compras en un botón flotante. Los estilos están definidos en SCSS para una presentación atractiva y responsiva de la tienda."
+    document.getElementById("t8").textContent = "E-commerce de instrumentos musicales con carrito de compras, que se visualiza con un modal. Utilicé fetch para obtener los datos de los productos desde un archivo JSON y mostrarlos en el DOM mediante una función asíncrona. Los productos se pueden visualizar al seleccionar la categoría correspondiente en la barra de navegación. Los estilos están definidos en SCSS para una presentación atractiva y responsiva de la tienda."
     document.getElementById("l15").textContent = "Visitar"
+
+    document.getElementById("t9").textContent = `  En esta oportunidad diseñé un sitio con arquitectura moderna basada en React, integrando una
+                        variedad de componentes interactivos y funcionales. Utilizando técnicas avanzadas de estado y
+                        efectos, cada componente está diseñado para gestionar
+                        estados locales y globales de manera eficiente. La aplicación también incluye características
+                        sofisticadas como generación dinámica de citas literarias, juegos de trivia, y gestión de listas de tareas.
+                        Además, se implementa un seguimiento detallado de interacciones a través de gráficos
+                        interactivos, permitiendo análisis del comportamiento del usuario. Este enfoque
+                        garantiza un rendimiento óptimo y una experiencia de usuario fluida, fundamentales en
+                        aplicaciones web modernas y escalables.`;
+    document.getElementById("l16").textContent = "Visitar";
 
 
     // document.getElementById("el").textContent = "Experiencia Laboral";
 
     document.getElementById("cer").textContent = "Certificaciones";
-    document.getElementById("slide1").innerHTML =`<img src="./certificados/DesarrolladorWeb.png">`;
-    document.getElementById("slide2").innerHTML =`<img src="./certificados/CertificadoJS.png">`;
+    document.getElementById("slide1").innerHTML = `<img src="./certificados/DesarrolladorWeb.png">`;
+    document.getElementById("slide2").innerHTML = `<img src="./certificados/CertificadoJS.png">`;
 
     document.getElementById("tc").textContent = "Contacto";
 }
@@ -86,7 +97,7 @@ function cambiarIdiomaInglés() {
     document.getElementById("contactoLink").textContent = "Contact";
 
     document.getElementById("titulo").textContent = "Web Developer";
-    document.getElementById("leng").textContent = "HTML CSS JavaScript // SCSS";
+    document.getElementById("leng").textContent = "HTML CSS JavaScript React// SCSS";
 
     document.getElementById("parrafo1").innerHTML = `Originally from <b>Argentina</b>, my journey began in the world of music, where I developed
     a deep appreciation for artistic expression and creative collaboration. Around the same time and for several
@@ -145,15 +156,18 @@ function cambiarIdiomaInglés() {
     document.getElementById("t7").textContent = "This very site, functioning as a digital resume, was an enjoyable challenge to conceive. It encompasses all that I had learned up to that point. I created it with the intention of it being sustainable over time, using extends, mixins, variables, SASS, and JS file imports for better organization. Additionally, it features two themes, one dark and one light, each with their respective animations.";
     document.getElementById("l13").textContent = "Visit";
 
-    document.getElementById("t8").textContent = "Online store for musical instruments with a shopping cart feature. I used fetch to retrieve product data from a JSON file and display it on the DOM through an asynchronous function. Products can be viewed by selecting the corresponding category on the navigation bar. Each product has the option to be viewed in fullscreen mode by clicking on its image, and a counter for the shopping cart is included in a floating button. Styles are defined in SCSS for an attractive and responsive presentation of the store."
+    document.getElementById("t8").textContent = "Online store for musical instruments with a shopping cart feature. I used fetch to retrieve product data from a JSON file and display it on the DOM through an asynchronous function. Products can be viewed by selecting the corresponding category on the navigation bar. Styles are defined in SCSS for an attractive and responsive presentation of the store."
     document.getElementById("l15").textContent = "Visit"
+
+    document.getElementById("t9").textContent = `In this project, I designed a site with a modern architecture based on React, integrating a variety of interactive and functional components. Using advanced state and effect techniques, each component is designed to efficiently manage local and global states. The application also features sophisticated elements such as dynamic generation of literary quotes, trivia games, and task list management. Additionally, it implements detailed user interaction tracking through interactive charts, enabling analysis of user behavior. This approach ensures optimal performance and a smooth user experience, essential in modern, scalable web applications.`;
+    document.getElementById("l16").textContent = `Visit`;
 
 
     // document.getElementById("el").textContent = "Work Experience";
 
     document.getElementById("cer").textContent = "Certifications";
-    document.getElementById("slide1").innerHTML =`<img src="./certificados/htmlenglish.png">`;
-    document.getElementById("slide2").innerHTML =`<img src="./certificados/jsEnglish.png">`;
+    document.getElementById("slide1").innerHTML = `<img src="./certificados/htmlenglish.png">`;
+    document.getElementById("slide2").innerHTML = `<img src="./certificados/jsEnglish.png">`;
 
     document.getElementById("tc").textContent = "Contact";
 }
