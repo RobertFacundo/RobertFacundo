@@ -71,7 +71,7 @@ function cambiarIdiomaEspañol() {
                         variedad de componentes interactivos y funcionales. Utilizando técnicas avanzadas de estado y
                         efectos, cada componente está diseñado para gestionar
                         estados locales y globales de manera eficiente. La aplicación también incluye características
-                        sofisticadas como generación dinámica de citas literarias, juegos de trivia, y gestión de listas de tareas.
+                        sofisticadas como utilizacion de APIs,  generación dinámica de citas literarias, juegos de trivia, y gestión de listas de tareas.
                         Además, se implementa un seguimiento detallado de interacciones a través de gráficos
                         interactivos, permitiendo análisis del comportamiento del usuario. Este enfoque
                         garantiza un rendimiento óptimo y una experiencia de usuario fluida, fundamentales en
@@ -159,7 +159,7 @@ function cambiarIdiomaInglés() {
     document.getElementById("t8").textContent = "Online store for musical instruments with a shopping cart feature. I used fetch to retrieve product data from a JSON file and display it on the DOM through an asynchronous function. Products can be viewed by selecting the corresponding category on the navigation bar. Styles are defined in SCSS for an attractive and responsive presentation of the store."
     document.getElementById("l15").textContent = "Visit"
 
-    document.getElementById("t9").textContent = `In this project, I designed a site with a modern architecture based on React, integrating a variety of interactive and functional components. Using advanced state and effect techniques, each component is designed to efficiently manage local and global states. The application also features sophisticated elements such as dynamic generation of literary quotes, trivia games, and task list management. Additionally, it implements detailed user interaction tracking through interactive charts, enabling analysis of user behavior. This approach ensures optimal performance and a smooth user experience, essential in modern, scalable web applications.`;
+    document.getElementById("t9").textContent = `In this project, I designed a site with a modern architecture based on React, integrating a variety of interactive and functional components. Using advanced state and effect techniques, each component is designed to efficiently manage local and global states. The application also features sophisticated elements such as APIs, dynamic generation of literary quotes, trivia games, and task list management. Additionally, it implements detailed user interaction tracking through interactive charts, enabling analysis of user behavior. This approach ensures optimal performance and a smooth user experience, essential in modern, scalable web applications.`;
     document.getElementById("l16").textContent = `Visit`;
 
 
