@@ -16,7 +16,7 @@ function cambiarIdiomaEspañol() {
     en el mundo de la programación. Desde entonces he estado
     comprometido a dedicarle todo mi tiempo para mejorar mis habilidades. Actualmente estoy inscrito en
     el Curso de <b>Desarrollo Web Full Stack</b> en <a class="l" target="_blank" href="https://www.coderhouse.com/ar/"><i>CoderHouse</i></a>, destacándome en áreas como
-    <b>HTML, CSS y JavaScript</b> con resultados sobresalientes.`;
+    <b>HTML, CSS, React y JavaScript</b> con resultados sobresalientes.`;
     document.getElementById("parrafo3").innerHTML = `Mis proyectos, presentados a continuación,
     son un testimonio de mi dedicación y creatividad en este campo de constante evolución.`;
     document.getElementById("parrafo4").innerHTML = `Mi visión para el futuro pasa por seguir creciendo profesionalmente como programador, con especial
@@ -107,7 +107,7 @@ function cambiarIdiomaInglés() {
     the world of programming. Since then, I have been
     committed to dedicating all my time to improving my skills. I am currently enrolled in
     the <b>Full Stack Web Development</b> Course at <a class="l" target="_blank" href="https://www.coderhouse.com/ar/"><i>CoderHouse</i></a>, excelling in areas such as
-    <b>HTML, CSS, and JavaScript</b> with outstanding results.`;
+    <b>HTML, CSS, React, and JavaScript</b> with outstanding results.`;
     document.getElementById("parrafo3").innerHTML = `My projects, presented below,
     are a testament to my dedication and creativity in this constantly evolving field.`;
     document.getElementById("parrafo4").innerHTML = `My vision for the future involves continuing to grow professionally as a programmer, with a special
