@@ -1,6 +1,11 @@
 @media (max-width: 1400px) {
     main {
         overflow-x: hidden;
+        overflow: hidden;
+
+        .proyectos {
+            overflow: hidden;
+        }
 
         .certificaciones {
             .slideshow-container {
@@ -40,12 +45,23 @@
         }
     }
 
+    .main {
+        overflow-x: hidden;
+        overflow: hidden;
+
+        .proyectos {
+            overflow: hidden;
+        }
+
+    }
+
 }
 
 
 @media (max-width: 875px) {
     .header {
         overflow-x: hidden;
+        overflow-y: hidden;
 
         .titulo-header {
             flex-direction: column;
@@ -59,8 +75,11 @@
 
     .main {
         overflow-x: hidden;
+        overflow: hidden;
 
         .proyectos {
+            overflow: hidden;
+
             .sitioweb {
                 display: flex;
                 flex-direction: column;
@@ -85,6 +104,7 @@
 
                     .links {
                         padding-top: 10px;
+                        padding-right: 53px;
                     }
                 }
             }
@@ -116,6 +136,7 @@
 
                     .links {
                         padding: 10px;
+                        padding-right: 53px;
                     }
                 }
             }
@@ -145,6 +166,7 @@
 
                     .links {
                         padding-top: 10px;
+                        padding-right: 53px;
                     }
                 }
             }
@@ -176,6 +198,7 @@
 
                     .links {
                         padding: 10px;
+                        padding-right: 53px;
                     }
 
                     canvas#d {
@@ -240,6 +263,7 @@
 
                     .links {
                         padding: 10px;
+                        padding-right: 53px;
                     }
                 }
             }
@@ -269,6 +293,7 @@
 
                     .links {
                         padding-top: 10px;
+                        padding-right: 53px;
                     }
                 }
             }
@@ -300,6 +325,38 @@
 
                     .links {
                         padding: 10px;
+                        padding-right: 53px;
+                    }
+                }
+            }
+
+            .react {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-bottom: 13px;
+
+                .vid {
+                    width: 100%;
+
+                    .video {
+                        width: 90%;
+                    }
+                }
+
+                .proyecto {
+                    width: 100%;
+                    padding-left: 130px;
+
+                    .descripcion-proyecto {
+                        justify-content: center;
+                        text-align: center;
+                        width: 80%;
+                    }
+
+                    .links {
+                        padding-top: 10px;
+                        padding-right: 53px;
                     }
                 }
             }
@@ -403,7 +460,14 @@
                     padding-left: 31px;
                 }
             }
-            .music{
+
+            .music {
+                .proyecto {
+                    padding-left: 31px;
+                }
+            }
+
+            .react {
                 .proyecto {
                     padding-left: 31px;
                 }

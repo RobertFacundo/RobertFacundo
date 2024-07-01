@@ -1117,7 +1117,10 @@ body.theme-active {
 
 @media (max-width: 1400px) {
   main {
-    overflow-x: hidden; }
+    overflow-x: hidden;
+    overflow: hidden; }
+    main .proyectos {
+      overflow: hidden; }
     main .certificaciones .slideshow-container .mySlides img {
       width: 739px !important; } }
 
@@ -1130,163 +1133,198 @@ body.theme-active {
   .header {
     overflow-x: hidden; }
     .header .titulo-header .right .historia {
-      font-size: 16px; } }
+      font-size: 16px; }
+  .main {
+    overflow-x: hidden;
+    overflow: hidden; }
+    .main .proyectos {
+      overflow: hidden; } }
 
 @media (max-width: 875px) {
   .header {
-    overflow-x: hidden; }
+    overflow-x: hidden;
+    overflow-y: hidden; }
     .header .titulo-header {
       flex-direction: column;
       align-items: center; }
       .header .titulo-header .left {
         width: 100%; }
   .main {
-    overflow-x: hidden; }
-    .main .proyectos .sitioweb {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding-bottom: 13px; }
-      .main .proyectos .sitioweb .vid {
-        width: 100%; }
-        .main .proyectos .sitioweb .vid .video {
-          width: 90%; }
-      .main .proyectos .sitioweb .proyecto {
-        width: 100%;
-        padding-left: 130px; }
-        .main .proyectos .sitioweb .proyecto .descripcion-proyecto {
-          width: 80%; }
-        .main .proyectos .sitioweb .proyecto .links {
-          padding-top: 10px; }
-    .main .proyectos .videojuegos {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding-bottom: 13px; }
-      .main .proyectos .videojuegos .vid {
-        width: 100%; }
-        .main .proyectos .videojuegos .vid .video {
-          width: 90%; }
-      .main .proyectos .videojuegos .proyecto {
-        width: 100%;
-        padding-top: 10px;
-        padding-left: 130px; }
-        .main .proyectos .videojuegos .proyecto .descripcion-proyecto {
-          justify-content: center;
-          text-align: center;
-          width: 80%; }
-        .main .proyectos .videojuegos .proyecto .links {
-          padding: 10px; }
-    .main .proyectos .historia {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding-bottom: 13px; }
-      .main .proyectos .historia .vid {
-        width: 100%; }
-        .main .proyectos .historia .vid .video {
-          width: 90%; }
-      .main .proyectos .historia .proyecto {
-        width: 100%;
-        padding-left: 130px; }
-        .main .proyectos .historia .proyecto .descripcion-proyecto {
-          justify-content: center;
-          width: 80%; }
-        .main .proyectos .historia .proyecto .links {
-          padding-top: 10px; }
-    .main .proyectos .javascript {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding-bottom: 13px; }
-      .main .proyectos .javascript .vid {
-        width: 100%; }
-        .main .proyectos .javascript .vid .video {
-          width: 90%; }
-      .main .proyectos .javascript .proyecto {
-        width: 100%;
-        padding-top: 10px;
-        padding-left: 130px; }
-        .main .proyectos .javascript .proyecto .descripcion-proyecto {
-          justify-content: center;
-          text-align: center;
-          width: 80%; }
-        .main .proyectos .javascript .proyecto .links {
-          padding: 10px; }
-        .main .proyectos .javascript .proyecto canvas#d {
-          display: none; }
-    .main .proyectos .ecommerce {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding-bottom: 13px; }
-      .main .proyectos .ecommerce .vid {
-        width: 100%; }
-        .main .proyectos .ecommerce .vid .video {
-          width: 90%; }
-      .main .proyectos .ecommerce .proyecto {
-        width: 100%;
-        padding-left: 130px; }
-        .main .proyectos .ecommerce .proyecto .descripcion-proyecto {
-          justify-content: center;
-          width: 80%; }
-        .main .proyectos .ecommerce .proyecto .links {
-          padding-top: 10px; }
-    .main .proyectos .foto {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding-bottom: 13px; }
-      .main .proyectos .foto .vid {
-        width: 100%; }
-        .main .proyectos .foto .vid .video {
-          width: 90%; }
-      .main .proyectos .foto .proyecto {
-        width: 100%;
-        padding-top: 10px;
-        padding-left: 130px; }
-        .main .proyectos .foto .proyecto .descripcion-proyecto {
-          justify-content: center;
-          text-align: center;
-          width: 80%; }
-        .main .proyectos .foto .proyecto .links {
-          padding: 10px; }
-    .main .proyectos .portfolio {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding-bottom: 13px; }
-      .main .proyectos .portfolio .vid {
-        width: 100%; }
-        .main .proyectos .portfolio .vid .video {
-          width: 90%; }
-      .main .proyectos .portfolio .proyecto {
-        width: 100%;
-        padding-left: 130px; }
-        .main .proyectos .portfolio .proyecto .descripcion-proyecto {
-          justify-content: center;
-          width: 80%; }
-        .main .proyectos .portfolio .proyecto .links {
-          padding-top: 10px; }
-    .main .proyectos .music {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding-bottom: 13px; }
-      .main .proyectos .music .vid {
-        width: 100%; }
-        .main .proyectos .music .vid .video {
-          width: 90%; }
-      .main .proyectos .music .proyecto {
-        width: 100%;
-        padding-top: 10px;
-        padding-left: 130px; }
-        .main .proyectos .music .proyecto .descripcion-proyecto {
-          justify-content: center;
-          text-align: center;
-          width: 80%; }
-        .main .proyectos .music .proyecto .links {
-          padding: 10px; }
+    overflow-x: hidden;
+    overflow: hidden; }
+    .main .proyectos {
+      overflow: hidden; }
+      .main .proyectos .sitioweb {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 13px; }
+        .main .proyectos .sitioweb .vid {
+          width: 100%; }
+          .main .proyectos .sitioweb .vid .video {
+            width: 90%; }
+        .main .proyectos .sitioweb .proyecto {
+          width: 100%;
+          padding-left: 130px; }
+          .main .proyectos .sitioweb .proyecto .descripcion-proyecto {
+            width: 80%; }
+          .main .proyectos .sitioweb .proyecto .links {
+            padding-top: 10px;
+            padding-right: 53px; }
+      .main .proyectos .videojuegos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 13px; }
+        .main .proyectos .videojuegos .vid {
+          width: 100%; }
+          .main .proyectos .videojuegos .vid .video {
+            width: 90%; }
+        .main .proyectos .videojuegos .proyecto {
+          width: 100%;
+          padding-top: 10px;
+          padding-left: 130px; }
+          .main .proyectos .videojuegos .proyecto .descripcion-proyecto {
+            justify-content: center;
+            text-align: center;
+            width: 80%; }
+          .main .proyectos .videojuegos .proyecto .links {
+            padding: 10px;
+            padding-right: 53px; }
+      .main .proyectos .historia {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 13px; }
+        .main .proyectos .historia .vid {
+          width: 100%; }
+          .main .proyectos .historia .vid .video {
+            width: 90%; }
+        .main .proyectos .historia .proyecto {
+          width: 100%;
+          padding-left: 130px; }
+          .main .proyectos .historia .proyecto .descripcion-proyecto {
+            justify-content: center;
+            width: 80%; }
+          .main .proyectos .historia .proyecto .links {
+            padding-top: 10px;
+            padding-right: 53px; }
+      .main .proyectos .javascript {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 13px; }
+        .main .proyectos .javascript .vid {
+          width: 100%; }
+          .main .proyectos .javascript .vid .video {
+            width: 90%; }
+        .main .proyectos .javascript .proyecto {
+          width: 100%;
+          padding-top: 10px;
+          padding-left: 130px; }
+          .main .proyectos .javascript .proyecto .descripcion-proyecto {
+            justify-content: center;
+            text-align: center;
+            width: 80%; }
+          .main .proyectos .javascript .proyecto .links {
+            padding: 10px;
+            padding-right: 53px; }
+          .main .proyectos .javascript .proyecto canvas#d {
+            display: none; }
+      .main .proyectos .ecommerce {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 13px; }
+        .main .proyectos .ecommerce .vid {
+          width: 100%; }
+          .main .proyectos .ecommerce .vid .video {
+            width: 90%; }
+        .main .proyectos .ecommerce .proyecto {
+          width: 100%;
+          padding-left: 130px; }
+          .main .proyectos .ecommerce .proyecto .descripcion-proyecto {
+            justify-content: center;
+            width: 80%; }
+          .main .proyectos .ecommerce .proyecto .links {
+            padding-top: 10px; }
+      .main .proyectos .foto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 13px; }
+        .main .proyectos .foto .vid {
+          width: 100%; }
+          .main .proyectos .foto .vid .video {
+            width: 90%; }
+        .main .proyectos .foto .proyecto {
+          width: 100%;
+          padding-top: 10px;
+          padding-left: 130px; }
+          .main .proyectos .foto .proyecto .descripcion-proyecto {
+            justify-content: center;
+            text-align: center;
+            width: 80%; }
+          .main .proyectos .foto .proyecto .links {
+            padding: 10px;
+            padding-right: 53px; }
+      .main .proyectos .portfolio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 13px; }
+        .main .proyectos .portfolio .vid {
+          width: 100%; }
+          .main .proyectos .portfolio .vid .video {
+            width: 90%; }
+        .main .proyectos .portfolio .proyecto {
+          width: 100%;
+          padding-left: 130px; }
+          .main .proyectos .portfolio .proyecto .descripcion-proyecto {
+            justify-content: center;
+            width: 80%; }
+          .main .proyectos .portfolio .proyecto .links {
+            padding-top: 10px;
+            padding-right: 53px; }
+      .main .proyectos .music {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 13px; }
+        .main .proyectos .music .vid {
+          width: 100%; }
+          .main .proyectos .music .vid .video {
+            width: 90%; }
+        .main .proyectos .music .proyecto {
+          width: 100%;
+          padding-top: 10px;
+          padding-left: 130px; }
+          .main .proyectos .music .proyecto .descripcion-proyecto {
+            justify-content: center;
+            text-align: center;
+            width: 80%; }
+          .main .proyectos .music .proyecto .links {
+            padding: 10px;
+            padding-right: 53px; }
+      .main .proyectos .react {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 13px; }
+        .main .proyectos .react .vid {
+          width: 100%; }
+          .main .proyectos .react .vid .video {
+            width: 90%; }
+        .main .proyectos .react .proyecto {
+          width: 100%;
+          padding-left: 130px; }
+          .main .proyectos .react .proyecto .descripcion-proyecto {
+            justify-content: center;
+            text-align: center;
+            width: 80%; }
+          .main .proyectos .react .proyecto .links {
+            padding-top: 10px;
+            padding-right: 53px; }
     .main .certificaciones .slideshow-container .mySlides img {
       width: 609px !important; } }
 
@@ -1327,6 +1365,8 @@ body.theme-active {
       .main .proyectos .portfolio .proyecto {
         padding-left: 31px; }
       .main .proyectos .music .proyecto {
+        padding-left: 31px; }
+      .main .proyectos .react .proyecto {
         padding-left: 31px; }
     .main .certificaciones .slideshow-container .mySlides img {
       width: 300px !important; }
