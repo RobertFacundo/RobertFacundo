@@ -810,6 +810,12 @@ body.theme-active .modal {
             color: white; }
     .main .proyectos .music .vid {
       position: relative; }
+      .main .proyectos .music .vid canvas#m {
+        z-index: 0;
+        position: absolute;
+        opacity: 0.8;
+        height: 100%;
+        transform: translateY(-50px); }
     .main .proyectos .music .proyecto {
       position: relative;
       z-index: 3;
@@ -980,131 +986,147 @@ body.theme-active {
       left: 0; }
   body.theme-active .header .titulo-header .right .hr {
     border-color: black; }
-  body.theme-active .main .proyectos .titulos #proyectos {
-    z-index: 1000; }
-  body.theme-active .main .proyectos .titulos .hr-titulos {
-    border-color: black; }
-  body.theme-active .main .proyectos .sitioweb .proyecto .links .link {
-    color: rgba(0, 0, 0, 0.774);
-    transition: color 0.3s ease-in-out; }
-    body.theme-active .main .proyectos .sitioweb .proyecto .links .link:hover {
+  body.theme-active .header .titulo-header .right .historia .l {
+    color: black; }
+  body.theme-active .main {
+    color: black; }
+    body.theme-active .main .proyectos {
       color: black; }
-  body.theme-active .main .proyectos .videojuegos {
-    background-color: #f4efef; }
-    body.theme-active .main .proyectos .videojuegos #container .dot {
-      width: 60px;
-      height: 60px;
-      position: absolute;
-      background-size: contain; }
-    body.theme-active .main .proyectos .videojuegos .vid canvas#v {
-      display: none; }
-    body.theme-active .main .proyectos .videojuegos .proyecto .links .link {
-      color: rgba(0, 0, 0, 0.774);
-      transition: color 0.3s ease-in-out; }
-      body.theme-active .main .proyectos .videojuegos .proyecto .links .link:hover {
+      body.theme-active .main .proyectos .titulos #proyectos {
+        z-index: 1000; }
+      body.theme-active .main .proyectos .titulos .hr-titulos {
+        border-color: black; }
+      body.theme-active .main .proyectos .sitioweb .proyecto .descripcion-proyecto .l {
         color: black; }
-  body.theme-active .main .proyectos .hr-pr {
-    border-color: black; }
-  body.theme-active .main .proyectos .historia .proyecto .links .link {
-    color: rgba(0, 0, 0, 0.774);
-    transition: color 0.3s ease-in-out; }
-    body.theme-active .main .proyectos .historia .proyecto .links .link:hover {
-      color: black; }
-  body.theme-active .main .proyectos .javascript {
-    background-color: #f4efef; }
-    body.theme-active .main .proyectos .javascript .proyecto canvas#d {
-      display: none; }
-    body.theme-active .main .proyectos .javascript .proyecto .links .link {
-      color: rgba(0, 0, 0, 0.774);
-      transition: color 0.3s ease-in-out; }
-      body.theme-active .main .proyectos .javascript .proyecto .links .link:hover {
-        color: black; }
-  body.theme-active .main .proyectos .ecommerce .proyecto .links .link {
-    color: rgba(0, 0, 0, 0.774);
-    transition: color 0.3s ease-in-out; }
-    body.theme-active .main .proyectos .ecommerce .proyecto .links .link:hover {
-      color: black; }
-  body.theme-active .main .proyectos .ecommerce #container {
-    left: 0; }
-    body.theme-active .main .proyectos .ecommerce #container .dot {
-      width: 60px;
-      height: 60px;
-      position: absolute;
-      left: 0;
-      background-size: contain; }
-  body.theme-active .main .proyectos .foto {
-    background-color: #f4efef; }
-    body.theme-active .main .proyectos .foto .vid canvas#z {
-      display: none; }
-    body.theme-active .main .proyectos .foto .proyecto .links .link {
-      color: rgba(0, 0, 0, 0.774);
-      transition: color 0.3s ease-in-out; }
-      body.theme-active .main .proyectos .foto .proyecto .links .link:hover {
-        color: black; }
-    body.theme-active .main .proyectos .foto #container {
-      left: 0; }
-      body.theme-active .main .proyectos .foto #container .dot {
-        width: 60px;
-        height: 60px;
-        position: absolute;
-        left: 0;
-        background-size: contain; }
-  body.theme-active .main .proyectos .portfolio .proyecto .links .link {
-    color: rgba(0, 0, 0, 0.774);
-    transition: color 0.3s ease-in-out; }
-    body.theme-active .main .proyectos .portfolio .proyecto .links .link:hover {
-      color: black; }
-  body.theme-active .main .proyectos .music {
-    background-color: #f4efef; }
-    body.theme-active .main .proyectos .music .vid canvas#m {
-      display: none; }
-    body.theme-active .main .proyectos .music .proyecto .links .link {
-      color: rgba(0, 0, 0, 0.774);
-      transition: color 0.3s ease-in-out; }
-      body.theme-active .main .proyectos .music .proyecto .links .link:hover {
-        color: black; }
-    body.theme-active .main .proyectos .music #container .dot {
-      width: 60px;
-      height: 60px;
-      position: absolute;
-      background-size: contain; }
-  body.theme-active .main .experiencialaboral .titulos .hr-titulos {
-    border-color: black; }
-  body.theme-active .main .certificaciones .titulos .hr-titulos {
-    border-color: black; }
-  body.theme-active .main .certificaciones .slideshow-container .prev,
-  body.theme-active .main .certificaciones .slideshow-container .next {
-    color: rgba(0, 0, 0, 0.714); }
-    body.theme-active .main .certificaciones .slideshow-container .prev:hover,
-    body.theme-active .main .certificaciones .slideshow-container .next:hover {
-      color: black; }
-  body.theme-active .main .contacto {
-    background-image: url(https://www.windowschimp.com/wp-content/uploads/2014/12/Windows10Wallpapers.jpg);
-    background-size: cover;
-    /* Hace que la imagen de fondo cubra todo el contenedor */
-    background-position: center top 45px;
-    /* Centra la imagen de fondo dentro del contenedor */
-    background-repeat: no-repeat;
-    margin-bottom: -25px;
-    overflow: hidden; }
-    body.theme-active .main .contacto canvas {
-      display: none; }
-    body.theme-active .main .contacto #container {
-      display: block !important;
-      z-index: 1;
-      overflow: hidden; }
-      body.theme-active .main .contacto #container .dot {
-        width: 100px;
-        height: 100px;
-        position: absolute;
-        background-size: contain;
-        overflow: hidden; }
-    body.theme-active .main .contacto .hr-titulos {
+      body.theme-active .main .proyectos .sitioweb .proyecto .links .link {
+        color: rgba(0, 0, 0, 0.774);
+        transition: color 0.3s ease-in-out; }
+        body.theme-active .main .proyectos .sitioweb .proyecto .links .link:hover {
+          color: black; }
+      body.theme-active .main .proyectos .videojuegos {
+        background-color: #f4efef; }
+        body.theme-active .main .proyectos .videojuegos #container .dot {
+          width: 60px;
+          height: 60px;
+          position: absolute;
+          background-size: contain; }
+        body.theme-active .main .proyectos .videojuegos .vid canvas#v {
+          display: none; }
+        body.theme-active .main .proyectos .videojuegos .proyecto .links .link {
+          color: rgba(0, 0, 0, 0.774);
+          transition: color 0.3s ease-in-out; }
+          body.theme-active .main .proyectos .videojuegos .proyecto .links .link:hover {
+            color: black; }
+      body.theme-active .main .proyectos .hr-pr {
+        border-color: black; }
+      body.theme-active .main .proyectos .historia .proyecto .links .link {
+        color: rgba(0, 0, 0, 0.774);
+        transition: color 0.3s ease-in-out; }
+        body.theme-active .main .proyectos .historia .proyecto .links .link:hover {
+          color: black; }
+      body.theme-active .main .proyectos .javascript {
+        background-color: #f4efef; }
+        body.theme-active .main .proyectos .javascript .proyecto .descripcion-proyecto .l {
+          color: black; }
+        body.theme-active .main .proyectos .javascript .proyecto canvas#d {
+          display: none; }
+        body.theme-active .main .proyectos .javascript .proyecto .links .link {
+          color: rgba(0, 0, 0, 0.774);
+          transition: color 0.3s ease-in-out; }
+          body.theme-active .main .proyectos .javascript .proyecto .links .link:hover {
+            color: black; }
+      body.theme-active .main .proyectos .ecommerce .proyecto .links .link {
+        color: rgba(0, 0, 0, 0.774);
+        transition: color 0.3s ease-in-out; }
+        body.theme-active .main .proyectos .ecommerce .proyecto .links .link:hover {
+          color: black; }
+      body.theme-active .main .proyectos .ecommerce #container {
+        left: 0; }
+        body.theme-active .main .proyectos .ecommerce #container .dot {
+          width: 60px;
+          height: 60px;
+          position: absolute;
+          left: 0;
+          background-size: contain; }
+      body.theme-active .main .proyectos .foto {
+        background-color: #f4efef; }
+        body.theme-active .main .proyectos .foto .vid canvas#z {
+          display: none; }
+        body.theme-active .main .proyectos .foto .proyecto .links .link {
+          color: rgba(0, 0, 0, 0.774);
+          transition: color 0.3s ease-in-out; }
+          body.theme-active .main .proyectos .foto .proyecto .links .link:hover {
+            color: black; }
+        body.theme-active .main .proyectos .foto #container {
+          left: 0; }
+          body.theme-active .main .proyectos .foto #container .dot {
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            left: 0;
+            background-size: contain; }
+      body.theme-active .main .proyectos .portfolio .proyecto .links .link {
+        color: rgba(0, 0, 0, 0.774);
+        transition: color 0.3s ease-in-out; }
+        body.theme-active .main .proyectos .portfolio .proyecto .links .link:hover {
+          color: black; }
+      body.theme-active .main .proyectos .music {
+        background-color: #f4efef; }
+        body.theme-active .main .proyectos .music .vid canvas#m {
+          display: none !important; }
+        body.theme-active .main .proyectos .music .proyecto .descripcion-proyecto {
+          color: black; }
+        body.theme-active .main .proyectos .music .proyecto canvas#m {
+          display: none !important; }
+        body.theme-active .main .proyectos .music .proyecto .links .link {
+          color: rgba(0, 0, 0, 0.774);
+          transition: color 0.3s ease-in-out; }
+          body.theme-active .main .proyectos .music .proyecto .links .link:hover {
+            color: black; }
+        body.theme-active .main .proyectos .music #container {
+          left: 0; }
+          body.theme-active .main .proyectos .music #container .dot {
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            background-size: contain; }
+    body.theme-active .main .experiencialaboral .titulos .hr-titulos {
       border-color: black; }
-    body.theme-active .main .contacto .links a {
-      color: rgba(0, 0, 0, 0.659); }
-      body.theme-active .main .contacto .links a:hover {
+    body.theme-active .main .certificaciones .titulos .hr-titulos {
+      border-color: black; }
+    body.theme-active .main .certificaciones .slideshow-container .prev,
+    body.theme-active .main .certificaciones .slideshow-container .next {
+      color: rgba(0, 0, 0, 0.714); }
+      body.theme-active .main .certificaciones .slideshow-container .prev:hover,
+      body.theme-active .main .certificaciones .slideshow-container .next:hover {
         color: black; }
+    body.theme-active .main .contacto {
+      background-image: url(https://www.windowschimp.com/wp-content/uploads/2014/12/Windows10Wallpapers.jpg);
+      background-size: cover;
+      /* Hace que la imagen de fondo cubra todo el contenedor */
+      background-position: center top 45px;
+      /* Centra la imagen de fondo dentro del contenedor */
+      background-repeat: no-repeat;
+      margin-bottom: -25px;
+      overflow: hidden; }
+      body.theme-active .main .contacto canvas {
+        display: none; }
+      body.theme-active .main .contacto #container {
+        display: block !important;
+        z-index: 1;
+        overflow: hidden; }
+        body.theme-active .main .contacto #container .dot {
+          width: 100px;
+          height: 100px;
+          position: absolute;
+          background-size: contain;
+          overflow: hidden; }
+      body.theme-active .main .contacto .hr-titulos {
+        border-color: black; }
+      body.theme-active .main .contacto .links a {
+        color: rgba(0, 0, 0, 0.659); }
+        body.theme-active .main .contacto .links a:hover {
+          color: black; }
   body.theme-active .footer .t-footer {
     font-weight: 500; }
     body.theme-active .footer .t-footer a {

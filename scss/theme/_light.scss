@@ -91,12 +91,19 @@ body.theme-active {
                 .hr {
                     border-color: black;
                 }
+                .historia{
+                    .l{
+                        color: black;
+                    }
+                }
             }
         }
     }
 
     .main {
+        color: black;
         .proyectos {
+            color: black;
             .titulos {
                 #proyectos {
                     z-index: 1000;
@@ -109,6 +116,11 @@ body.theme-active {
 
             .sitioweb {
                 .proyecto {
+                    .descripcion-proyecto{
+                        .l{
+                            color: black;
+                        }
+                    }
                     .links {
                         .link {
                             color: rgba(0, 0, 0, 0.774);
@@ -182,6 +194,11 @@ body.theme-active {
                 background-color: rgb(244, 239, 239);
 
                 .proyecto {
+                     .descripcion-proyecto{
+                        .l{
+                            color: black;
+                        }
+                    }
                     canvas#d {
                         display: none;
                     }
@@ -288,11 +305,17 @@ body.theme-active {
 
                 .vid {
                     canvas#m {
-                        display: none;
+                        display: none !important;
                     }
                 }
 
                 .proyecto {
+                    .descripcion-proyecto{
+                        color: black;
+                    }
+                     canvas#m {
+                        display: none !important;
+                    }
                     .links {
                         .link {
                             color: rgba(0, 0, 0, 0.774);
@@ -305,6 +328,7 @@ body.theme-active {
                     }
                 }
                 #container {
+                     left: 0;
 
                     // Estilos para el contenedor de las hojas
                     .dot {
