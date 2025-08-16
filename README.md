@@ -9,7 +9,7 @@ I am actively seeking my first professional role, eager to contribute my skills 
 ### 💻 Technologies & Tools
 I have hands-on experience with a variety of technologies across the stack.
 
-**Front-End:**
+##Front-End:
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -19,7 +19,7 @@ I have hands-on experience with a variety of technologies across the stack.
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-**Back-End:**
+##Back-End:
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -53,8 +53,8 @@ Features: Parallax intro animation / Immersive design
 
 [GitHub BackEnd Rep](https://github.com/RobertFacundo/dreamJournalB) | [Live Demo Link](https://dream-journal-f.vercel.app/)
 
-2. [History WebSite]
-A brief, one-sentence description of the project.
+2. 📜 [History WebSite](https://history-web-site.vercel.app/)
+A dynamic and engaging platform dedicated to exploring various historical topics.
 
 Technologies: React, Vite, i18next, CSS...
 
@@ -72,5 +72,6 @@ Email: robertf.coder@gmail.com
 LinkedIn: [Facundo Robert](https://www.linkedin.com/in/robertfacundodev/?locale=en_US)
 
 Website/Portfolio: [facundoRobert.vercel.app](https://facundorobert.vercel.app/)
+
 
 
