@@ -7,7 +7,7 @@ I am actively seeking my first professional role, eager to contribute my skills 
 ---
 
 ### 💻 Technologies & Tools
-I'm proficient in a variety of technologies across the stack.
+I have hands-on experience with a variety of technologies across the stack.
 
 **Front-End:**
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -28,7 +28,7 @@ I'm proficient in a variety of technologies across the stack.
 ![Ruby on Rails](https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white)
 
 **Databases:**
-![MongoDB](https://img.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Mongoose](https://img.shields.io/badge/Mongoose-800000?style=for-the-badge&logo=mongoose&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Neon DB](https://img.shields.io/badge/Neon_DB-424242?style=for-the-badge&logo=neon&logoColor=white)
@@ -44,27 +44,26 @@ I'm proficient in a variety of technologies across the stack.
 ### 🚀 Projects
 Here are a few projects that showcase my skills and passion for building.
 
-1. [Project Name]
+1. 🌙 [Dream Journal](https://github.com/RobertFacundo/dreamJournalF)
+A modern, animated interface for a dream journal app. 
+
+Technologies: React, Nest, Sass...
+
+Features: Parallax intro animation / Immersive design
+
+[GitHub BackEnd Rep](https://github.com/RobertFacundo/dreamJournalB) | [Live Demo Link](https://dream-journal-f.vercel.app/)
+
+2. [History WebSite]
 A brief, one-sentence description of the project.
 
-Technologies: React, Node.js, MongoDB, etc.
+Technologies: React, Vite, i18next, CSS...
 
-Features: A list of 2-3 key features or functionalities.
+Features: Multilingual Support / Reusable Components
 
-[GitHub Link] | [Live Demo Link (if applicable)]
-
-2. [Project Name]
-A brief, one-sentence description of the project.
-
-Technologies: React, Node.js, Python, etc.
-
-Features: A list of 2-3 key features or functionalities.
-
-[GitHub Link] | [Live Demo Link (if applicable)]
+[GitHub Link](https://github.com/RobertFacundo/historyWebSite) | [Live Demo Link](https://history-web-site.vercel.app/)
 
 ### 🌱 I’m currently learning...
-[e.g., Advanced React Hooks, GraphQL, or another specific technology]
-
+Advanced state management with Redux and complex Context situations to build more scalable and robust applications.
 ---
 
 ### 📫 How to reach me:
@@ -73,4 +72,5 @@ Email: robertf.coder@gmail.com
 LinkedIn: [Facundo Robert](https://www.linkedin.com/in/robertfacundodev/?locale=en_US)
 
 Website/Portfolio: [facundoRobert.vercel.app](https://facundorobert.vercel.app/)
+
 
