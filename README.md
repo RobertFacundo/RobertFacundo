@@ -69,9 +69,6 @@ Features: Multilingual Support / Reusable Components
 ### 🌱 I’m currently working on...
 Improving my algorithmic logic by solving challenges on HackerRank and LeetCode.
 
-💻 I'm also...
-Reviewing and refactoring my own code to build more scalable and robust applications.
-
 ---
 
 ### 📫 How to reach me:
@@ -80,6 +77,7 @@ Email: robertf.coder@gmail.com
 LinkedIn: [Facundo Robert](https://www.linkedin.com/in/robertfacundodev/?locale=en_US)
 
 Website/Portfolio: [facundoRobert.vercel.app](https://facundorobert.vercel.app/)
+
 
 
 
