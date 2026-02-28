@@ -7,37 +7,48 @@ I am actively seeking my first professional role, eager to contribute my skills 
 ---
 
 ### 💻 Technologies & Tools
-I have hands-on experience with a variety of technologies across the stack.
+Full-Stack Web Developer focused on the **MERN stack**, building scalable web applications using modern React architecture and production-level backend practices.
+---
 
-**Front-End**
+## 🚀 Core Stack (MERN)
 
+### Front-End
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-**Back-End:**
-
+### Back-End
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+
+### Database
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Mongoose](https://img.shields.io/badge/Mongoose-800000?style=for-the-badge&logo=mongoose&logoColor=white)
+
+---
+
+## 🧪 Additional Experience
+
+### Frameworks & Languages
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 ![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white)
 ![Ruby on Rails](https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white)
 
-**Databases:**
-
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Mongoose](https://img.shields.io/badge/Mongoose-800000?style=for-the-badge&logo=mongoose&logoColor=white)
+### Databases
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Neon DB](https://img.shields.io/badge/Neon_DB-424242?style=for-the-badge&logo=neon&logoColor=white)
 
-**Tools & Other:**
+### Styling
+![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
+---
+
+## 🛠 Tools & Workflow
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
@@ -48,26 +59,29 @@ I have hands-on experience with a variety of technologies across the stack.
 ### 🚀 Projects
 Here are a few projects that showcase my skills and passion for building.
 
-1. 🌙 [Dream Journal](https://github.com/RobertFacundo/dreamJournalF)
-A modern, animated interface for a dream journal app. 
+1. 🌙 [Gym Ecommerce](https://github.com/RobertFacundo/dreamJournalF)
+A modern, animated interface for a gym Ecommerce. 
 
-Technologies: React, Nest, Sass...
+Technologies: React, Node, tailwind...
 
-Features: Parallax intro animation / Immersive design
+Features: Guest & authenticated Cart flux / Immersive design
 
-[GitHub BackEnd Rep](https://github.com/RobertFacundo/dreamJournalB) | [Live Demo Link](https://dream-journal-f.vercel.app/)
+[GitHub BackEnd Rep](https://github.com/RobertFacundo/gymEcommerceB) | [Live Demo Link](https://gymecommerceb.onrender.com/)
 
-2. 📜 [History WebSite](https://history-web-site.vercel.app/)
-A dynamic and engaging platform dedicated to exploring various historical topics.
+2. 📜 [Music App](https://github.com/RobertFacundo/musicAppFrontend)
+A dynamic and engaging platform dedicated to exploring music, & music artists.
 
 Technologies: React, Vite, i18next, CSS...
 
 Features: Multilingual Support / Reusable Components
 
-[GitHub Link](https://github.com/RobertFacundo/historyWebSite) | [Live Demo Link](https://history-web-site.vercel.app/)
+[GitHub Link](https://github.com/RobertFacundo/musicAppBackend) | [Live Demo Link](https://musicappbackend-ccph.onrender.com/)
 
 ### 🌱 I’m currently working on...
-Improving my algorithmic logic by solving challenges on HackerRank and LeetCode. I am also actively developing a Full-Stack Recipe Project using React, Node.js, and AWS to reinforce my development skills and integrate cloud deployment into my expertise.
+
+Strengthening my algorithmic problem-solving skills through consistent practice on HackerRank and LeetCode, focusing on data structures, complexity analysis, and optimization techniques.
+
+Actively preparing for technical interviews by reviewing core computer science concepts, refining my own codebases, and improving code quality through refactoring and architectural improvements.
 
 ---
 
@@ -77,6 +91,7 @@ Email: robertf.coder@gmail.com
 LinkedIn: [Facundo Robert](https://www.linkedin.com/in/robertfacundodev/?locale=en_US)
 
 Website/Portfolio: [facundoRobert.vercel.app](https://facundorobert.vercel.app/)
+
 
 
 
