@@ -1,6 +1,6 @@
 # Hi there 👋, I'm Facundo Robert!
 ## Full-Stack Web Developer.
-✨ I'm a Developer with a strong focus on creating dynamic and interactive experiences using React. My journey in development has equipped me with a comprehensive understanding of both the Front-End and Back-End, allowing me to build complete, scalable, and high-performance applications.
+✨ I'm a Full-Stack Developer focused on building dynamic and interactive web applications using React and the MERN stack. My journey in development has equipped me with a comprehensive understanding of both the Front-End and Back-End, allowing me to build complete, scalable, and high-performance applications.
 
 I am actively seeking my first professional role, eager to contribute my skills in a collaborative team environment. I am a quick learner and a natural problem-solver, constantly exploring new technologies to improve my craft. 
 
@@ -92,6 +92,7 @@ Email: robertf.coder@gmail.com
 LinkedIn: [Facundo Robert](https://www.linkedin.com/in/robertfacundodev/?locale=en_US)
 
 Website/Portfolio: [facundoRobert.vercel.app](https://facundorobert.vercel.app/)
+
 
 
 
