@@ -63,14 +63,14 @@ Here are a few projects that showcase my skills and passion for building.
 1. 🌙 [Gym Ecommerce](https://github.com/RobertFacundo/dreamJournalF)
 A modern, animated interface for a gym Ecommerce. 
 
-Technologies: React, Node, tailwind...
-
-Features: Guest & authenticated Cart flux / Immersive design
+Technologies: React, Node.js, MongoDB, TailwindCSS  
+Architecture: Feature-based structure, state management, authenticated flows  
+Key Features: Guest & authenticated cart system, responsive UI, production-ready patterns
 
 [GitHub BackEnd Rep](https://github.com/RobertFacundo/gymEcommerceB) | [Live Demo Link](https://gymecommerceb.onrender.com/)
 
 2. 📜 [Music App](https://github.com/RobertFacundo/musicAppFrontend)
-A dynamic and engaging platform dedicated to exploring music, & music artists.
+A Spotify-inspired music application focused on scalable frontend architecture and real-world user flows.
 
 Technologies: React, Vite, i18next, CSS...
 
@@ -92,6 +92,7 @@ Email: robertf.coder@gmail.com
 LinkedIn: [Facundo Robert](https://www.linkedin.com/in/robertfacundodev/?locale=en_US)
 
 Website/Portfolio: [facundoRobert.vercel.app](https://facundorobert.vercel.app/)
+
 
 
 
