@@ -7,7 +7,8 @@ I am actively seeking my first professional role, eager to contribute my skills 
 ---
 
 ### 💻 Technologies & Tools
-Full-Stack Web Developer focused on the **MERN stack**, building scalable web applications using modern React architecture and production-level backend practices.
+
+- Full-Stack Web Developer focused on the **MERN stack**, building scalable web applications using modern React architecture and production-level backend practices.
 ---
 
 ## 🚀 Core Stack (MERN)
@@ -91,6 +92,7 @@ Email: robertf.coder@gmail.com
 LinkedIn: [Facundo Robert](https://www.linkedin.com/in/robertfacundodev/?locale=en_US)
 
 Website/Portfolio: [facundoRobert.vercel.app](https://facundorobert.vercel.app/)
+
 
 
 
