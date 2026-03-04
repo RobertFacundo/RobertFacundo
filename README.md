@@ -60,7 +60,7 @@ I am actively seeking my first professional role, eager to contribute my skills 
 ### 🚀 Projects
 Here are a few projects that showcase my skills and passion for building.
 
-1. 🌙 [Gym Ecommerce](https://github.com/RobertFacundo/dreamJournalF)
+1. 🌙 [Gym Ecommerce](https://github.com/RobertFacundo/gymEcommerceF)
 A modern, animated interface for a gym Ecommerce. 
 
 Technologies: React, Node.js, MongoDB, TailwindCSS  
@@ -92,6 +92,7 @@ Email: robertf.coder@gmail.com
 LinkedIn: [Facundo Robert](https://www.linkedin.com/in/robertfacundodev/?locale=en_US)
 
 Website/Portfolio: [facundoRobert.vercel.app](https://facundorobert.vercel.app/)
+
 
 
 
