@@ -5,7 +5,7 @@
 
 Over the past two years, I’ve been developing real-world projects, gaining strong experience in component architecture, state management, and API integration. I also have backend knowledge with Node.js and Express, which helps me better understand full-stack workflows and build more efficient frontend solutions.
 
-I am currently seeking my first professional role as a frontend developer, eager to contribute to a team and continue growing.
+> *I am currently seeking my first professional role as a frontend developer, eager to contribute to a team and continue growing.*
 ---
 
 ### 💻 Technologies & Tools
