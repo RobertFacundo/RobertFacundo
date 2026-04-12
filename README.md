@@ -1,19 +1,22 @@
 # Hi there 👋, I'm Facundo Robert!
-## Full-Stack Web Developer.
-✨ I'm a Full-Stack Developer focused on building dynamic and interactive web applications using React and the MERN stack. My journey in development has equipped me with a comprehensive understanding of both the Front-End and Back-End, allowing me to build complete, scalable, and high-performance applications.
+## Frontend Developer (React)
 
-I am actively seeking my first professional role, eager to contribute my skills in a collaborative team environment. I am a quick learner and a natural problem-solver, constantly exploring new technologies to improve my craft. 
+✨ I'm a frontend-focused developer passionate about building modern, responsive, and pixel-perfect user interfaces using React and TypeScript.
 
+Over the past two years, I’ve been developing real-world projects, gaining strong experience in component architecture, state management, and API integration. I also have backend knowledge with Node.js and Express, which helps me better understand full-stack workflows and build more efficient frontend solutions.
+
+I am currently seeking my first professional role as a frontend developer, eager to contribute to a team and continue growing.
 ---
 
 ### 💻 Technologies & Tools
 
-- Full-Stack Web Developer focused on the **MERN stack**, building scalable web applications using modern React architecture and production-level backend practices.
+- Frontend-focused developer specializing in **React**, **TypeScript**, and modern UI development, with a strong emphasis on clean architecture and scalable components.
+
 ---
 
-## 🚀 Core Stack (MERN)
 
-### Front-End
+## 🚀 Frontend Stack
+
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -21,7 +24,14 @@ I am actively seeking my first professional role, eager to contribute my skills 
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-### Back-End
+### Tools & Technologies
+![Redux](https://img.shields.io/badge/Redux_Toolkit-764ABC?style=for-the-badge&logo=redux&logoColor=white)
+![React Query](https://img.shields.io/badge/React_Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white)
+![i18next](https://img.shields.io/badge/i18next-26A69A?style=for-the-badge&logo=i18next&logoColor=white)
+
+---
+
+## 🧠 Backend Knowledge (Complementary)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 
 ### Database
@@ -80,9 +90,9 @@ Features: Multilingual Support / Reusable Components
 
 ### 🌱 I’m currently working on...
 
-Strengthening my algorithmic problem-solving skills through consistent practice on HackerRank and LeetCode, focusing on data structures, complexity analysis, and optimization techniques.
-
-Actively preparing for technical interviews by reviewing core computer science concepts, refining my own codebases, and improving code quality through refactoring and architectural improvements.
+- Translating **Figma designs into pixel-perfect React interfaces**
+- Building **UI challenges** to improve layout precision and component structure
+- Developing **interactive landing experiences** with animations and modern UI patterns
 
 ---
 
