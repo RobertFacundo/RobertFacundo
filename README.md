@@ -1,107 +1,130 @@
 # Hi there 👋, I'm Facundo Robert!
-## Frontend Developer (React)
 
-✨ I'm a frontend-focused developer passionate about building modern, responsive, and pixel-perfect user interfaces using React and TypeScript.
+## Frontend Developer | React · Next.js · TypeScript
 
-Over the past two years, I’ve been developing real-world projects, gaining strong experience in component architecture, state management, and API integration. I also have backend knowledge with Node.js and Express, which helps me better understand full-stack workflows and build more efficient frontend solutions.
+I'm a frontend-focused developer passionate about building modern, responsive, and visually polished web experiences.
 
-> *I am currently seeking my first professional role as a frontend developer, eager to contribute to a team and continue growing.*
----
+Over the past two years, I've worked on real-world projects focused on **React, Next.js, TypeScript, component architecture, state management, API integration, responsive design, and advanced UI animations**.
 
-### 💻 Technologies & Tools
+I also have complementary backend experience with **Node.js, Express, and MongoDB**, which helps me understand full-stack workflows and build better frontend solutions.
 
-- Frontend-focused developer specializing in **React**, **TypeScript**, and modern UI development, with a strong emphasis on clean architecture and scalable components.
+> I'm currently seeking my first professional role as a Frontend Developer, where I can contribute to a team, build high-quality products, and continue growing as an engineer.
 
 ---
 
-
-## 🚀 Frontend Stack
+## 💻 Frontend Stack
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-### Tools & Technologies
-![Redux](https://img.shields.io/badge/Redux_Toolkit-764ABC?style=for-the-badge&logo=redux&logoColor=white)
-![React Query](https://img.shields.io/badge/React_Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white)
-![i18next](https://img.shields.io/badge/i18next-26A69A?style=for-the-badge&logo=i18next&logoColor=white)
+### State & Data
+
+![Zustand](https://img.shields.io/badge/Zustand-433E38?style=for-the-badge)
+![React Query](https://img.shields.io/badge/TanStack_Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white)
+
+### Animation & Motion
+
+![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=black)
+![Lenis](https://img.shields.io/badge/Lenis-111111?style=for-the-badge)
+
+### Ecommerce & CMS
+
+![Shopify](https://img.shields.io/badge/Shopify-96BF48?style=for-the-badge&logo=shopify&logoColor=white)
+![Liquid](https://img.shields.io/badge/Liquid-000000?style=for-the-badge&logo=shopify&logoColor=white)
 
 ---
 
-## 🧠 Backend Knowledge (Complementary)
+## 🧠 Complementary Backend Knowledge
+
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-
-### Database
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Mongoose](https://img.shields.io/badge/Mongoose-800000?style=for-the-badge&logo=mongoose&logoColor=white)
 
----
-
-## 🧪 Additional Experience
-
-### Frameworks & Languages
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white)
-![Ruby on Rails](https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white)
-
-### Databases
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Neon DB](https://img.shields.io/badge/Neon_DB-424242?style=for-the-badge&logo=neon&logoColor=white)
-
-### Styling
-![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+REST APIs · Authentication · API Integration · Database Integration
 
 ---
 
 ## 🛠 Tools & Workflow
+
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
-
-### 🚀 Projects
-Here are a few projects that showcase my skills and passion for building.
-
-1. 🌙 [Gym Ecommerce](https://github.com/RobertFacundo/gymEcommerceF)
-A modern, animated interface for a gym Ecommerce. 
-
-Technologies: React, Node.js, MongoDB, TailwindCSS  
-Architecture: Feature-based structure, state management, authenticated flows  
-Key Features: Guest & authenticated cart system, responsive UI, production-ready patterns
-
-[GitHub BackEnd Rep](https://github.com/RobertFacundo/gymEcommerceB) | [Live Demo Link](https://gymecommerceb.onrender.com/)
-
-2. 📜 [Music App](https://github.com/RobertFacundo/musicAppFrontend)
-A Spotify-inspired music application focused on scalable frontend architecture and real-world user flows.
-
-Technologies: React, Vite, i18next, CSS...
-
-Features: Multilingual Support / Reusable Components
-
-[GitHub Link](https://github.com/RobertFacundo/musicAppBackend) | [Live Demo Link](https://musicappbackend-ccph.onrender.com/)
-
-### 🌱 I’m currently working on...
-
-- Translating **Figma designs into pixel-perfect React interfaces**
-- Building **UI challenges** to improve layout precision and component structure
-- Developing **interactive landing experiences** with animations and modern UI patterns
 
 ---
 
-### 📫 How to reach me:
-Email: robertf.coder@gmail.com
+# 🚀 Featured Projects
 
-LinkedIn: [Facundo Robert](https://www.linkedin.com/in/robertfacundodev/?locale=en_US)
+## 🎵 Vinyl Store Ecommerce
 
-Website/Portfolio: [facundoRobert.vercel.app](https://facundorobert.vercel.app/)
+A modern vinyl record ecommerce experience focused on immersive UI, scalable frontend architecture, state management, optimized data fetching, and AI-powered music discovery.
+
+**Tech Stack:**  
+React · Next.js · TypeScript · Tailwind CSS · Zustand · TanStack Query · GSAP · Lenis · Groq API
+
+**Key Features:**
+
+- Full ecommerce product catalog and product detail pages
+- Shopping cart with persistent Zustand state
+- Product search and filtering
+- Optimized server-state management with TanStack Query
+- Responsive and reusable component architecture
+- Advanced GSAP animations and smooth scrolling with Lenis
+- AI-powered conversational music curator
+- Personalized album recommendations based on genres, artists, moods, and influences
+- Feature-based project architecture
+
+**Live Demo:** https://vinyl-ecommerce.vercel.app/  
+**GitHub:** https://github.com/RobertFacundo/vinylEcommerce
+
+---
+
+## 🌎 Tourism Cinematic Landing
+
+A cinematic tourism landing page focused on immersive storytelling, advanced scroll interactions, and premium motion design.
+
+**Tech Stack:**  
+React · Next.js · TypeScript · Tailwind CSS · GSAP · ScrollTrigger · Lenis · Zustand · Groq API
+
+**Key Features:**
+
+- Full-screen cinematic landing experience
+- Scroll-driven stacked section transitions
+- GSAP timelines and ScrollTrigger animations
+- Smooth scrolling with Lenis
+- Global scroll state synchronization with Zustand
+- Interactive section indicator
+- Animated SVG travel route
+- MotionPath-based interactions
+- Responsive and reusable component architecture
+- AI-powered travel assistant
+- Feature-based project organization
+
+**Live Demo:** https://tourism-landing-lovat.vercel.app/  
+**GitHub:** https://github.com/RobertFacundo/tourism-landing
+
+---
+
+## 🌱 Currently Exploring
+
+- Advanced React and Next.js patterns
+- Premium UI and motion design
+- GSAP and scroll-driven experiences
+- Scalable frontend architecture
+- Shopify theme development and Liquid
+- Building production-ready ecommerce experiences
+
+---
+
+## 📫 Contact
+
+**Email:** robertf.coder@gmail.com  
+**LinkedIn:** https://www.linkedin.com/in/robertfacundodev/  
+**Portfolio:** https://facundorobert.vercel.app/  
+**GitHub:** https://github.com/RobertFacundo
 
 
 
